@@ -1,9 +1,7 @@
 //
 //  Enums.swift
 //  DeliveryApp
-//
-//  Created by Садык Мусаев on 06.12.2021.
-//
+
 
 import UIKit
 
@@ -23,6 +21,7 @@ enum Images{
 
 enum URLs{
     
+    static let backendURL = "example.com"
 }
 
 enum Colors{

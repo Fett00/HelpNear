@@ -22,6 +22,9 @@
 		5A7238D4283456170052CEBE /* NetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238D1283456170052CEBE /* NetworkWorker.swift */; };
 		5A7238D5283456170052CEBE /* JSONWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238D2283456170052CEBE /* JSONWorker.swift */; };
 		5A7238D6283456170052CEBE /* CoreDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238D3283456170052CEBE /* CoreDataWorker.swift */; };
+		5A791A2128510D0100CE81E0 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2028510D0100CE81E0 /* LocationModel.swift */; };
+		5A791A2328510EF300CE81E0 /* POIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2228510EF300CE81E0 /* POIModel.swift */; };
+		5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9CA6722843899C00ECD890 /* RegistrationScreen.swift */; };
 		5AB37B56283982CE00CD54EA /* TasksCollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B55283982CE00CD54EA /* TasksCollectionScreen.swift */; };
 		5AB37B582839844400CD54EA /* TasksMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B572839844400CD54EA /* TasksMapScreen.swift */; };
 		5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B59283984BC00CD54EA /* Enums.swift */; };
@@ -48,6 +51,9 @@
 		5A7238D1283456170052CEBE /* NetworkWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkWorker.swift; sourceTree = "<group>"; };
 		5A7238D2283456170052CEBE /* JSONWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONWorker.swift; sourceTree = "<group>"; };
 		5A7238D3283456170052CEBE /* CoreDataWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataWorker.swift; sourceTree = "<group>"; };
+		5A791A2028510D0100CE81E0 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		5A791A2228510EF300CE81E0 /* POIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIModel.swift; sourceTree = "<group>"; };
+		5A9CA6722843899C00ECD890 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		5AB37B55283982CE00CD54EA /* TasksCollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksCollectionScreen.swift; sourceTree = "<group>"; };
 		5AB37B572839844400CD54EA /* TasksMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksMapScreen.swift; sourceTree = "<group>"; };
 		5AB37B59283984BC00CD54EA /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
@@ -91,6 +97,7 @@
 				5A7238C1283454670052CEBE /* ProjectCoordinator.swift */,
 				5A7238D7283456FF0052CEBE /* Screens */,
 				5A7238C3283455000052CEBE /* Workers */,
+				5A791A1F28510B7B00CE81E0 /* Models */,
 				5A7238D0283455440052CEBE /* Extensions */,
 				5ACA95472835487B00FB125C /* Other */,
 				5A7238BA283453D00052CEBE /* Info.plist */,
@@ -112,7 +119,7 @@
 		5A7238D0283455440052CEBE /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				5ACA954A2835543800FB125C /* New Group */,
+				5ACA954A2835543800FB125C /* SingleView(?) */,
 				5A7238C5283455280052CEBE /* UICollectionView+Ext.swift */,
 				5A7238C8283455280052CEBE /* UICollectionViewCell+Ext.swift */,
 				5A7238C6283455280052CEBE /* UITableView+Ext.swift */,
@@ -126,11 +133,29 @@
 		5A7238D7283456FF0052CEBE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5A9CA6712843898700ECD890 /* Registration */,
 				5AB37B5B2839882700CD54EA /* TaskCollection */,
 				5AB37B5C2839883000CD54EA /* TaskMap */,
 				5AB37B5D2839883E00CD54EA /* UserProfile */,
 			);
 			path = Screens;
+			sourceTree = "<group>";
+		};
+		5A791A1F28510B7B00CE81E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5A791A2028510D0100CE81E0 /* LocationModel.swift */,
+				5A791A2228510EF300CE81E0 /* POIModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5A9CA6712843898700ECD890 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				5A9CA6722843899C00ECD890 /* RegistrationScreen.swift */,
+			);
+			path = Registration;
 			sourceTree = "<group>";
 		};
 		5AB37B5B2839882700CD54EA /* TaskCollection */ = {
@@ -168,12 +193,12 @@
 			path = Other;
 			sourceTree = "<group>";
 		};
-		5ACA954A2835543800FB125C /* New Group */ = {
+		5ACA954A2835543800FB125C /* SingleView(?) */ = {
 			isa = PBXGroup;
 			children = (
 				5ACA954B2835547000FB125C /* MapSingleView.swift */,
 			);
-			path = "New Group";
+			path = "SingleView(?)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +273,7 @@
 			files = (
 				5A7238C2283454670052CEBE /* ProjectCoordinator.swift in Sources */,
 				5A7238CD283455280052CEBE /* UITableViewCell+Ext.swift in Sources */,
+				5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */,
 				5A7238D4283456170052CEBE /* NetworkWorker.swift in Sources */,
 				5A7238CE283455280052CEBE /* UICollectionViewCell+Ext.swift in Sources */,
 				5A7238CF283455280052CEBE /* UIViewController+Ext.swift in Sources */,
@@ -264,6 +290,8 @@
 				5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */,
 				5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */,
 				5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */,
+				5A791A2128510D0100CE81E0 /* LocationModel.swift in Sources */,
+				5A791A2328510EF300CE81E0 /* POIModel.swift in Sources */,
 				5ACA954C2835547000FB125C /* MapSingleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
