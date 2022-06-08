@@ -5,7 +5,7 @@
 import UIKit
 import MapKit
 
-final class TasksMapScreen: UIViewController {
+final class EventMapScreen: UIViewController {
     
     private let mapView: MKMapView = {
         

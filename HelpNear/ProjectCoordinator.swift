@@ -4,6 +4,7 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 //Координатор всего приложения
 class ProjectCoordinator{
@@ -15,17 +16,17 @@ class ProjectCoordinator{
     
     func createAppEntryPoint() -> UIViewController {
         
-        let collectionVC = TasksCollectionScreen().wrapInNavigationController()
+        let collectionVC = ProjectCoordinator.shared.createEventCollectionScreen()
         
         collectionVC.tabBarItem = UITabBarItem(title: "Список", image: Images.collection, tag: 0)
         
         
-        let mapVC = TasksMapScreen().wrapInNavigationController()
+        let mapVC = ProjectCoordinator.shared.createMapScreen()
         
         mapVC.tabBarItem = UITabBarItem(title: "Карта", image: Images.map, tag: 1)
         
         
-        let userProfileVC = UserProfileScreen().wrapInNavigationController()
+        let userProfileVC = ProjectCoordinator.shared.createUserProfileScreen()
         
         userProfileVC.tabBarItem = UITabBarItem(title: "Профиль", image: Images.person, tag: 2)
         
@@ -37,5 +38,31 @@ class ProjectCoordinator{
         tabBarVC.selectedIndex = 1
         
         return tabBarVC
+    }
+    
+    func createUserProfileScreen() -> UIViewController{
+        
+        UserProfileScreen().wrapInNavigationController()
+        //ProjectCoordinator.shared.createHostingViewController(with: someView).wrapInNavigationController()
+    }
+    
+    func createMapScreen() -> UIViewController{
+        
+        EventMapScreen().wrapInNavigationController()
+    }
+    
+    func createEventCollectionScreen() -> UIViewController{
+        
+        EventCollectionScreen().wrapInNavigationController()
+    }
+    
+    func createRegistrationScreen() -> UIViewController{
+        
+        RegistrationScreen().wrapInNavigationController()
+        //ProjectCoordinator.shared.createHostingViewController(with: someView).wrapInNavigationController()
+    }
+    
+    func createHostingViewController<HView: View>(with view: HView) -> UIHostingController<HView>{
+        UIHostingController(rootView: view)
     }
 }

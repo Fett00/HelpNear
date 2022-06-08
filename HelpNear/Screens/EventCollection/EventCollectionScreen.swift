@@ -4,7 +4,7 @@
 
 import UIKit
 
-final class TasksCollectionScreen: UIViewController {
+final class EventCollectionScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
