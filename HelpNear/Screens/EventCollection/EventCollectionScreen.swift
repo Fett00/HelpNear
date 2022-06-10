@@ -30,19 +30,34 @@ final class EventCollectionScreen: UIViewController {
         confSubviews()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        layoutCollection()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        layoutCollection()
+    }
+    
     //Обноовление лайаута коллекции
     private func layoutCollection(){
         
         guard let flowLayout = collection.collectionViewLayout as? UICollectionViewFlowLayout else { return }
         
-        let insets = UIEdgeInsets(top: 20, left: 20, bottom: 0, right: 20)
+        let insets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
         let spacing = 20.0
-        let deviceWidth = view.frame.width
-        let itemSize = (deviceWidth - insets.left - insets.right - spacing ) / 2
+        let cellAtRow = 1.0
+        let collectionWidth = self.collection.frame.width
+        let itemSize = (collectionWidth - insets.left - insets.right - spacing * (cellAtRow - 1))
         flowLayout.minimumInteritemSpacing = spacing
-        flowLayout.minimumLineSpacing = spacing
+        flowLayout.minimumLineSpacing = spacing * 2
         flowLayout.sectionInset = insets
-        flowLayout.itemSize = CGSize(width: itemSize, height: itemSize * 2)
+        flowLayout.itemSize = CGSize(width: itemSize, height: 250)
+        
+        //flowLayout.itemSize = UICollectionViewFlowLayout.automaticSize
+        //flowLayout.estimatedItemSize = CGSize(width: itemSize, height: 250)
     }
     
     //configurate view
@@ -54,7 +69,7 @@ final class EventCollectionScreen: UIViewController {
     //configurate subviews
     private func confSubviews(){
         
-        
+        view.addSubview(searchBar, collection)
         
         collection.delegate = self
         collection.dataSource = self
@@ -70,11 +85,16 @@ final class EventCollectionScreen: UIViewController {
 extension EventCollectionScreen: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        0
+        10
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        UICollectionViewCell()
+        
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: EventCollectionCell.reuseID, for: indexPath) as? EventCollectionCell else { return UICollectionViewCell() }
+        
+        cell.render()
+        
+        return cell
     }
     
     
