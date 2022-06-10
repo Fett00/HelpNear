@@ -6,7 +6,9 @@ import UIKit
 
 final class EventCollectionScreen: UIViewController {
     
-    //Коллекция с заданями
+    var dataWorker: EventCollectionDataWorkerProtocol!
+    
+    //Коллекция с заданиями
     private let collection: UICollectionView = {
        
         let layout = UICollectionViewFlowLayout()
@@ -34,6 +36,13 @@ final class EventCollectionScreen: UIViewController {
         super.viewWillAppear(animated)
         
         layoutCollection()
+        
+        dataWorker.requestEvents {
+            DispatchQueue.main.async {
+                //Обработать загрузку данных
+                self.collection.reloadData()
+            }
+        }
     }
     
     override func viewDidLayoutSubviews() {
@@ -85,7 +94,8 @@ final class EventCollectionScreen: UIViewController {
 extension EventCollectionScreen: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        10
+        
+        10//dataWorker.data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
