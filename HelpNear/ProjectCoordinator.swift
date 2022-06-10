@@ -9,6 +9,11 @@ import SwiftUI
 //Координатор всего приложения
 class ProjectCoordinator{
     
+    let coreDataWorker = CoreDataWorker()
+    let networkWorker = NetworkWorker()
+    let jsonWorker = JSONDecoderWorker()
+    let locationWorker = LocationWorker()
+    
     //singleton
     private init(){}
     
@@ -53,7 +58,11 @@ class ProjectCoordinator{
     
     func createEventCollectionScreen() -> UIViewController{
         
-        EventCollectionScreen().wrapInNavigationController()
+        let dw = EventCollectionDataWorker(coreDataWorker: self.coreDataWorker, networkWorker: self.networkWorker, jsonWorker: self.jsonWorker)
+        let vc = EventCollectionScreen()
+        vc.dataWorker = dw
+        
+        return vc.wrapInNavigationController()
     }
     
     func createRegistrationScreen() -> UIViewController{
