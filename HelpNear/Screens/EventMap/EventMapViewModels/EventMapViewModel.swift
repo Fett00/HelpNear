@@ -44,14 +44,15 @@ class EventMapViewModel: EventMapViewModelProtocol{
                     
                     if let location = model.location {
                         
+                        
                         let annotation = MKPointAnnotation()
                         annotation.coordinate = location
                         
                         self.data.append(LocationModel(annotation: annotation) )
                     }
                 }
+                handler()
             }
-            handler()
         }
     }
     

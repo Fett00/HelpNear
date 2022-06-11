@@ -12,13 +12,22 @@ final class EventMapScreen: UIViewController {
     private let mapView: MKMapView = {
         
         let map = MapSingleView.default
-        
+        map.showsUserLocation = true
         return map
+    }()
+    
+    private lazy var trackingButton: MKUserTrackingButton = {
+        
+        let button = MKUserTrackingButton(mapView: self.mapView)
+        button.tintColor = Colors.accentColor
+        button.backgroundColor = Colors.trackerBack
+        button.layer.cornerRadius = 30
+        return button
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         confView()
         confSubviews()
     }
@@ -47,9 +56,10 @@ final class EventMapScreen: UIViewController {
     
     private func confSubviews(){
         
-        view.addSubview(mapView)
+        view.addSubview(mapView, trackingButton)
         let safe = self.view.safeAreaLayoutGuide
         
         mapView.constraints(top: self.view.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
+        trackingButton.constraints(top: nil, bottom: safe.bottomAnchor, leading: nil, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 30, paddingLeft: 0, paddingRight: 30, width: 60, height: 60)
     }
 }

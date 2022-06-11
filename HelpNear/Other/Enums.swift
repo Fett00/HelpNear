@@ -27,4 +27,11 @@ enum URLs{
 
 enum Colors{
     
+    static let gray = UIColor(named: "GrayColor")!
+    static let main = UIColor(named: "MainColor")!
+    static let text = UIColor(named: "TextColor")!
+    static let trackerBack = UIColor(named: "TrackerBackground")!
+    static let yellow = UIColor(named: "YellowColor")!
+    static let mainLight = UIColor(named: "MainLightColor")!
+    static let accentColor = UIColor(named: "AccentColor")!
 }

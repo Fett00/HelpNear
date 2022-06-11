@@ -8,13 +8,16 @@ import CoreLocation
 protocol LocationWorkerProtocol{
     
     func requestPermissionIfDisabled()
-    func currentLocationStream(notificator: @escaping ()->())
+    func currentLocationStream(notificator: @escaping (_ location: CLLocation?)->())
+    func getCurrentLocationSingleTime(handler: @escaping (_ location: CLLocation?) -> ())
     func startUpdatingLocation()
     func stopUpdatingLocation()
 }
 
 //Работа с данными геопозиции
 final class LocationWorker: NSObject, LocationWorkerProtocol{
+    
+    private var location: CLLocation?
     
     private lazy var locationManager: CLLocationManager = {
        
@@ -38,7 +41,13 @@ final class LocationWorker: NSObject, LocationWorkerProtocol{
         self.locationManager.stopUpdatingLocation()
     }
     
-    func currentLocationStream(notificator: @escaping ()->()){
+    func getCurrentLocationSingleTime(handler: @escaping (_ location: CLLocation?) -> ()){
+        
+        handler(self.location)
+    }
+    
+    func currentLocationStream(notificator: @escaping (_ location: CLLocation?)->()){
+        
         
     }
     
@@ -75,6 +84,9 @@ extension LocationWorker: CLLocationManagerDelegate{
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         
-        
+        if let location = locations.first{
+            
+            self.location = location
+        }
     }
 }
