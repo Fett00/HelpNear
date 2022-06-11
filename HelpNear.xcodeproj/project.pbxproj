@@ -11,6 +11,9 @@
 		5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162AE285485F7004CC389 /* EventCollectionModel.swift */; };
 		5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B728548C67004CC389 /* EventMapViewModel.swift */; };
 		5A1162BA28548C92004CC389 /* EventsDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B928548C92004CC389 /* EventsDataWorker.swift */; };
+		5A3B242528550FA400B90E0A /* gpxgenerator_path.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 5A3B242428550FA400B90E0A /* gpxgenerator_path.gpx */; };
+		5A3B242F2855472900B90E0A /* RankingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B242E2855472900B90E0A /* RankingScreen.swift */; };
+		5A3B24312855474200B90E0A /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B24302855474200B90E0A /* SettingsScreen.swift */; };
 		5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238A9283453CE0052CEBE /* AppDelegate.swift */; };
 		5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238AB283453CE0052CEBE /* SceneDelegate.swift */; };
 		5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238B2283453CE0052CEBE /* HelpNear.xcdatamodeld */; };
@@ -51,6 +54,9 @@
 		5A1162AE285485F7004CC389 /* EventCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionModel.swift; sourceTree = "<group>"; };
 		5A1162B728548C67004CC389 /* EventMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapViewModel.swift; sourceTree = "<group>"; };
 		5A1162B928548C92004CC389 /* EventsDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataWorker.swift; sourceTree = "<group>"; };
+		5A3B242428550FA400B90E0A /* gpxgenerator_path.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gpxgenerator_path.gpx; sourceTree = "<group>"; };
+		5A3B242E2855472900B90E0A /* RankingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingScreen.swift; sourceTree = "<group>"; };
+		5A3B24302855474200B90E0A /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
 		5A7238A6283453CE0052CEBE /* HelpNear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpNear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7238A9283453CE0052CEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7238AB283453CE0052CEBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -167,6 +173,70 @@
 			path = EventMapModels;
 			sourceTree = "<group>";
 		};
+		5A3B24262855468B00B90E0A /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				5A3B2428285546AA00B90E0A /* RankingViews */,
+				5A3B2429285546B500B90E0A /* RankingViewModels */,
+				5A3B242A285546D100B90E0A /* RankingModel */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		5A3B24272855469C00B90E0A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5A3B242B285546F100B90E0A /* SettingsViews */,
+				5A3B242D2855470000B90E0A /* SettingsModels */,
+				5A3B242C285546F900B90E0A /* SettingsViewModels */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		5A3B2428285546AA00B90E0A /* RankingViews */ = {
+			isa = PBXGroup;
+			children = (
+				5A3B242E2855472900B90E0A /* RankingScreen.swift */,
+			);
+			path = RankingViews;
+			sourceTree = "<group>";
+		};
+		5A3B2429285546B500B90E0A /* RankingViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RankingViewModels;
+			sourceTree = "<group>";
+		};
+		5A3B242A285546D100B90E0A /* RankingModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RankingModel;
+			sourceTree = "<group>";
+		};
+		5A3B242B285546F100B90E0A /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				5A3B24302855474200B90E0A /* SettingsScreen.swift */,
+			);
+			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		5A3B242C285546F900B90E0A /* SettingsViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingsViewModels;
+			sourceTree = "<group>";
+		};
+		5A3B242D2855470000B90E0A /* SettingsModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SettingsModels;
+			sourceTree = "<group>";
+		};
 		5A72389D283453CE0052CEBE = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +306,8 @@
 				5AB37B5B2839882700CD54EA /* EventCollection */,
 				5AB37B5C2839883000CD54EA /* EventMap */,
 				5AB37B5D2839883E00CD54EA /* UserProfile */,
+				5A3B24262855468B00B90E0A /* Ranking */,
+				5A3B24272855469C00B90E0A /* Settings */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -290,6 +362,7 @@
 			children = (
 				5AB37B59283984BC00CD54EA /* Enums.swift */,
 				5A7238B5283453D00052CEBE /* Assets.xcassets */,
+				5A3B242428550FA400B90E0A /* gpxgenerator_path.gpx */,
 				5A7238B7283453D00052CEBE /* LaunchScreen.storyboard */,
 				5A7238B2283453CE0052CEBE /* HelpNear.xcdatamodeld */,
 			);
@@ -374,6 +447,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3B242528550FA400B90E0A /* gpxgenerator_path.gpx in Resources */,
 				5A7238B9283453D00052CEBE /* LaunchScreen.storyboard in Resources */,
 				5A7238B6283453D00052CEBE /* Assets.xcassets in Resources */,
 				3AF8F5982854D0690036D277 /* BAHNSCHRIFT.TTF in Resources */,
@@ -439,6 +513,7 @@
 				5A791A2928512D3900CE81E0 /* EventCollectionCell.swift in Sources */,
 				5A7238CF283455280052CEBE /* UIViewController+Ext.swift in Sources */,
 				5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */,
+				5A3B242F2855472900B90E0A /* RankingScreen.swift in Sources */,
 				5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */,
 				5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */,
 				5A7E5B002854BCCD004B5FBB /* ModelsConverter.swift in Sources */,
@@ -456,6 +531,7 @@
 				5AB37B5F2839887C00CD54EA /* LocationWorker.swift in Sources */,
 				5A7238CC283455280052CEBE /* UITableView+Ext.swift in Sources */,
 				5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */,
+				5A3B24312855474200B90E0A /* SettingsScreen.swift in Sources */,
 				5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */,
 				5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */,
 				5A791A2128510D0100CE81E0 /* LocationModel.swift in Sources */,
