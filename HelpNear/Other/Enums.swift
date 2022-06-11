@@ -11,10 +11,9 @@ enum Images{
     static let collection = UIImage(systemName: "list.bullet.rectangle")!
     static let person = UIImage(systemName: "person")!
     static let pin = UIImage(systemName: "pin")!
-    
-//    static let downArrow = UIImage(systemName: "arrow.down")!
-//    static let trash = UIImage(systemName: "trash")!
-//    static let trash2 = UIImage(systemName: "trash")!
+    static let crown = UIImage(systemName: "crown")!
+    static let personCircle = UIImage(systemName: "person.circle")!
+    static let gearshape = UIImage(systemName: "gearshape")!
 //    static let trash3 = UIImage(systemName: "trash")!
 //    static let trash4 = UIImage(systemName: "trash")!
 }
