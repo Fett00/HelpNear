@@ -59,8 +59,9 @@ class ProjectCoordinator{
     func createEventCollectionScreen() -> UIViewController{
         
         let dw = EventCollectionDataWorker(coreDataWorker: self.coreDataWorker, networkWorker: self.networkWorker, jsonWorker: self.jsonWorker)
+        let vm = EventCollectionViewModel(dataWorker: dw)
         let vc = EventCollectionScreen()
-        vc.dataWorker = dw
+        vc.viewModel = vm
         
         return vc.wrapInNavigationController()
     }
