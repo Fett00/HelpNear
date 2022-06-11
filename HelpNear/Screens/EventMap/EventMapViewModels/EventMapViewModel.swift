@@ -12,18 +12,24 @@ protocol EventMapViewModelProtocol{
     
     func requestEventsViewModelForMap(handler: @escaping ()->())
     
+    func updatingCurrentLocation(ever seconds: UInt, notificator: @escaping ()->())
+    
+    func requestGeopositionPermission()
+    
     var data: [LocationModel] { get }
 }
 
 class EventMapViewModel: EventMapViewModelProtocol{
     
-    private var dataWorker: EventsDataWorkerProtocol!
+    private let dataWorker: EventsDataWorkerProtocol
+    private let locationWorker: LocationWorkerProtocol
     
     private(set) var data: [LocationModel] = []
     
-    init(dataWorker: EventsDataWorkerProtocol) {
+    init(dataWorker: EventsDataWorkerProtocol, locationWorker: LocationWorkerProtocol) {
         
         self.dataWorker = dataWorker
+        self.locationWorker = locationWorker
     }
     
     func requestEventsViewModelForMap(handler: @escaping ()->()){
@@ -47,5 +53,14 @@ class EventMapViewModel: EventMapViewModelProtocol{
             }
             handler()
         }
+    }
+    
+    func updatingCurrentLocation(ever seconds: UInt, notificator: @escaping ()->()){
+        
+    }
+    
+    func requestGeopositionPermission(){
+        
+        self.locationWorker.requestPermissionIfDisabled()
     }
 }

@@ -34,6 +34,12 @@ final class EventMapScreen: UIViewController {
         }
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        viewModel.requestGeopositionPermission()
+    }
+    
     private func confView(){
         
         self.view.backgroundColor = .systemBackground

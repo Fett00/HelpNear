@@ -4,8 +4,10 @@
 <dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>Уведомления о находящихся радом ивентах</string>
-	<key>notif</key>
-	<string></string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Уведомления о находящихся радом ивентах</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Уведомления о находящихся радом ивентах</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>BAHNSCHRIFT.TTF</string>

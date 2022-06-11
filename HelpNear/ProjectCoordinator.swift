@@ -54,7 +54,7 @@ class ProjectCoordinator{
     
     func createMapScreen() -> UIViewController{
         
-        let vm = EventMapViewModel(dataWorker: self.eventsDataWorker)
+        let vm = EventMapViewModel(dataWorker: self.eventsDataWorker, locationWorker: self.locationWorker)
         let vc = EventMapScreen()
         vc.viewModel = vm
         
