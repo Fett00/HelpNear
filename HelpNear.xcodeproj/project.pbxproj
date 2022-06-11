@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AF8F5982854D0690036D277 /* BAHNSCHRIFT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F5972854D0690036D277 /* BAHNSCHRIFT.TTF */; };
 		5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162AE285485F7004CC389 /* EventCollectionModel.swift */; };
 		5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B728548C67004CC389 /* EventMapViewModel.swift */; };
 		5A1162BA28548C92004CC389 /* EventsDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B928548C92004CC389 /* EventsDataWorker.swift */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		10699B62BA81115C5BEC2428 /* Pods_HelpNear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpNear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AF8F5972854D0690036D277 /* BAHNSCHRIFT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BAHNSCHRIFT.TTF; sourceTree = "<group>"; };
 		5A1162AE285485F7004CC389 /* EventCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionModel.swift; sourceTree = "<group>"; };
 		5A1162B728548C67004CC389 /* EventMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapViewModel.swift; sourceTree = "<group>"; };
 		5A1162B928548C92004CC389 /* EventsDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataWorker.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AF8F5962854CFFC0036D277 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8F5972854D0690036D277 /* BAHNSCHRIFT.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		3CFB15879C353B25F7A5272F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +184,7 @@
 		5A7238A8283453CE0052CEBE /* HelpNear */ = {
 			isa = PBXGroup;
 			children = (
+				3AF8F5962854CFFC0036D277 /* Fonts */,
 				5A7238A9283453CE0052CEBE /* AppDelegate.swift */,
 				5A7238AB283453CE0052CEBE /* SceneDelegate.swift */,
 				5A7238C1283454670052CEBE /* ProjectCoordinator.swift */,
@@ -359,6 +370,7 @@
 			files = (
 				5A7238B9283453D00052CEBE /* LaunchScreen.storyboard in Resources */,
 				5A7238B6283453D00052CEBE /* Assets.xcassets in Resources */,
+				3AF8F5982854D0690036D277 /* BAHNSCHRIFT.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
