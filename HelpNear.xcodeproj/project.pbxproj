@@ -32,6 +32,8 @@
 		5A791A2928512D3900CE81E0 /* EventCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2828512D3900CE81E0 /* EventCollectionCell.swift */; };
 		5A7D31862853E43D00DEA43E /* RequirementsScrolledList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7D31852853E43D00DEA43E /* RequirementsScrolledList.swift */; };
 		5A7E5AFC2854A04F004B5FBB /* EventCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E5AFB2854A04F004B5FBB /* EventCollectionViewModel.swift */; };
+		5A7E5AFE2854A54B004B5FBB /* POINetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E5AFD2854A54B004B5FBB /* POINetworkModel.swift */; };
+		5A7E5B002854BCCD004B5FBB /* ModelsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E5AFF2854BCCD004B5FBB /* ModelsConverter.swift */; };
 		5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9CA6722843899C00ECD890 /* RegistrationScreen.swift */; };
 		5AB37B56283982CE00CD54EA /* EventCollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B55283982CE00CD54EA /* EventCollectionScreen.swift */; };
 		5AB37B582839844400CD54EA /* EventMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B572839844400CD54EA /* EventMapScreen.swift */; };
@@ -71,6 +73,8 @@
 		5A791A2828512D3900CE81E0 /* EventCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionCell.swift; sourceTree = "<group>"; };
 		5A7D31852853E43D00DEA43E /* RequirementsScrolledList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementsScrolledList.swift; sourceTree = "<group>"; };
 		5A7E5AFB2854A04F004B5FBB /* EventCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCollectionViewModel.swift; sourceTree = "<group>"; };
+		5A7E5AFD2854A54B004B5FBB /* POINetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POINetworkModel.swift; sourceTree = "<group>"; };
+		5A7E5AFF2854BCCD004B5FBB /* ModelsConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsConverter.swift; sourceTree = "<group>"; };
 		5A9CA6722843899C00ECD890 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		5AB37B55283982CE00CD54EA /* EventCollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionScreen.swift; sourceTree = "<group>"; };
 		5AB37B572839844400CD54EA /* EventMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapScreen.swift; sourceTree = "<group>"; };
@@ -196,6 +200,7 @@
 				5A7238D2283456170052CEBE /* JSONWorker.swift */,
 				5A7238D1283456170052CEBE /* NetworkWorker.swift */,
 				5AB37B5E2839887C00CD54EA /* LocationWorker.swift */,
+				5A7E5AFF2854BCCD004B5FBB /* ModelsConverter.swift */,
 			);
 			path = Workers;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				5A791A2228510EF300CE81E0 /* POIModel.swift */,
+				5A7E5AFD2854A54B004B5FBB /* POINetworkModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -423,8 +429,10 @@
 				5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */,
 				5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */,
 				5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */,
+				5A7E5B002854BCCD004B5FBB /* ModelsConverter.swift in Sources */,
 				5A7238CA283455280052CEBE /* UIView+Ext.swift in Sources */,
 				5A7238CB283455280052CEBE /* UICollectionView+Ext.swift in Sources */,
+				5A7E5AFE2854A54B004B5FBB /* POINetworkModel.swift in Sources */,
 				5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */,
 				5ACA95492835496200FB125C /* UserProfileScreen.swift in Sources */,
 				5A7238D5283456170052CEBE /* JSONWorker.swift in Sources */,

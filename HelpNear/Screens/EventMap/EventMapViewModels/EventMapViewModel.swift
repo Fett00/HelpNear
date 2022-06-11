@@ -30,17 +30,20 @@ class EventMapViewModel: EventMapViewModelProtocol{
         
         DispatchQueue.global(qos: .userInteractive).async {
             
-            self.data = []
-            
-            for _ in 0..<10{
+            self.dataWorker.requestEvents { models in
                 
-                let annotation = MKPointAnnotation()
-                let latitude = Double.random(in: 0...10)
-                let longitude = Double.random(in: 0...10)
-                annotation.coordinate = CLLocationCoordinate2D(latitude: latitude, longitude: longitude)
-                let model = LocationModel(annotation: annotation)
+                self.data = []
                 
-                self.data.append(model)
+                for model in models {
+                    
+                    if let location = model.location {
+                        
+                        let annotation = MKPointAnnotation()
+                        annotation.coordinate = location
+                        
+                        self.data.append(LocationModel(annotation: annotation) )
+                    }
+                }
             }
             handler()
         }
