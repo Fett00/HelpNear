@@ -29,7 +29,7 @@ final class EventMapScreen: UIViewController {
         viewModel.requestEventsViewModelForMap {
             DispatchQueue.main.async {
                 
-                //self.mapView.an
+                self.viewModel.data.forEach({ self.mapView.addAnnotation($0.annotation) })
             }
         }
     }
