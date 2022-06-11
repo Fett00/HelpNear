@@ -21,7 +21,7 @@ enum Images{
 
 enum URLs{
     
-    static let eventsURL = "example.com"
+    static let eventsURL = "http://85.192.49.140:3077/api/get-all-tasks"
     static let usersURL = "example.com"
 }
 
