@@ -30,8 +30,8 @@
 		5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2428512A4700CE81E0 /* EventCollectionHeader.swift */; };
 		5A791A2728512B1700CE81E0 /* LoadingBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2628512B1700CE81E0 /* LoadingBlurView.swift */; };
 		5A791A2928512D3900CE81E0 /* EventCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2828512D3900CE81E0 /* EventCollectionCell.swift */; };
-		5A7D31842853DD3600DEA43E /* EventCollectionDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7D31832853DD3600DEA43E /* EventCollectionDataWorker.swift */; };
 		5A7D31862853E43D00DEA43E /* RequirementsScrolledList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7D31852853E43D00DEA43E /* RequirementsScrolledList.swift */; };
+		5A7E5AFC2854A04F004B5FBB /* EventCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E5AFB2854A04F004B5FBB /* EventCollectionViewModel.swift */; };
 		5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9CA6722843899C00ECD890 /* RegistrationScreen.swift */; };
 		5AB37B56283982CE00CD54EA /* EventCollectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B55283982CE00CD54EA /* EventCollectionScreen.swift */; };
 		5AB37B582839844400CD54EA /* EventMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B572839844400CD54EA /* EventMapScreen.swift */; };
@@ -69,8 +69,8 @@
 		5A791A2428512A4700CE81E0 /* EventCollectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionHeader.swift; sourceTree = "<group>"; };
 		5A791A2628512B1700CE81E0 /* LoadingBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBlurView.swift; sourceTree = "<group>"; };
 		5A791A2828512D3900CE81E0 /* EventCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionCell.swift; sourceTree = "<group>"; };
-		5A7D31832853DD3600DEA43E /* EventCollectionDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionDataWorker.swift; sourceTree = "<group>"; };
 		5A7D31852853E43D00DEA43E /* RequirementsScrolledList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementsScrolledList.swift; sourceTree = "<group>"; };
+		5A7E5AFB2854A04F004B5FBB /* EventCollectionViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventCollectionViewModel.swift; sourceTree = "<group>"; };
 		5A9CA6722843899C00ECD890 /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		5AB37B55283982CE00CD54EA /* EventCollectionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionScreen.swift; sourceTree = "<group>"; };
 		5AB37B572839844400CD54EA /* EventMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapScreen.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 		5A1162AC285481C8004CC389 /* EventCollectionViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				5A7D31832853DD3600DEA43E /* EventCollectionViewModel.swift */,
+				5A7E5AFB2854A04F004B5FBB /* EventCollectionViewModel.swift */,
 			);
 			path = EventCollectionViewModels;
 			sourceTree = "<group>";
@@ -431,8 +431,8 @@
 				5AB37B56283982CE00CD54EA /* EventCollectionScreen.swift in Sources */,
 				5AB37B582839844400CD54EA /* EventMapScreen.swift in Sources */,
 				5A791A2728512B1700CE81E0 /* LoadingBlurView.swift in Sources */,
-				5A7D31842853DD3600DEA43E /* EventCollectionViewModel.swift in Sources */,
 				5A7238D6283456170052CEBE /* CoreDataWorker.swift in Sources */,
+				5A7E5AFC2854A04F004B5FBB /* EventCollectionViewModel.swift in Sources */,
 				5AB37B5F2839887C00CD54EA /* LocationWorker.swift in Sources */,
 				5A7238CC283455280052CEBE /* UITableView+Ext.swift in Sources */,
 				5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */,
