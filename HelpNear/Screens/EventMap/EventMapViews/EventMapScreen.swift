@@ -7,6 +7,8 @@ import MapKit
 
 final class EventMapScreen: UIViewController {
     
+    var viewModel: EventMapViewModelProtocol!
+    
     private let mapView: MKMapView = {
         
         let map = MapSingleView.default
@@ -19,6 +21,17 @@ final class EventMapScreen: UIViewController {
         
         confView()
         confSubviews()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        viewModel.requestEventsViewModelForMap {
+            DispatchQueue.main.async {
+                
+                //self.mapView.an
+            }
+        }
     }
     
     private func confView(){

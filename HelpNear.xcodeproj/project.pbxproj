@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162AE285485F7004CC389 /* EventCollectionModel.swift */; };
-		5A1162B2285489D7004CC389 /* EventCollectionDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B1285489D7004CC389 /* EventCollectionDataWorker.swift */; };
+		5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B728548C67004CC389 /* EventMapViewModel.swift */; };
+		5A1162BA28548C92004CC389 /* EventsDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B928548C92004CC389 /* EventsDataWorker.swift */; };
 		5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238A9283453CE0052CEBE /* AppDelegate.swift */; };
 		5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238AB283453CE0052CEBE /* SceneDelegate.swift */; };
 		5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238B2283453CE0052CEBE /* HelpNear.xcdatamodeld */; };
@@ -44,7 +45,8 @@
 /* Begin PBXFileReference section */
 		10699B62BA81115C5BEC2428 /* Pods_HelpNear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpNear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A1162AE285485F7004CC389 /* EventCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionModel.swift; sourceTree = "<group>"; };
-		5A1162B1285489D7004CC389 /* EventCollectionDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionDataWorker.swift; sourceTree = "<group>"; };
+		5A1162B728548C67004CC389 /* EventMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapViewModel.swift; sourceTree = "<group>"; };
+		5A1162B928548C92004CC389 /* EventsDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataWorker.swift; sourceTree = "<group>"; };
 		5A7238A6283453CE0052CEBE /* HelpNear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpNear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7238A9283453CE0052CEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7238AB283453CE0052CEBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,12 +129,28 @@
 			path = EventCollectionModels;
 			sourceTree = "<group>";
 		};
-		5A1162B028548999004CC389 /* EventCollectionDataWorker */ = {
+		5A1162B328548C17004CC389 /* EventMapViews */ = {
 			isa = PBXGroup;
 			children = (
-				5A1162B1285489D7004CC389 /* EventCollectionDataWorker.swift */,
+				5AB37B572839844400CD54EA /* EventMapScreen.swift */,
 			);
-			path = EventCollectionDataWorker;
+			path = EventMapViews;
+			sourceTree = "<group>";
+		};
+		5A1162B428548C1F004CC389 /* EventMapViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A1162B728548C67004CC389 /* EventMapViewModel.swift */,
+			);
+			path = EventMapViewModels;
+			sourceTree = "<group>";
+		};
+		5A1162B628548C30004CC389 /* EventMapModels */ = {
+			isa = PBXGroup;
+			children = (
+				5A791A2028510D0100CE81E0 /* LocationModel.swift */,
+			);
+			path = EventMapModels;
 			sourceTree = "<group>";
 		};
 		5A72389D283453CE0052CEBE = {
@@ -173,6 +191,7 @@
 		5A7238C3283455000052CEBE /* Workers */ = {
 			isa = PBXGroup;
 			children = (
+				5A1162B928548C92004CC389 /* EventsDataWorker.swift */,
 				5A7238D3283456170052CEBE /* CoreDataWorker.swift */,
 				5A7238D2283456170052CEBE /* JSONWorker.swift */,
 				5A7238D1283456170052CEBE /* NetworkWorker.swift */,
@@ -199,7 +218,7 @@
 			children = (
 				5A9CA6712843898700ECD890 /* Registration */,
 				5AB37B5B2839882700CD54EA /* EventCollection */,
-				5AB37B5C2839883000CD54EA /* TaskMap */,
+				5AB37B5C2839883000CD54EA /* EventMap */,
 				5AB37B5D2839883E00CD54EA /* UserProfile */,
 			);
 			path = Screens;
@@ -208,7 +227,6 @@
 		5A791A1F28510B7B00CE81E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5A791A2028510D0100CE81E0 /* LocationModel.swift */,
 				5A791A2228510EF300CE81E0 /* POIModel.swift */,
 			);
 			path = Models;
@@ -227,18 +245,19 @@
 			children = (
 				5A1162AB285481AB004CC389 /* EventCollectionViews */,
 				5A1162AC285481C8004CC389 /* EventCollectionViewModels */,
-				5A1162B028548999004CC389 /* EventCollectionDataWorker */,
 				5A1162AD285481EA004CC389 /* EventCollectionModels */,
 			);
 			path = EventCollection;
 			sourceTree = "<group>";
 		};
-		5AB37B5C2839883000CD54EA /* TaskMap */ = {
+		5AB37B5C2839883000CD54EA /* EventMap */ = {
 			isa = PBXGroup;
 			children = (
-				5AB37B572839844400CD54EA /* EventMapScreen.swift */,
+				5A1162B328548C17004CC389 /* EventMapViews */,
+				5A1162B428548C1F004CC389 /* EventMapViewModels */,
+				5A1162B628548C30004CC389 /* EventMapModels */,
 			);
-			path = TaskMap;
+			path = EventMap;
 			sourceTree = "<group>";
 		};
 		5AB37B5D2839883E00CD54EA /* UserProfile */ = {
@@ -392,6 +411,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1162BA28548C92004CC389 /* EventsDataWorker.swift in Sources */,
 				5A7238C2283454670052CEBE /* ProjectCoordinator.swift in Sources */,
 				5A7238CD283455280052CEBE /* UITableViewCell+Ext.swift in Sources */,
 				5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */,
@@ -402,11 +422,11 @@
 				5A7238CF283455280052CEBE /* UIViewController+Ext.swift in Sources */,
 				5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */,
 				5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */,
+				5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */,
 				5A7238CA283455280052CEBE /* UIView+Ext.swift in Sources */,
 				5A7238CB283455280052CEBE /* UICollectionView+Ext.swift in Sources */,
 				5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */,
 				5ACA95492835496200FB125C /* UserProfileScreen.swift in Sources */,
-				5A1162B2285489D7004CC389 /* EventCollectionDataWorker.swift in Sources */,
 				5A7238D5283456170052CEBE /* JSONWorker.swift in Sources */,
 				5AB37B56283982CE00CD54EA /* EventCollectionScreen.swift in Sources */,
 				5AB37B582839844400CD54EA /* EventMapScreen.swift in Sources */,

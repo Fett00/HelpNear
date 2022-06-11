@@ -18,9 +18,9 @@ class EventCollectionViewModel: EventCollectionViewModelProtocol{
     
     private(set) var data: [POIModel] = []
     
-    private let dataWorker: EventCollectionDataWorkerProtocol
+    private let dataWorker: EventsDataWorkerProtocol!
     
-    init(dataWorker: EventCollectionDataWorkerProtocol) {
+    init(dataWorker: EventsDataWorkerProtocol) {
         
         self.dataWorker = dataWorker
     }

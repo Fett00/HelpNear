@@ -21,7 +21,8 @@ enum Images{
 
 enum URLs{
     
-    static let backendURL = "example.com"
+    static let eventsURL = "example.com"
+    static let usersURL = "example.com"
 }
 
 enum Colors{
