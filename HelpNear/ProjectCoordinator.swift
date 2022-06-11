@@ -9,10 +9,11 @@ import SwiftUI
 //Координатор всего приложения
 class ProjectCoordinator{
     
-    let coreDataWorker = CoreDataWorker()
-    let networkWorker = NetworkWorker()
-    let jsonWorker = JSONDecoderWorker()
-    let locationWorker = LocationWorker()
+    private let coreDataWorker = CoreDataWorker()
+    private let networkWorker = NetworkWorker()
+    private let jsonWorker = JSONDecoderWorker()
+    private let locationWorker = LocationWorker()
+    private lazy var eventsDataWorker = EventsDataWorker(coreDataWorker: self.coreDataWorker, networkWorker: self.networkWorker, jsonWorker: self.jsonWorker)
     
     //singleton
     private init(){}
@@ -53,14 +54,18 @@ class ProjectCoordinator{
     
     func createMapScreen() -> UIViewController{
         
-        EventMapScreen().wrapInNavigationController()
+        let vm = EventMapViewModel(dataWorker: self.eventsDataWorker)
+        let vc = EventMapScreen()
+        vc.viewModel = vm
+        
+        return vc.wrapInNavigationController()
     }
     
     func createEventCollectionScreen() -> UIViewController{
         
-        let dw = EventCollectionDataWorker(coreDataWorker: self.coreDataWorker, networkWorker: self.networkWorker, jsonWorker: self.jsonWorker)
+        let vm = EventCollectionViewModel(dataWorker: self.eventsDataWorker)
         let vc = EventCollectionScreen()
-        vc.dataWorker = dw
+        vc.viewModel = vm
         
         return vc.wrapInNavigationController()
     }

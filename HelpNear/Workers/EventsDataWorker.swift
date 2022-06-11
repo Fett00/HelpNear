@@ -1,26 +1,24 @@
 //
-//  EventCollectionDataWorker.swift
+//  EventMapDataWorker.swift
 //  HelpNear
 //
-//  Created by Садык Мусаев on 10.06.2022.
+//  Created by Садык Мусаев on 11.06.2022.
 //
 
 import Foundation
 
-protocol EventCollectionDataWorkerProtocol{
+protocol EventsDataWorkerProtocol{
     
     func requestEvents(handler: @escaping ()->())
-    
-    var data: [POIModel] { get }
 }
 
-class EventCollectionDataWorker: EventCollectionDataWorkerProtocol{
+class EventsDataWorker: EventsDataWorkerProtocol{
     
     let coreDataWorker: CoreDataWorkerProtocol
     let networkWorker: NetworkWorkerProtocol
     let jsonWorker: JSONDecoderWorkerProtocol
     
-    private(set) var data: [POIModel] = []
+    let events: [POIModel] = []
     
     init(coreDataWorker: CoreDataWorkerProtocol, networkWorker: NetworkWorkerProtocol, jsonWorker: JSONDecoderWorkerProtocol) {
         
@@ -29,12 +27,11 @@ class EventCollectionDataWorker: EventCollectionDataWorkerProtocol{
         self.jsonWorker = jsonWorker
     }
     
-    
     func requestEvents(handler: @escaping ()->()){
         
-        DispatchQueue.global(qos: .userInteractive).async {
+        networkWorker.getData(from: URLs.eventsURL) { result in
             
-            handler()
+            
         }
     }
 }

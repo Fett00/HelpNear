@@ -3,10 +3,19 @@
 //  HelpNear
 
 import UIKit
+import NVActivityIndicatorView
 
 final class EventCollectionScreen: UIViewController {
     
-    var dataWorker: EventCollectionDataWorkerProtocol!
+    var viewModel: EventCollectionViewModelProtocol!
+    
+    //Индикатор загрузки
+    private let activityIndicator: NVActivityIndicatorView = {
+       
+        let indicator = NVActivityIndicatorView(frame: .zero, type: .circleStrokeSpin, color: .gray, padding: nil)
+        indicator.bounds = CGRect(origin: .zero, size: .init(width: 20, height: 20))
+        return indicator
+    }()
     
     //Коллекция с заданиями
     private let collection: UICollectionView = {
@@ -37,10 +46,13 @@ final class EventCollectionScreen: UIViewController {
         
         layoutCollection()
         
-        dataWorker.requestEvents {
+        activityIndicator.startAnimating()
+        viewModel.requestEvents {
             DispatchQueue.main.async {
                 //Обработать загрузку данных
+                sleep(2)
                 self.collection.reloadData()
+                self.activityIndicator.stopAnimating()
             }
         }
     }
@@ -78,7 +90,7 @@ final class EventCollectionScreen: UIViewController {
     //configurate subviews
     private func confSubviews(){
         
-        view.addSubview(searchBar, collection)
+        view.addSubview(searchBar, collection, activityIndicator)
         
         collection.delegate = self
         collection.dataSource = self
@@ -88,6 +100,7 @@ final class EventCollectionScreen: UIViewController {
         
         searchBar.constraints(top: safeArea.topAnchor, bottom: nil, leading: safeArea.leadingAnchor, trailing: safeArea.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 50)
         collection.constraints(top: searchBar.bottomAnchor, bottom: safeArea.bottomAnchor, leading: safeArea.leadingAnchor, trailing: safeArea.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
+        activityIndicator.constraints(centerX: collection.centerXAnchor, centerY: collection.centerYAnchor, xPadding: 0, yPadding: 0)
     }
 }
 
@@ -95,7 +108,7 @@ extension EventCollectionScreen: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        10//dataWorker.data.count
+        10//viewModel.data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
