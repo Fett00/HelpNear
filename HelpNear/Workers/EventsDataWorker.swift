@@ -9,7 +9,7 @@ import Foundation
 
 protocol EventsDataWorkerProtocol{
     
-    func requestEvents(handler: @escaping ()->())
+    func requestEvents(handler: @escaping ([POIModel])->())
 }
 
 class EventsDataWorker: EventsDataWorkerProtocol{
@@ -18,7 +18,7 @@ class EventsDataWorker: EventsDataWorkerProtocol{
     let networkWorker: NetworkWorkerProtocol
     let jsonWorker: JSONDecoderWorkerProtocol
     
-    let events: [POIModel] = []
+    var events: [POIModel] = []
     
     init(coreDataWorker: CoreDataWorkerProtocol, networkWorker: NetworkWorkerProtocol, jsonWorker: JSONDecoderWorkerProtocol) {
         
@@ -27,11 +27,19 @@ class EventsDataWorker: EventsDataWorkerProtocol{
         self.jsonWorker = jsonWorker
     }
     
-    func requestEvents(handler: @escaping ()->()){
+    func requestEvents(handler: @escaping ([POIModel])->()){
         
         networkWorker.getData(from: URLs.eventsURL) { result in
             
-            
+            switch result{
+                
+            case .failure(let error):
+                print(error)
+            case .success(let data):
+                guard let networkModels = self.jsonWorker.decode(type: [POINetworkModel].self, data: data) else { return }
+                self.events = ModelsConverter.poiFromNetworkToModel(from: networkModels)
+            }
+            handler(self.events)
         }
     }
 }

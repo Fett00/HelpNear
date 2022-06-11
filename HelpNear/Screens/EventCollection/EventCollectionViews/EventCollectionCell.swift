@@ -116,11 +116,11 @@ class EventCollectionCell: UICollectionViewCell {
         
     }
     
-    func render(){
+    func render(with model: EventCollectionModel){
         
-        self.title.text = "Помочь старушке перейти дорогу"
-        self.shortDescription.text = "Старушка находиться на одной стороне, а ей нужно на другую"
+        self.title.text = model.title
+        self.shortDescription.text = model.description
         self.requirements.image = Images.pin
-        self.salary.text = "\(Int.random(in: 0...10000)) руб."
+        self.salary.text = model.salary
     }
 }

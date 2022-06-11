@@ -11,12 +11,12 @@ protocol EventCollectionViewModelProtocol{
     
     func requestEvents(handler: @escaping ()->())
     
-    var data: [POIModel] { get }
+    var data: [EventCollectionModel] { get }
 }
 
 class EventCollectionViewModel: EventCollectionViewModelProtocol{
     
-    private(set) var data: [POIModel] = []
+    private(set) var data: [EventCollectionModel] = []
     
     private let dataWorker: EventsDataWorkerProtocol!
     
@@ -29,6 +29,27 @@ class EventCollectionViewModel: EventCollectionViewModelProtocol{
         
         DispatchQueue.global(qos: .userInteractive).async {
             
+            self.dataWorker.requestEvents { models in
+                
+                self.data = []
+                
+                for model in models {
+                    
+                    var salary = ""
+                    
+                    if let rewardAmount = model.rewardAmount{
+                        salary = "\(rewardAmount)" + " ₽"
+                    }
+                    else {
+                        salary = "Бесплатно"
+                    }
+
+                    let viewModel = EventCollectionModel(title: model.title,
+                                                         description: model.description,
+                                                         salary: salary)
+                    self.data.append(viewModel)
+                }
+            }
             handler()
         }
     }

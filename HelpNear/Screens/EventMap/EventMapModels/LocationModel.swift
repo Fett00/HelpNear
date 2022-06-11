@@ -4,8 +4,9 @@
 
 import Foundation
 import CoreLocation
+import MapKit
 
-struct LocationModel{
+struct LocationModel {
     
-    let location: CLLocationCoordinate2D
+    let annotation: MKPointAnnotation
 }

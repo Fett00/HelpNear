@@ -7,7 +7,7 @@ import CoreLocation
 
 
 
-//Point of interest
+//Point of interest модель данных
 struct POIModel{
     
     enum AgeLimit{
@@ -31,13 +31,23 @@ struct POIModel{
         case mediaVolunteering
     }
     
+    let id: String
+    
     let title: String
     
     let description: String
     
     let ageLimit: AgeLimit
     
-    let eventType: EventType
+    let age: Int
     
-    let location: CLLocationCoordinate2D
+    //let eventType: EventType
+    
+    let location: CLLocationCoordinate2D?
+    
+    let rewardAmount: Int?
+
+    let dateCreated: String
+    
+    //let status: String?
 }

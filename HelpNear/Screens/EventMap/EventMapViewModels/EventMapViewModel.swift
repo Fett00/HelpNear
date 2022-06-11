@@ -6,15 +6,20 @@
 //
 
 import Foundation
+import MapKit
 
 protocol EventMapViewModelProtocol{
     
     func requestEventsViewModelForMap(handler: @escaping ()->())
+    
+    var data: [LocationModel] { get }
 }
 
 class EventMapViewModel: EventMapViewModelProtocol{
     
     private var dataWorker: EventsDataWorkerProtocol!
+    
+    private(set) var data: [LocationModel] = []
     
     init(dataWorker: EventsDataWorkerProtocol) {
         
@@ -25,6 +30,21 @@ class EventMapViewModel: EventMapViewModelProtocol{
         
         DispatchQueue.global(qos: .userInteractive).async {
             
+            self.dataWorker.requestEvents { models in
+                
+                self.data = []
+                
+                for model in models {
+                    
+                    if let location = model.location {
+                        
+                        let annotation = MKPointAnnotation()
+                        annotation.coordinate = location
+                        
+                        self.data.append(LocationModel(annotation: annotation) )
+                    }
+                }
+            }
             handler()
         }
     }

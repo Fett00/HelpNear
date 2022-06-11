@@ -50,7 +50,7 @@ final class EventCollectionScreen: UIViewController {
         viewModel.requestEvents {
             DispatchQueue.main.async {
                 //Обработать загрузку данных
-                sleep(2)
+                sleep(1)
                 self.collection.reloadData()
                 self.activityIndicator.stopAnimating()
             }
@@ -108,14 +108,14 @@ extension EventCollectionScreen: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        10//viewModel.data.count
+        self.viewModel.data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: EventCollectionCell.reuseID, for: indexPath) as? EventCollectionCell else { return UICollectionViewCell() }
         
-        cell.render()
+        cell.render(with: self.viewModel.data[indexPath.row])
         
         return cell
     }

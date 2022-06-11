@@ -29,7 +29,7 @@ final class EventMapScreen: UIViewController {
         viewModel.requestEventsViewModelForMap {
             DispatchQueue.main.async {
                 
-                //self.mapView.an
+                self.viewModel.data.forEach({ self.mapView.addAnnotation($0.annotation) })
             }
         }
     }
@@ -44,6 +44,6 @@ final class EventMapScreen: UIViewController {
         view.addSubview(mapView)
         let safe = self.view.safeAreaLayoutGuide
         
-        mapView.constraints(top: safe.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
+        mapView.constraints(top: self.view.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
     }
 }
