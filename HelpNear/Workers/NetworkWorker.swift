@@ -20,7 +20,7 @@ final class NetworkWorker: NetworkWorkerProtocol {
             return
         }
         
-        let request = URLRequest(url: localURL, cachePolicy: .returnCacheDataElseLoad)
+        let request = URLRequest(url: localURL, cachePolicy: .reloadIgnoringLocalAndRemoteCacheData)
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             
