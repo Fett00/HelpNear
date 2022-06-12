@@ -41,22 +41,30 @@ final class RankingCollectionCell: UICollectionViewCell{
     
     private func confCell(){
         
-        self.layer.borderWidth = 0.5
         self.layer.cornerCurve = .continuous
         self.layer.cornerRadius = 20
+        
+        self.layer.backgroundColor = UIColor.white.cgColor
+        self.layer.shadowColor = UIColor.black.cgColor
+        self.layer.shadowOffset = CGSize(width: 0, height: -4.0)
+        self.layer.shadowOpacity = 0.5
+        self.layer.shadowRadius = 5.0
+        self.layer.masksToBounds = false
     }
     
     private func confSubviews(){
         
         self.contentView.addSubview(nameLabel, scoreLabel)
         
-        nameLabel.constraints(top: self.topAnchor, bottom: self.bottomAnchor, leading: self.leadingAnchor, trailing: scoreLabel.leadingAnchor, paddingTop: 20, paddingBottom: 20, paddingLeft: 20, paddingRight: 0, width: 0, height: 0)
+        nameLabel.constraints(top: self.topAnchor, bottom: self.bottomAnchor, leading: self.leadingAnchor, trailing: nil, paddingTop: 20, paddingBottom: 20, paddingLeft: 20, paddingRight: 0, width: 0, height: 0)
+        nameLabel.trailingAnchor.constraint(greaterThanOrEqualTo: scoreLabel.leadingAnchor, constant: -10).isActive = true
         scoreLabel.constraints(top: self.topAnchor, bottom: self.bottomAnchor, leading: nil, trailing: self.trailingAnchor, paddingTop: 20, paddingBottom: 20, paddingLeft: 0, paddingRight: 20, width: 0, height: 0)
     }
     
-    func render(with model: RankingModel){
+    func render(with model: RankingModel, shadowColor: CGColor){
         
         self.nameLabel.text = model.name
         self.scoreLabel.text = model.score
+        self.layer.shadowColor = shadowColor
     }
 }

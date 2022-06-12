@@ -37,6 +37,10 @@ final class RankingViewModel: RankingViewModelProtocol{
                         .init(name: "Петр", score: "13"),
                         .init(name: "Евгений", score: "99"),
                         .init(name: "Иван", score: "17"),
+                        .init(name: "Светлана", score: "1233"),
+                        .init(name: "Садык :3", score: "9999"),
+                        .init(name: "Евгениус", score: "199"),
+                        .init(name: "Иван", score: "17"),
                         .init(name: "Елена", score: "22")
                 ]
                 

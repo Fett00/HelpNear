@@ -14,6 +14,7 @@ enum Images{
     static let crown = UIImage(systemName: "crown")!
     static let personCircle = UIImage(systemName: "person.circle")!
     static let gearshape = UIImage(systemName: "gearshape")!
+    static let background = UIImage(named: "Background")!
 //    static let trash3 = UIImage(systemName: "trash")!
 //    static let trash4 = UIImage(systemName: "trash")!
 }
@@ -33,4 +34,7 @@ enum Colors{
     static let yellow = UIColor(named: "YellowColor")!
     static let mainLight = UIColor(named: "MainLightColor")!
     static let accentColor = UIColor(named: "AccentColor")!
+    static let gold = UIColor(named: "Gold")!
+    static let silver = UIColor(named: "Silver")!
+    static let bronze = UIColor(named: "Bronze")!
 }

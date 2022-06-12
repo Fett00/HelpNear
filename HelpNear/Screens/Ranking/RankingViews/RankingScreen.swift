@@ -19,6 +19,7 @@ final class RankingScreen: UIViewController{
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionView.register(RankingCollectionCell.self)
+        collectionView.backgroundColor = .clear
         
         return collectionView
     }()
@@ -44,6 +45,12 @@ final class RankingScreen: UIViewController{
         }
     }
     
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        
+        layoutCollection()
+    }
+    
     private func layoutCollection(){
         
         guard let flowLayout = rankedCollectionView.collectionViewLayout as? UICollectionViewFlowLayout else { return }
@@ -61,7 +68,11 @@ final class RankingScreen: UIViewController{
     private func confView(){
         
         self.view.backgroundColor = .systemBackground
-
+        
+        let image = UIImageView(image: Images.background)
+        image.frame = self.view.frame
+        self.view.addSubview(image)
+        
     }
     
     private func confSubviews(){
@@ -84,7 +95,18 @@ extension RankingScreen: UICollectionViewDataSource{
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RankingCollectionCell.reuseID, for: indexPath) as? RankingCollectionCell else { return UICollectionViewCell() }
         
-        cell.render(with: self.viewModel.data[indexPath.row])
+        switch indexPath.row{
+            
+        case 0:
+            cell.render(with: self.viewModel.data[indexPath.row], shadowColor: Colors.gold.cgColor)
+        case 1:
+            cell.render(with: self.viewModel.data[indexPath.row], shadowColor: Colors.silver.cgColor)
+        case 2:
+            cell.render(with: self.viewModel.data[indexPath.row], shadowColor: Colors.bronze.cgColor)
+        default:
+            cell.render(with: self.viewModel.data[indexPath.row], shadowColor: UIColor.black.cgColor)
+        }
+        
         
         return cell
     }
