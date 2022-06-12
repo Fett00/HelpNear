@@ -17,6 +17,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardingViewController" customModule="HelpNear" customModuleProvider="target">
             <connections>
                 <outlet property="enterButton" destination="Koj-Wb-diP" id="Ed5-ZE-2NL"/>
+                <outlet property="hey" destination="dkg-N5-EKu" id="oNF-ks-F4X"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -29,7 +30,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                 </imageView>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="2E3-IR-mbP">
-                    <rect key="frame" x="42" y="662.5" width="330" height="123.5"/>
+                    <rect key="frame" x="42" y="622.5" width="330" height="123.5"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundButton1" translatesAutoresizingMaskIntoConstraints="NO" id="FWC-pW-ucF">
                             <rect key="frame" x="0.0" y="0.0" width="330" height="54"/>
@@ -48,7 +49,7 @@
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koj-Wb-diP" userLabel="Войти">
-                    <rect key="frame" x="57" y="668.5" width="300" height="42"/>
+                    <rect key="frame" x="57" y="631" width="300" height="37"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="74a-8P-hrf"/>
                     </constraints>
@@ -61,7 +62,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAg-I8-pWP" userLabel="Войти">
-                    <rect key="frame" x="57" y="738" width="300" height="42"/>
+                    <rect key="frame" x="57" y="700.5" width="300" height="37"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="s6R-c8-njN"/>
                     </constraints>
@@ -75,28 +76,51 @@
                         <action selector="registerPressed:" destination="-1" eventType="touchUpInside" id="AId-1y-3gd"/>
                     </connections>
                 </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LoginViaGos" translatesAutoresizingMaskIntoConstraints="NO" id="sf4-ct-lc8">
+                    <rect key="frame" x="42" y="791" width="330" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="330" id="BdE-IM-16Q"/>
+                        <constraint firstAttribute="height" constant="55" id="SMo-nh-gGJ"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ИЛИ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkg-N5-EKu">
+                    <rect key="frame" x="189" y="758.5" width="36.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
                 <constraint firstItem="2E3-IR-mbP" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Gx6-eV-s7S"/>
+                <constraint firstItem="dkg-N5-EKu" firstAttribute="bottom" secondItem="sf4-ct-lc8" secondAttribute="top" constant="-12" id="OEE-eO-PI0"/>
                 <constraint firstAttribute="trailing" secondItem="Xsf-kZ-8WA" secondAttribute="trailing" id="XNb-CO-9bP"/>
                 <constraint firstItem="Xsf-kZ-8WA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="abp-Xg-LYE"/>
                 <constraint firstItem="tAg-I8-pWP" firstAttribute="centerY" secondItem="rtH-aO-4pl" secondAttribute="centerY" id="an4-9n-a2f"/>
                 <constraint firstItem="tAg-I8-pWP" firstAttribute="centerX" secondItem="rtH-aO-4pl" secondAttribute="centerX" id="by6-UI-py5"/>
                 <constraint firstItem="Xsf-kZ-8WA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="f27-Vc-GF8"/>
                 <constraint firstItem="Koj-Wb-diP" firstAttribute="centerY" secondItem="FWC-pW-ucF" secondAttribute="centerY" id="gDl-sg-cLd"/>
-                <constraint firstItem="2E3-IR-mbP" firstAttribute="bottom" secondItem="Xsf-kZ-8WA" secondAttribute="bottom" constant="-110" id="wPT-v7-lu0"/>
+                <constraint firstItem="sf4-ct-lc8" firstAttribute="centerX" secondItem="Xsf-kZ-8WA" secondAttribute="centerX" id="iXa-KW-f3X"/>
+                <constraint firstItem="sf4-ct-lc8" firstAttribute="bottom" secondItem="Xsf-kZ-8WA" secondAttribute="bottom" constant="-50" id="qcf-dn-Ibx"/>
+                <constraint firstItem="2E3-IR-mbP" firstAttribute="bottom" secondItem="Xsf-kZ-8WA" secondAttribute="bottom" constant="-150" id="wPT-v7-lu0"/>
                 <constraint firstAttribute="bottom" secondItem="Xsf-kZ-8WA" secondAttribute="bottom" id="wWq-Zc-FIx"/>
                 <constraint firstItem="Koj-Wb-diP" firstAttribute="centerX" secondItem="FWC-pW-ucF" secondAttribute="centerX" id="x2m-r0-eJZ"/>
+                <constraint firstItem="dkg-N5-EKu" firstAttribute="centerX" secondItem="sf4-ct-lc8" secondAttribute="centerX" id="zER-xf-ZaQ"/>
             </constraints>
             <point key="canvasLocation" x="131.8840579710145" y="72.991071428571431"/>
         </view>
+        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="sjw-8F-jih">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="83" y="463"/>
+        </imageView>
     </objects>
     <resources>
         <image name="BackgroundButton1" width="295" height="56"/>
         <image name="BackgroundButton2" width="294" height="57"/>
         <image name="Enter" width="375" height="812"/>
+        <image name="LoginViaGos" width="2048" height="336"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

@@ -7,6 +7,7 @@ import UIKit
 
 class OnBoardingViewController: UIViewController {
 
+  @IBOutlet weak var hey: UILabel!
   @IBAction func registerPressed(_ sender: Any) {
     let vc = OnBoardingViewController3(nibName: "OnBoardingViewController3", bundle: nil)
     navigationController?.setViewControllers([vc], animated: true)
@@ -23,6 +24,7 @@ class OnBoardingViewController: UIViewController {
     enterButton.layer.shadowOpacity = 0.3
     enterButton.layer.shadowRadius = 3
     enterButton.layer.masksToBounds = false
+    hey.font = UIFont(name: "Bahnschrift", size: 15)
         // Do any additional setup after loading the view.
     }
 
