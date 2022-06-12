@@ -41,11 +41,16 @@ class ProjectCoordinator{
         settingsVC.tabBarItem = UITabBarItem(title: "", image: Images.gearshape, tag: 5)
         
         
-        let tabBarVC = UITabBarController()
+        let tabBarVC = MainTabBarController()
+        
+        tabBarVC.tabBar.layer.cornerRadius = 30
+        tabBarVC.tabBar.layer.maskedCorners //= [.layerMinXMaxYCorner, .layerMinXMinYCorner ]
         
         tabBarVC.viewControllers = [collectionVC, rankingVC, mapVC, userProfileVC, settingsVC]
         
-        tabBarVC.selectedIndex = 1
+        tabBarVC.selectedIndex = 2
+        
+        tabBarVC.addMiddleButton(middleIndex: 2)
         
         return tabBarVC
     }
