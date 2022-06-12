@@ -10,7 +10,7 @@
 	<string>Уведомления о находящихся радом ивентах</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>BAHNSCHRIFT.TTF</string>
+		<string>Bahnschrift.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

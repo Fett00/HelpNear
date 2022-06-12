@@ -7,126 +7,144 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04F808784098AE6BEC28786CFA984C1B /* SkeletonTreeNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3D85D34C55DE2B29542088A6BF8892 /* SkeletonTreeNode+Extensions.swift */; };
-		052936B45E84571327F33D1778036EB0 /* SkeletonLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9382A5FFD6350DCE3FB3FD15CEC82 /* SkeletonLayer.swift */; };
-		07C80B1617258BBEFC7CACCEB107083B /* Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8101B5C846ADFADB07989FFFE81C470 /* Swizzling.swift */; };
-		0856B93E699B588BA71FE0CE044095E4 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C7F029FDB6E2B46DCC154CC2E09808 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
-		09DD87550899E891B6A39BA11421C8AA /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DA79E672DF82BA20A114DE34B8C6E3 /* UICollectionView+Extensions.swift */; };
-		0A8A9B035671C761A1EFABA2BD482848 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238FF7A837F663DB28F19DC9B9966E8C /* DispatchQueue+Extensions.swift */; };
-		0B3212EE2A9302144922BEDE80113399 /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04C8B57981ECF88345F88A961AC468D /* CALayer+Extensions.swift */; };
-		0B79ED4D30BAD4C491217DBCD8D1F743 /* SkeletonExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2495965D9E87D7F429F37B18A97E3EDA /* SkeletonExtended.swift */; };
-		0F0B68F613BABB2E1C4F85309C708D4E /* ProcessInfo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB33374A7BBB4631A69934F1C61DE6F /* ProcessInfo+Extensions.swift */; };
-		113E6D013678EAC0BD87C564E2621DDD /* SkeletonTextNumberOfLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A32572EE67A176BA76F070AB787DFFD /* SkeletonTextNumberOfLines.swift */; };
-		1792253FB4C2C25168FA2152DD8DF0C2 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A88675883389FFAC4983F08B8E9BE4 /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
-		189B75A88FACF80B45DECB648CE13A34 /* GradientDirection+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC6E4AE5919E53966BB04AE9D615E0A /* GradientDirection+Animations.swift */; };
-		18EC1C69C73B3F1BEF5A98252F364193 /* SkeletonCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 680531984438DB2BA7F2A39CF21561E8 /* SkeletonCollectionDataSource.swift */; };
-		1A8C7EF52092341E993EC0077D87DBCE /* UITableView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A799F71673ABACD04ECB815B2DE596 /* UITableView+CollectionSkeleton.swift */; };
-		2157AFB795285EDF4DE5293A4D3E301A /* Notification+SkeletonFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBBC562DB2FFFF30DBF15CFC6B1C2EF /* Notification+SkeletonFlow.swift */; };
-		22F67B17DFA4F0A721137347695646AF /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98099CC475621C98FD721F2029EF498 /* NVActivityIndicatorAnimationPacman.swift */; };
-		27C72A55D1D2DFB980B198D39D7BAAA3 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA59C7B764233955C8B71094CAC6F0E /* UIView+IBInspectable.swift */; };
-		27FB87A31F736E6778A423AAC9F8952E /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C943F281F5C3298C9848CDE4FAB4FB1 /* SkeletonView.swift */; };
-		27FED4676461B8447304B2D11C9E84B3 /* SkeletonTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563669717039C594ACB73B2C8B8BCB84 /* SkeletonTextNode.swift */; };
-		2A44D897511EF2E554A26B4CE0ADF791 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB3F1602EFE2717DE8D015387619D63 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
-		2CAE76E310AC072420AB2434A756F98A /* CALayer+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59500682DA1A06262794FFDF536FBDF /* CALayer+Animations.swift */; };
-		2F0A0F0D1EF11FF26081AB85B924BAF9 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DCC328CA5419D93A640058298674A1 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
-		2F99F6A552F39A0791C59F67304C3649 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
-		335F8DBAA1573FFD151CC6457C4BEA0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		3519EA46150EFDC342809478BB460764 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1E054BE3FDBC9C81B566566462EA45 /* NVActivityIndicatorAnimationBlank.swift */; };
-		35E05B3DDE11B0EC42452E2D956F8632 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6CEE140D10FAC6850CE671723779D7 /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39F6F08BA69383C4F45C9E2DB5247AB9 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E951608ABC512D658BE2E7FB8233A6BA /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
-		3F73918DBBD6D0B63E9E1C6B209C3642 /* SubviewsSkeletonables.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F446DC9757C31D9172F979882111EE /* SubviewsSkeletonables.swift */; };
-		41DB9D17C791603241ED3BEFFA9A8860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		438A072B0F1C9C0606253ED757258C15 /* SkeletonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76649400EC6344FECEE1C837B976F094 /* SkeletonConfig.swift */; };
-		46CE037FE4D8E73482B4F9062F041040 /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FE0C498C7ACAE9B4B2111A4F309E55 /* NVActivityIndicatorAnimationOrbit.swift */; };
-		47D5EA35A5F04B05BF8CE8926B4561CE /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F5C086DAA631752C12C093AC3DDA1A3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
-		4A039710D26A36FBA805C33B6FCE4B48 /* UIColor+Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D3F2761EA582055BD977BE156DF94 /* UIColor+Skeleton.swift */; };
-		4D342EA223226DB27B6A1A049F35ACE2 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE801EA3F71B8723D12F55936045D08 /* NVActivityIndicatorAnimationBallRotate.swift */; };
-		4DAF8E9B302714F88E6B252CC55D30BD /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB56C8E28F0E173A24ED2AAD77B859D /* AssociationPolicy.swift */; };
-		5143B2CFD406F5A2CDCF928590213ACC /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF33FA302E2A94808651B63CBD622216 /* NVActivityIndicatorAnimationBallPulse.swift */; };
-		521CBE4B34357086084EF3A99A8BE271 /* SkeletonDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9403E5C6B92CD022018596DE656FB3D /* SkeletonDebug.swift */; };
-		5666D8FB89EAF42F3E4EEE6B17DE1281 /* UILabel+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7D91B20BE9873ACE4F427FDEEDF151 /* UILabel+IBInspectable.swift */; };
-		5A8D558DB5A5B10542F7787554ACF1D7 /* UIView+SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F024F719A0F0ED787D97D05FFE7F087 /* UIView+SKExtensions.swift */; };
-		5BA2C9718F094CF84BCF2736E355ED1F /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1126348ABD4F59FC355FDE668530F3 /* NVActivityIndicatorView.swift */; };
-		5DA719BDE530943E6BF36C25B4428BB1 /* SkeletonFlowHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C8DAEAC656A89B0260FB59DAFFEF43 /* SkeletonFlowHandler.swift */; };
-		5DE87D16C9252759813B6452A116D1DF /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B504D399E295A7304986365D7D34DE /* GradientDirection.swift */; };
-		5E63B59DBD055062712AE66647FF9229 /* UILabel+SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB8BCA4C07DDDA8E70AECB25D8126D24 /* UILabel+SKExtensions.swift */; };
-		600AC8EE7816C50D2D0C580E3C62DB43 /* SkeletonMultilineLayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7574D10813FD18F3D3C26754F354F77D /* SkeletonMultilineLayerBuilder.swift */; };
-		663C075508F804454D38C145A77F8313 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00B25FD859CE92A5860390D4244F7F4 /* NVActivityIndicatorAnimationLineScale.swift */; };
-		66516929FD25A24DFA8AE9E561B6F3A5 /* SkeletonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C525FEBA82D2688A40989F156D0D5336 /* SkeletonAppearance.swift */; };
-		680966F4FCE67E7DD219A1F163D19086 /* Recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4752446A5DDD71FED87004DC54E03590 /* Recursive.swift */; };
-		69076D8F9549252BE319EAE1551344F2 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C959883A3BD7BE9C8F6CCF1CDAAAAE /* NVActivityIndicatorAnimationDelegate.swift */; };
-		6B6EE7B1EA05AA679CF7EEF5C503C7D5 /* UITextView+SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38FED1E42CE55A97CDB199570102E5E /* UITextView+SKExtensions.swift */; };
-		6F833200EFC8C5B6FDC287573A7A6E80 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099AF89DBE59FE4B1A6D7BAD219A3068 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
-		7C863C610C547CE943935738F9EB2DA9 /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65EF62C3D36A9DFED80A8EC3215141A /* NVActivityIndicatorShape.swift */; };
-		7F5A8D91F56A714DB0E9781FF66AD951 /* UIView+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE289AA5D0593D855DBE72C1AB5DAA /* UIView+Swizzling.swift */; };
-		83F93601C48572C543770BC0DC7CA3CA /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04576C0109AF74D0BAA633D512B0E007 /* Notification+Extensions.swift */; };
-		847D7467C2E5766639D361CED4E88899 /* UICollectionView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D49E90996EE9F0EFF9C67CEF6DA599D /* UICollectionView+CollectionSkeleton.swift */; };
-		86909D27971FE556B6E2E23C38B1BEA9 /* SkeletonLayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB61F5A2DA593B3DA5115186D244D8A3 /* SkeletonLayerBuilder.swift */; };
-		879FB9BC7A2018BD5B72C5E9C4535A83 /* Pods-HelpNear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FDB6AB6DB5FA673201D33272BE21E06 /* Pods-HelpNear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EF1CB45ED6FC85ECC3D163CFFC599C4 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72567235BEF3357CD8DEA5B43389966 /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
-		8F8CA8CB271C2AA814184B73784A0C08 /* UIView+AppLifecycleNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A56C2E8C771EA61FF07DEA1CF6A10F /* UIView+AppLifecycleNotifications.swift */; };
-		9210A736152C0E575C97C03B8C2C8F74 /* PrepareViewForSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD31B6711295B0BCD96BA879E7F18E50 /* PrepareViewForSkeleton.swift */; };
-		963602F41BAC27D5DC81FEBD6986BA39 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4798EEBC58108252AE34688EF78043 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
-		9690596ADC7655E3D859B24AEEE42B3B /* SkeletonTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F18BF7DEFC120DE8BB3F3F7A87574 /* SkeletonTransitionStyle.swift */; };
-		9750808FCEAC99C25DE17DA51F113A49 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DAEE389FDF934074DE89281A963828 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
-		9BA412D0119CAD1C5A535880E81BB29B /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B754AAAA5612300D2A5812860F47CD3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
-		9F4487601DE06B744662316A639E7090 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42684685B5E34D9575D3C89E7D0D7EF9 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
-		A0589922A10B1F35AF3B00950887CDF1 /* Pods-HelpNear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D29290AF109497783B3CCC5073CF7 /* Pods-HelpNear-dummy.m */; };
-		A27C08A7D28756FF4F7F52C9E4E03FC5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
-		A28359ACEC6C24677E804BD9B2A9B0D9 /* SkeletonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEBAA81EEA6407DE7CF44AB1DE0B368 /* SkeletonType.swift */; };
-		A4654D6FB3EF9C098150E9B8BD2B0FFF /* SkeletonCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BCAA340DBE0CDE2748E5E1E2E408C77 /* SkeletonCollectionDelegate.swift */; };
-		A58219730E88481B50E72DC4A927953C /* SkeletonAnimationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE27E0F4B36B3AEB700C3F1CA2E076D0 /* SkeletonAnimationBuilder.swift */; };
-		A8BFF28991CF63E41B8F5D0B277DDE74 /* CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EF73228E8B330B1B93195A84A5AF715 /* CollectionSkeleton.swift */; };
-		ADBCAD56C02169FA53CCF1292C8C0C59 /* UIView+AssociatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EFC298F1E05158FBE564FCBCFFDE99 /* UIView+AssociatedObjects.swift */; };
-		AE10ADA994336195F3DF62DC0BBDFFF6 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = E035555E0A846A2466BB4582C926AC8E /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
-		AE97C4E3169C923A3BA958DE546E502B /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D8B478D3C91F12F0A0E174ADED3093 /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
-		B0B09FEE937FB48C19FF419E42AC2A99 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EE1E8E738A4CE2C3457E9D21549C2B /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
-		B134C0718B093D382DFA0A018EF1E28F /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B2462A270C5DA8603631EFA97BA61 /* NVActivityIndicatorAnimationBallBeat.swift */; };
-		B6FA683B14B58E9D859BF1C9DEF8A27C /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A93A1994CC4511A0DDB087B07F3067 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
-		B95097E3657CD2671C7F413C9604FE00 /* UIView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3746FED5B7252ACC1E410FB73006D5 /* UIView+CollectionSkeleton.swift */; };
-		BE619A91A74180CF840E5ECD50FABBBD /* SkeletonTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74475951ED943D15B147C9B45AC4BEA9 /* SkeletonTableViewProtocols.swift */; };
-		BECF0A35A0012D1292BD73577E987B79 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961D0B133BB7B39B90AE4F7F86DFBC4B /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
-		BF0B84E58E3DEEB09EF1767AF5F62467 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DE6A5D3B73103CA11203E50AE5A33 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
-		C2B36CB8ABB34652C80F1ACC2A287C78 /* UITextView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1412FDB5C7D6082151EEB79CE2EC10 /* UITextView+IBInspectable.swift */; };
-		C7D483B7F5F32A36F7F26A9B3C35FDA4 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DAF1318CB93E043FA71C0FC783AF7C /* UILabel+Extensions.swift */; };
-		C975B45302FA32113069EA8C65CD4B38 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B468DD807E4706C5A34DD50C1EEE67DC /* UIView+Extensions.swift */; };
-		CB4F715622B5FDC9AC73CE162FC8AFE4 /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D732EFE0056E34B51BE6E39B2ADCCC /* NVActivityIndicatorView-dummy.m */; };
-		D073639EFB1D5504F6AFBDAA4676BA18 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0591A95F29D8AF2E1F6784B343BD636F /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
-		D86E23A9CC96F9ED57FB2A5D36643554 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B179B60199C7493167C93A71F3AF3F /* NVActivityIndicatorAnimationCubeTransition.swift */; };
-		D8F7B8CA5957797A20ACE4C5F5C0EBF1 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E765FF40762523C3EECF76435F327C8B /* Int+Extensions.swift */; };
-		D908C3602CA4905AD9F1AC0FF447CE9F /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556793CD07C8F09126CE7F12A55AA7E0 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
-		D9C46E4186CA6A57240251857180AF1C /* RecoverableViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256AC37DEBF5EE81E901256E6CF731AA /* RecoverableViewState.swift */; };
-		DD53957417DA6ACEFFE7E81E5767A228 /* Recoverable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E6E2AC6C774EA583255426883B19D6 /* Recoverable.swift */; };
-		DE1517325E6287E14F351E939B2F387F /* SkeletonReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E297CD15F659670C9BC505DFE266D196 /* SkeletonReusableCell.swift */; };
-		DF54D32B832B65C6BA766DA277C31071 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64F4C53522D783D94C6266A221805C4 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
-		E1013748CFB17436D1D73F75BD08F4A7 /* SkeletonCollectionViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8D67148F1C80522AC3104DCFDBDA3 /* SkeletonCollectionViewProtocols.swift */; };
-		E607C60452E2A0A34DD84848E2E0267E /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4620363437F2F66996286415BFC20142 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
-		E7BC269660A431F5EC0ADCC5E14577AB /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71A1B674CB4DE15D78D81F704D77AB1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
-		EA9F74EDFE82820784F44E7AB6DA662F /* UIView+SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888B7DB0E40FF6B7DAEF62FE0ADF5988 /* UIView+SkeletonView.swift */; };
-		EAA6D8D753D752B49504811AD2F04EFC /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF80F0DCCDD3A541DC09582D1E1EE8C3 /* UITableView+Extensions.swift */; };
-		ED478EBEEBB03F43D4B0FA54B0532551 /* SkeletonView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2D312DF9DE99949EC9128CCD79096B1 /* SkeletonView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE4C44DB9A3E067C7660FAA862EE11B1 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F7D38F68D9205D59EF7A8F5D95F33 /* NVActivityIndicatorAnimationBallScale.swift */; };
-		EEC2136765111A6B42B8F2B534319792 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
-		EEFF76DBC4A6E0307EB3F490FB1BB69A /* SkeletonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203C03A6B4D6753D92EB1EDE1AB4AFE /* SkeletonGradient.swift */; };
-		F027624CCD39E322E97836860CE337F8 /* SkeletonTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4BDB35279DC17FFEC97C3DAB839AB9 /* SkeletonTreeNode.swift */; };
-		F248D07A69643E63E5633D4C02A44D06 /* SkeletonView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEB21772A38AFC8078B83B3F870943E /* SkeletonView-dummy.m */; };
-		F3520B896A66DD374BD859330C7C397B /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496CB8B3868D0CF25FE3ED6598A0BEAA /* Deprecated.swift */; };
-		F47E4E5707EB746E39CBA999CDF4DAA0 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578DC6AE470D6C660A4D1DAF5B77E9F /* NVActivityIndicatorAnimationSquareSpin.swift */; };
-		F54285D6ACE58FF72005E594BD08499C /* SkeletonTextLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26135D585436C785611F510DFFC4C4B /* SkeletonTextLineHeight.swift */; };
-		F616D133446433EDF3CC65D4D61E91AD /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BC0B6C938AC30D4E73F7E40D1F52B9 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
-		F8B17393B14E9E6F5E6D218B274F6472 /* UIView+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FC690DCBB55E84518DBFACAAD94717 /* UIView+Transitions.swift */; };
-		F9A047EB0C609E5583A3D76C732AC8A7 /* SkeletonMultilinesLayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DF239997C52AF442C37E0A3C34DEB2 /* SkeletonMultilinesLayerConfig.swift */; };
+		01E830DFCB6D478AB3BC1CD43ED70BFE /* NVActivityIndicatorAnimationBallPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6972D243189D7D04332649BF9ACD0018 /* NVActivityIndicatorAnimationBallPulse.swift */; };
+		034F5AB1044B6C15D91080A1F8A3F34B /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647A841E7C39A0ED33007838D35C298 /* NVActivityIndicatorAnimationAudioEqualizer.swift */; };
+		052FBB9363B1BC1FDB349E3F3CEE69C6 /* SkeletonTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2ED64EA1748BE30D66AF7B983F1895E /* SkeletonTextNode.swift */; };
+		05C406B4C6C580EB22EB3DFA079439B3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7B9AF5A678E8D32E51F872163806D9 /* NVActivityIndicatorAnimationBallScaleRipple.swift */; };
+		0AD12B0895E23C85CFB097DA52ECE2F7 /* UIView+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A971479F7CF58CB87C334911977A9 /* UIView+Transitions.swift */; };
+		0C40715B2E27DAA8CBB069A6D5363243 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D221DBDA1CFDE3C8089CC4A545BF5407 /* NVActivityIndicatorAnimationBallClipRotate.swift */; };
+		0D5539D20DA378F111851D431717BE6F /* Notification+SkeletonFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CC337AF56D2D64797DB539E0094B3CB /* Notification+SkeletonFlow.swift */; };
+		0DF0A5F45C9A1CEF0AB0A18DF870419C /* SkeletonView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D67EB1E160BA94070492236C16C6CC4 /* SkeletonView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E7E2449066EB2DFE86D1E98F169FB40 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7288E09948B05D4D5811AF85BCD5160 /* SkeletonView.swift */; };
+		11A8E62762D11170E1A8BF5AB0227888 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A93BC4D9EF77440455849C9B34B3D2 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */; };
+		182DB8FC7B75CEAFFC80B8DCF2DDAE2A /* CALayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829FFACF915531340241060AE3D63961 /* CALayer+Extensions.swift */; };
+		1A99582B47723D7282959E2FEF44CCA3 /* UITableView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FC7345604D7CEC379FB2F4DD997D32 /* UITableView+CollectionSkeleton.swift */; };
+		1D735C25C4B9D9687CBD5B7A82C5BB9B /* UITextView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DF5D10900EEE75CB22272EC3D50817 /* UITextView+IBInspectable.swift */; };
+		22530BC1C9073232A130C7D3E05C78A4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872B4EEF5D5E4EB5ADF4BE907307ACB2 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */; };
+		24C3AE66D67FE633CC0864FD7A805880 /* Deprecated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CB7CE25D34E1C6B8B419B771BCE26E /* Deprecated.swift */; };
+		255B8039A5422D5487B7E090A69D6686 /* RecoverableViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E318FF77D92E9711D1F80A595B0E191 /* RecoverableViewState.swift */; };
+		2705061702BC2563809296BA300DC549 /* NVActivityIndicatorAnimationBlank.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7829662B4DCF3684DAA12C6E5640E4A /* NVActivityIndicatorAnimationBlank.swift */; };
+		28011A04F91E9E351EB87E0D4355E7CE /* SkeletonTextNumberOfLines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C8FE2FB732165E3A77AB1E1235FD24 /* SkeletonTextNumberOfLines.swift */; };
+		28C475EE48BC8C9C1AA9DE48A2F4D01C /* SkeletonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A819348EE0D72D0B087CC65BE329C43 /* SkeletonAppearance.swift */; };
+		2A91AFF759771F30762A499683402981 /* UITextView+SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B150B6E35821E50FF700F8996E711502 /* UITextView+SKExtensions.swift */; };
+		2B8FF548DCFF5AD35B8E45939256E423 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1475D463F8743DEAB0B76A73F09E93F /* NVActivityIndicatorAnimationBallPulseSync.swift */; };
+		2F76E04866F9F4E4D9B17F90E94A969C /* SkeletonTableViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA347A840DA37F57772656B8FB3A036 /* SkeletonTableViewProtocols.swift */; };
+		2FE9CFEACAFB82543FAC2462FA9D66A4 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CF19D6B54B45ABE29828035DB9E8F4 /* NVActivityIndicatorAnimationBallGridPulse.swift */; };
+		302B8889C02F822E82B2A6A7031406EF /* TPKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 284AF40AB90FD4C78E51EA8C56EAEEAC /* TPKeyboardAvoidingTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		308734F92EB54837CD9B8A41D62C26CD /* NVActivityIndicatorShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04916ADBB73BA1D1B08E006A763F0F14 /* NVActivityIndicatorShape.swift */; };
+		3551F84624CA8B2116469F66EA0E8BC9 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC3A123E85D5FFDCF1860483F57C871 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */; };
+		37B83B2C1AA6CCF24D088098B46AA7E1 /* UIView+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DCC470FDA2A35CF35F95988B7DAA74 /* UIView+IBInspectable.swift */; };
+		382ABEC63A6185AB4B1F8636E1B4FAE6 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69E45745A7CAE54EC5C0388FA20847A /* NVActivityIndicatorAnimationBallRotate.swift */; };
+		39165C2314870B5E84EF4D7900D8C068 /* GradientDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8DEA19CCF0DBA6E1B95508101B911E /* GradientDirection.swift */; };
+		394441352B7564466C7CCCAED5AD3127 /* TPKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C411777E8FDCD7CF03D39ACD24A23C /* TPKeyboardAvoiding-dummy.m */; };
+		3DC80AFB3A1C2F7D6B86B4CCA77DEEA0 /* UIColor+Skeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C208EA698AE44A72D6917D213194111A /* UIColor+Skeleton.swift */; };
+		3DF45FB8BD0B72046E6B70D9B7AE2496 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E59EE430A049E8934F88B1F50483D521 /* TPKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3FAECBFCB37AAFB5BDDA10AB0B81B1E9 /* Notification+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EEC89B8162343D22BD7F39247BDB0 /* Notification+Extensions.swift */; };
+		40A2E2DDE76C3AA1AABA924FA9621DB0 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = E496CBFC223DA8E628F26DE78B96A65A /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */; };
+		4188B3DBD744402D56002697ACF30872 /* Pods-HelpNear-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D29290AF109497783B3CCC5073CF7 /* Pods-HelpNear-dummy.m */; };
+		44D186EDEAE3B83A52108DC4B8CBDD8E /* SkeletonMultilinesLayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03D813C5517008C70A954467D5F3FE7 /* SkeletonMultilinesLayerConfig.swift */; };
+		4573B8B1B1787D61DBAB8686F58000AA /* UILabel+IBInspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0527DB98A6EA63887A3ED27B9B3E14 /* UILabel+IBInspectable.swift */; };
+		487DCA22638C799DA246A224DC2B66DF /* Recursive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140D09A1A4550761FBF46500FBA31AB4 /* Recursive.swift */; };
+		4A4330036BF48FADC8689371C657F1D7 /* Recoverable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D501F244E670E62C3930991AF780D362 /* Recoverable.swift */; };
+		4AB9068FCABD31E9A2262423C1FF3C61 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62A6FD7794870E8F08FE7605E5A4EA22 /* NVActivityIndicatorAnimationBallBeat.swift */; };
+		4B5B7F4937945D28D8CAE2BD46622873 /* UIView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6C7CBE8E48DA0A50646DCB5D8EAC0D /* UIView+CollectionSkeleton.swift */; };
+		4B810DCCDEC4D31F78EA6AD2AF3F9EEF /* SkeletonTransitionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB923BD83C152473F237D2F7DAFA561 /* SkeletonTransitionStyle.swift */; };
+		4DEA179D81118F2F2FD967142986897D /* SkeletonLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89AB60DAE52ADC8BE5243067690D913 /* SkeletonLayer.swift */; };
+		5186FA9FA0244EBEB68A20D465624863 /* PrepareViewForSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2459907EF56F7136AFCE0A277EB1A7 /* PrepareViewForSkeleton.swift */; };
+		578D4EE7467AA9C2451989153BBCC911 /* UIView+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DCD173330E209176741EF95B23F21A /* UIView+Swizzling.swift */; };
+		5A90907F41E888BBD44ABC288FB574BD /* TPKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB90AB4D752B42A0380AAC6A8A5C7AD /* TPKeyboardAvoidingCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BC7985CFEF8890CCF0653CC9E69024A /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07218343A87398B1CDE7667AD2B8409E /* UITableView+Extensions.swift */; };
+		6403E3481C83F922AF02EA9E497E8C93 /* NVActivityIndicatorAnimationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E1F1F17CDFC443DE0E98B1CA93654 /* NVActivityIndicatorAnimationDelegate.swift */; };
+		65A074F41ECB8BEAF94052828A200802 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA70C120A70C1A1663C7A5B2910876D /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */; };
+		685A0A7F0130E280E9684E485D03A62E /* SubviewsSkeletonables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A120DF290A3C1E8F643F057DBADAD32 /* SubviewsSkeletonables.swift */; };
+		6D5A43E0CEC1546339105DB3465B5264 /* SkeletonExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC9BB94D042455A04CD3CB77B26B4D0 /* SkeletonExtended.swift */; };
+		6F5944A3FFB4759CE155408CEBC689A4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232F90D2B4ADB5A560F042DC0D076507 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */; };
+		71E0314B48058EB95C1DD025D013EF98 /* UILabel+SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1571E53E898F32478396D2A710E459 /* UILabel+SKExtensions.swift */; };
+		725323D4A321DBF980E97603D961CDE1 /* SkeletonTextLineHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21B2F5C10F3B5E3F296F3FB845DCE11 /* SkeletonTextLineHeight.swift */; };
+		7711C2003CC60692279AEDC2BCF16375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		799C44CABAA6AFEC59CDEA68DD1A9557 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BB585D6DB9D54C798B30EF9402859B /* NVActivityIndicatorAnimationLineScaleParty.swift */; };
+		79B45DC5D9CDB522C5316E79A97E64A2 /* SkeletonLayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8B87D03A97FCE4846942B048ACF673 /* SkeletonLayerBuilder.swift */; };
+		7AAC9A8FA6E3BEFDCAD561EBECA4104D /* UIView+AssociatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A331ED600A6AFAC9F58A8B498AB5534 /* UIView+AssociatedObjects.swift */; };
+		7BDCD44C8886591445A7DFEF6915B0BA /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBB34FBA89B14B938A45EF4CECD06248 /* UICollectionView+Extensions.swift */; };
+		7DCDF7BEE7C5BF26E51EA0E659513D5F /* UICollectionView+CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E0FF6EC13A483A17546DE18338E590 /* UICollectionView+CollectionSkeleton.swift */; };
+		85E2C79FB06E72B588D40E999266F712 /* GradientDirection+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CA8B24135FFBAF95533FEE17DB190B /* GradientDirection+Animations.swift */; };
+		88F97C8269EDCF8324890C8CDD7E160F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		89C36D86454EF394CC8D9AAEDAF4E908 /* CollectionSkeleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E784227A1395145701A0556777C5BCEC /* CollectionSkeleton.swift */; };
+		8AA9ED0518D2840ECA78152726ECF3F0 /* NVActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B67340F839829E3592CC7088DD5CD4 /* NVActivityIndicatorView.swift */; };
+		8AFEC3FDFB1AA2EEE863E30034C5D247 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705E68D354AFDCD51AC8524941331CAA /* Int+Extensions.swift */; };
+		8B9B0B4FB7D2D0CAFC87C6474113B443 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D1F2BEAB8C646C417E1CD7E3CECD7CC /* UIScrollView+TPKeyboardAvoidingAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93A7B1B80F996A74021BBE4BFFAA40ED /* NVActivityIndicatorView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B06770DAB1909CB19C7E965C07E726AB /* NVActivityIndicatorView-dummy.m */; };
+		93CC358348D39367653952B679F00ABF /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A368A856BFD9F6100BDEF5979C16D65 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */; };
+		976EFC4ECB59EA178B0611574D242DC8 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA6CC86E48E408C3A114F545484D34E /* TPKeyboardAvoidingCollectionView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		99F9732AA924ACB4EEE7F9C8995340A3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86722E7827ED83F3B465CF61E7236649 /* NVActivityIndicatorAnimationBallScale.swift */; };
+		9C84242766CE84B335A8013BF6309E9F /* TPKeyboardAvoiding-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CC709989326EF7C9A9D1796F2D9D51 /* TPKeyboardAvoiding-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC3364BFBF19FE10CD6D8722DA64FBD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67AD9E69B05335F94747E2CDF23C932 /* NVActivityIndicatorAnimationBallPulseRise.swift */; };
+		9E873CCC232F678B41009471A95D181D /* SkeletonTreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254D4169487DCE283C15C0290BDE7A30 /* SkeletonTreeNode.swift */; };
+		9EDB6E03CFF61D59CD4F02849D3300AF /* SkeletonCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9EC329662827CB2FB9F565D5EE9930 /* SkeletonCollectionDataSource.swift */; };
+		A4AD3FF96A8E9A29BF188D85340FB808 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54EB3C51C8792D5B689C69F511B28DF /* NVActivityIndicatorAnimationBallTrianglePath.swift */; };
+		A5064C54F63B53D96BB3F31EEBDF5D07 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EAE0CE6E17BB6639CEBB06ACE54F60 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A51C4D1B32F07C893D5F1C445633D71A /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E1CE2847B76E80D76C4ACC26CE6C06 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */; };
+		AA9578B98EE22DA3FE1DF4CF81A2B11A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2A79ADC2732DA3C4A0238190373995 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */; };
+		AE54A6FAD49B5524E11AC0BD7BB5BEC2 /* SkeletonGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E817DB13A8460F76C6CB22FDB638FC0A /* SkeletonGradient.swift */; };
+		AF16D77FB8E39CDFE953C9909088B454 /* Pods-HelpNear-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FDB6AB6DB5FA673201D33272BE21E06 /* Pods-HelpNear-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF25DA133D02FE2BE4DCA72BB3FCB483 /* NVActivityIndicatorAnimationLineScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD034D60E6D4ECBA18E6AA4B7C71FE2C /* NVActivityIndicatorAnimationLineScale.swift */; };
+		AF9ECF8CF25FB78A8EF2D9B1D4F48073 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2431C7674CE4C43C3FE6A2DA3BBFDF /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */; };
+		B3B3B2A2CA9E063CF7C8FBBC35B48FE2 /* SkeletonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669961157622F4471C8388525FD0999D /* SkeletonConfig.swift */; };
+		B3FF8D0D5733647EE69AED63492C5EF4 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96679D211D0B4D6310454318FAA63992 /* NVActivityIndicatorAnimationCubeTransition.swift */; };
+		B91996622DF193F86DF5349242B65507 /* SkeletonView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9722039978D826FBF92EB5E95C248B57 /* SkeletonView-dummy.m */; };
+		BA99DA2A34CEE0EB21DBC63D117658F2 /* NVActivityIndicatorAnimationPacman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F633154502D5A1C78D5BCFB0BA1C8A /* NVActivityIndicatorAnimationPacman.swift */; };
+		BADA389CB08477C54ACF694B31549F10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		BB1829EF9AC1A7C0EE68BFFE2D6DEB8D /* AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FFD1B2175B57DFB5E8530077356615 /* AssociationPolicy.swift */; };
+		BD3663D9F8B999A949ADBBB3BFA8F2CD /* SkeletonFlowHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAAF2D58F867337E390DCF2AFDEAAD7 /* SkeletonFlowHandler.swift */; };
+		C030C7F9F6022EBA47A7683A9925E303 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		C3A7962ECF086AF37895D11C63EAD40D /* UIView+AppLifecycleNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA80A30F90D0B0AB5E85B6184BFF358A /* UIView+AppLifecycleNotifications.swift */; };
+		C4CC0C3C42BD781FC77686E25F94FE8E /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51AF26FCD011491E1F2D1CADE655EB6 /* NVActivityIndicatorAnimationBallZigZag.swift */; };
+		C74C07031ACD244428C0B4AB8B91986D /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF72EE229470B93B8A0AD17C5DA0D2E /* UILabel+Extensions.swift */; };
+		C9B57C6951420E3C0F6420B6C13284E9 /* SkeletonMultilineLayerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1229A2382F84037272364687B8C86FD /* SkeletonMultilineLayerBuilder.swift */; };
+		CD51E311A1975E8417AFF64195A30C79 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A96D5BCE61BBF06172FACCE8077C65 /* NVActivityIndicatorAnimationBallGridBeat.swift */; };
+		D0129BE19086C6A77A52DF92151A0CA2 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D64B274653C97054D669D2D8D87A27 /* UIView+Extensions.swift */; };
+		D38C419E4D46A900BEB4124D0CAFA6E7 /* UIView+SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A495A4A96D24290054781AB38D9777D0 /* UIView+SkeletonView.swift */; };
+		D3E1E96226B5AB2757CC39A89D034C1A /* TPKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F0680BDF42F6CF8D7A9B34BB5F3952 /* TPKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D565DA1C3FEF59B4A571D5714BB424EC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A4A009DF1080928AF1DD54F6BC5344 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */; };
+		D703952D56064AE264D736910DC80D7B /* SkeletonAnimationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3806B1EACBD46FCAB8277EB7554CED51 /* SkeletonAnimationBuilder.swift */; };
+		D708B3CDC0314F7CEE769B81A14B62EF /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F795FBFD94D1D57742F7778CB4FF1F6F /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */; };
+		D9120F6113E93C120DDA31F0CFA8E394 /* Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BEE9305D0408FD9C48A7E8CC3619C3 /* Swizzling.swift */; };
+		D9E6368D5B5FAD10EAD6EDC6B8585E72 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
+		DC323D77B2D66C7C89DB5CD2B64CD027 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B694DDA16ECAAE8A83AE7546DCF3F9 /* TPKeyboardAvoidingTableView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DE68D2A88D305EBF758713D3C4F66F96 /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BDA90A357B7C507F33EB8CBECDB1DF /* DispatchQueue+Extensions.swift */; };
+		E0DF7E6076D1C3AD1D6357F860815AEF /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8004C4A295519CF0792537244807633 /* NVActivityIndicatorAnimationBallRotateChase.swift */; };
+		E4429268BFDB3E0A7EDE808EF0FEA0C1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA2668DC60CE22275FADB7337EC2F0C /* NVActivityIndicatorAnimationSquareSpin.swift */; };
+		E80F6AD40556AA586E6CD4F2AD5DDBD3 /* SkeletonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8235A1DEBF07AE0A96264CE6689E46FD /* SkeletonType.swift */; };
+		EAD128E781A9681A0FBDDBEEADD22B89 /* SkeletonCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E22BB3267720666F6304D1E19827456 /* SkeletonCollectionDelegate.swift */; };
+		EBE33106D2F992A6371EF38E67FCB45C /* CALayer+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD4A7BA76B0B36EA24D9958DAC30C6 /* CALayer+Animations.swift */; };
+		EC486D5A5025BF0F876EED3347055871 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		EDB2547B0D220772CF1A31249FBAFFBB /* NVActivityIndicatorAnimationOrbit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB77CCA64E137C1232CABB92A0383A4 /* NVActivityIndicatorAnimationOrbit.swift */; };
+		EFAC89938AB4509807BF9CFBF16FA0CE /* UIView+SKExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936A594D7C040DA68C41AB7D17D3FC6A /* UIView+SKExtensions.swift */; };
+		EFE255576A3DF0CDE10858E3B2D7EFE3 /* SkeletonReusableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB940E7EF449E8072BF1C6A618D3C0E6 /* SkeletonReusableCell.swift */; };
+		F012180366FC9F017E5237B64607D75B /* ProcessInfo+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D885EE8F757ECC625ABD7BF64BAFAB4D /* ProcessInfo+Extensions.swift */; };
+		F4768891A56F1D5A9CB80C37A0E2F338 /* NVActivityIndicatorView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E069A8FE10F8C8650E4D67D897399EF /* NVActivityIndicatorView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F58A6AC2EEE98442E0A282EDAE7D5099 /* SkeletonCollectionViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BF01F1A9CB67A5E1F6ACA390EA6221 /* SkeletonCollectionViewProtocols.swift */; };
+		F5BAC0176FD41C6C4E633268D2241114 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756C83E7D94F7EB534FF7DA31479C6B1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */; };
+		F7B1C1329581FCC09F54B77788F94A85 /* SkeletonDebug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 090C25F87ABE4B430BBEF38D27E611A5 /* SkeletonDebug.swift */; };
+		F851C212FE2C9EFE8CA109D27E5CA7B0 /* SkeletonTreeNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51564B8B52BA9642E19EFA1EF888DF5 /* SkeletonTreeNode+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6E4BEF355704B60644473B222C39B3B6 /* PBXContainerItemProxy */ = {
+		578A68091679ECE1756B0812A34B4D1F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8CEEFD1CB630CA790F0396E2E24A4C8C;
 			remoteInfo = SkeletonView;
 		};
-		BA7F137A42112D82BF85555ED4DD2F6F /* PBXContainerItemProxy */ = {
+		DC6144515C8B6C0AF4B3A283DEA64608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1343042EDCB23E2CA267E65C520F9395;
+			remoteInfo = TPKeyboardAvoiding;
+		};
+		EFE7ACF271BE3458F285CAFE11C06FD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -136,160 +154,184 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		036F18BF7DEFC120DE8BB3F3F7A87574 /* SkeletonTransitionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTransitionStyle.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonTransitionStyle.swift; sourceTree = "<group>"; };
-		04576C0109AF74D0BAA633D512B0E007 /* Notification+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notification+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/Notification+Extensions.swift"; sourceTree = "<group>"; };
-		04F9382A5FFD6350DCE3FB3FD15CEC82 /* SkeletonLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonLayer.swift; path = SkeletonViewCore/Sources/Internal/Models/SkeletonLayer.swift; sourceTree = "<group>"; };
+		02B694DDA16ECAAE8A83AE7546DCF3F9 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingTableView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		04916ADBB73BA1D1B08E006A763F0F14 /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Sources/Base/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
 		05703072C0E81D980D3989A020A01EF6 /* Pods-HelpNear-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelpNear-frameworks.sh"; sourceTree = "<group>"; };
-		0591A95F29D8AF2E1F6784B343BD636F /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
-		099AF89DBE59FE4B1A6D7BAD219A3068 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
-		0B8B2462A270C5DA8603631EFA97BA61 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
-		0BE801EA3F71B8723D12F55936045D08 /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
-		0FBBC562DB2FFFF30DBF15CFC6B1C2EF /* Notification+SkeletonFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notification+SkeletonFlow.swift"; path = "SkeletonViewCore/Sources/API/FoundationExtensions/Notification+SkeletonFlow.swift"; sourceTree = "<group>"; };
-		10FC690DCBB55E84518DBFACAAD94717 /* UIView+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Transitions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Transitions.swift"; sourceTree = "<group>"; };
-		1A32572EE67A176BA76F070AB787DFFD /* SkeletonTextNumberOfLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTextNumberOfLines.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonTextNumberOfLines.swift; sourceTree = "<group>"; };
-		1B754AAAA5612300D2A5812860F47CD3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
-		1CB33374A7BBB4631A69934F1C61DE6F /* ProcessInfo+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProcessInfo+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/ProcessInfo+Extensions.swift"; sourceTree = "<group>"; };
-		1DA59C7B764233955C8B71094CAC6F0E /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+IBInspectable.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UIView+IBInspectable.swift"; sourceTree = "<group>"; };
-		1EB3F1602EFE2717DE8D015387619D63 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
-		1F5C086DAA631752C12C093AC3DDA1A3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		07218343A87398B1CDE7667AD2B8409E /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		07DF5D10900EEE75CB22272EC3D50817 /* UITextView+IBInspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+IBInspectable.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UITextView+IBInspectable.swift"; sourceTree = "<group>"; };
+		090C25F87ABE4B430BBEF38D27E611A5 /* SkeletonDebug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonDebug.swift; path = SkeletonViewCore/Sources/Internal/Debug/SkeletonDebug.swift; sourceTree = "<group>"; };
+		0A368A856BFD9F6100BDEF5979C16D65 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
+		0F6C7CBE8E48DA0A50646DCB5D8EAC0D /* UIView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
+		140D09A1A4550761FBF46500FBA31AB4 /* Recursive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recursive.swift; path = SkeletonViewCore/Sources/Internal/Helpers/Recursive.swift; sourceTree = "<group>"; };
+		1A819348EE0D72D0B087CC65BE329C43 /* SkeletonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonAppearance.swift; path = SkeletonViewCore/Sources/API/Appearance/SkeletonAppearance.swift; sourceTree = "<group>"; };
+		1BAAF2D58F867337E390DCF2AFDEAAD7 /* SkeletonFlowHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonFlowHandler.swift; path = SkeletonViewCore/Sources/Internal/SkeletonFlowHandler.swift; sourceTree = "<group>"; };
+		1BF72EE229470B93B8A0AD17C5DA0D2E /* UILabel+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		1CC9BB94D042455A04CD3CB77B26B4D0 /* SkeletonExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonExtended.swift; path = SkeletonViewCore/Sources/API/SkeletonExtended.swift; sourceTree = "<group>"; };
+		1D0527DB98A6EA63887A3ED27B9B3E14 /* UILabel+IBInspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+IBInspectable.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UILabel+IBInspectable.swift"; sourceTree = "<group>"; };
+		1DA347A840DA37F57772656B8FB3A036 /* SkeletonTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTableViewProtocols.swift; path = SkeletonViewCore/Sources/API/Collections/TableViews/SkeletonTableViewProtocols.swift; sourceTree = "<group>"; };
+		1DC3A123E85D5FFDCF1860483F57C871 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
+		1E069A8FE10F8C8650E4D67D897399EF /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
+		1F2431C7674CE4C43C3FE6A2DA3BBFDF /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
 		1FDB6AB6DB5FA673201D33272BE21E06 /* Pods-HelpNear-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelpNear-umbrella.h"; sourceTree = "<group>"; };
-		238FF7A837F663DB28F19DC9B9966E8C /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
-		23F0570BDDE716EF4E97BFD45BAEC267 /* SkeletonView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkeletonView.modulemap; sourceTree = "<group>"; };
-		2495965D9E87D7F429F37B18A97E3EDA /* SkeletonExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonExtended.swift; path = SkeletonViewCore/Sources/API/SkeletonExtended.swift; sourceTree = "<group>"; };
-		256AC37DEBF5EE81E901256E6CF731AA /* RecoverableViewState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecoverableViewState.swift; path = SkeletonViewCore/Sources/Internal/Models/RecoverableViewState.swift; sourceTree = "<group>"; };
-		3397971A9228F2232E0AFEA14C28E8A4 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
-		33DA79E672DF82BA20A114DE34B8C6E3 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
-		35A56C2E8C771EA61FF07DEA1CF6A10F /* UIView+AppLifecycleNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AppLifecycleNotifications.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+AppLifecycleNotifications.swift"; sourceTree = "<group>"; };
-		3A4798EEBC58108252AE34688EF78043 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		232F90D2B4ADB5A560F042DC0D076507 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
+		254D4169487DCE283C15C0290BDE7A30 /* SkeletonTreeNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTreeNode.swift; path = SkeletonViewCore/Sources/Internal/SkeletonTree/SkeletonTreeNode.swift; sourceTree = "<group>"; };
+		25C8FE2FB732165E3A77AB1E1235FD24 /* SkeletonTextNumberOfLines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTextNumberOfLines.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonTextNumberOfLines.swift; sourceTree = "<group>"; };
+		284AF40AB90FD4C78E51EA8C56EAEEAC /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingTableView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		29F633154502D5A1C78D5BCFB0BA1C8A /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
+		2F9EC329662827CB2FB9F565D5EE9930 /* SkeletonCollectionDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionDataSource.swift; path = SkeletonViewCore/Sources/Internal/Collections/SkeletonCollectionDataSource.swift; sourceTree = "<group>"; };
+		3806B1EACBD46FCAB8277EB7554CED51 /* SkeletonAnimationBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonAnimationBuilder.swift; path = SkeletonViewCore/Sources/API/AnimationBuilder/SkeletonAnimationBuilder.swift; sourceTree = "<group>"; };
+		3D1F2BEAB8C646C417E1CD7E3CECD7CC /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+TPKeyboardAvoidingAdditions.h"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		3EA2668DC60CE22275FADB7337EC2F0C /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
 		4013C99FC75B0DF34880569B2E41B468 /* Pods-HelpNear.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HelpNear.modulemap"; sourceTree = "<group>"; };
-		42684685B5E34D9575D3C89E7D0D7EF9 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
-		4575A95BD94A8ED99CD53D2DFAAB5C21 /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
-		4620363437F2F66996286415BFC20142 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSemiCircleSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSemiCircleSpin.swift; sourceTree = "<group>"; };
-		4752446A5DDD71FED87004DC54E03590 /* Recursive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recursive.swift; path = SkeletonViewCore/Sources/Internal/Helpers/Recursive.swift; sourceTree = "<group>"; };
-		496CB8B3868D0CF25FE3ED6598A0BEAA /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = SkeletonViewCore/Sources/API/Deprecated.swift; sourceTree = "<group>"; };
-		49E6E2AC6C774EA583255426883B19D6 /* Recoverable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recoverable.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/Recoverable.swift; sourceTree = "<group>"; };
+		40DD4A7BA76B0B36EA24D9958DAC30C6 /* CALayer+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Animations.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/CALayer+Animations.swift"; sourceTree = "<group>"; };
+		40F0680BDF42F6CF8D7A9B34BB5F3952 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingScrollView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		415632BF40559A80D4DC350BA21F7A57 /* TPKeyboardAvoiding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.release.xcconfig; sourceTree = "<group>"; };
+		41BB585D6DB9D54C798B30EF9402859B /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
+		42DCC470FDA2A35CF35F95988B7DAA74 /* UIView+IBInspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+IBInspectable.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UIView+IBInspectable.swift"; sourceTree = "<group>"; };
 		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4B4BDB35279DC17FFEC97C3DAB839AB9 /* SkeletonTreeNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTreeNode.swift; path = SkeletonViewCore/Sources/Internal/SkeletonTree/SkeletonTreeNode.swift; sourceTree = "<group>"; };
-		4E8337B5BE2E15FA373DAC0B1C042FE9 /* SkeletonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonView.release.xcconfig; sourceTree = "<group>"; };
-		4EF73228E8B330B1B93195A84A5AF715 /* CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionSkeleton.swift; path = SkeletonViewCore/Sources/Internal/Collections/CollectionSkeleton.swift; sourceTree = "<group>"; };
-		4F024F719A0F0ED787D97D05FFE7F087 /* UIView+SKExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SKExtensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UIView+SKExtensions.swift"; sourceTree = "<group>"; };
-		556793CD07C8F09126CE7F12A55AA7E0 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZagDeflect.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZagDeflect.swift; sourceTree = "<group>"; };
-		563669717039C594ACB73B2C8B8BCB84 /* SkeletonTextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTextNode.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/SkeletonTextNode.swift; sourceTree = "<group>"; };
-		58DAEE389FDF934074DE89281A963828 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
-		5BCAA340DBE0CDE2748E5E1E2E408C77 /* SkeletonCollectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionDelegate.swift; path = SkeletonViewCore/Sources/Internal/Collections/SkeletonCollectionDelegate.swift; sourceTree = "<group>"; };
+		4CC337AF56D2D64797DB539E0094B3CB /* Notification+SkeletonFlow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notification+SkeletonFlow.swift"; path = "SkeletonViewCore/Sources/API/FoundationExtensions/Notification+SkeletonFlow.swift"; sourceTree = "<group>"; };
+		4D2A79ADC2732DA3C4A0238190373995 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
+		50101C238827F1345E6B46CED5B7A716 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
+		51FFD1B2175B57DFB5E8530077356615 /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociationPolicy.swift; path = SkeletonViewCore/Sources/Internal/Helpers/AssociationPolicy.swift; sourceTree = "<group>"; };
+		53F7AB8E74DD96600E221F2A42C900C8 /* SkeletonView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkeletonView-Info.plist"; sourceTree = "<group>"; };
+		58BF01F1A9CB67A5E1F6ACA390EA6221 /* SkeletonCollectionViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionViewProtocols.swift; path = SkeletonViewCore/Sources/API/Collections/CollectionViews/SkeletonCollectionViewProtocols.swift; sourceTree = "<group>"; };
+		58CB7CE25D34E1C6B8B419B771BCE26E /* Deprecated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deprecated.swift; path = SkeletonViewCore/Sources/API/Deprecated.swift; sourceTree = "<group>"; };
+		5A331ED600A6AFAC9F58A8B498AB5534 /* UIView+AssociatedObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AssociatedObjects.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+AssociatedObjects.swift"; sourceTree = "<group>"; };
 		5C935ED65076643D9539859E917A9E55 /* Pods-HelpNear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelpNear.debug.xcconfig"; sourceTree = "<group>"; };
-		5C943F281F5C3298C9848CDE4FAB4FB1 /* SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonView.swift; path = SkeletonViewCore/Sources/API/SkeletonView.swift; sourceTree = "<group>"; };
-		5D49E90996EE9F0EFF9C67CEF6DA599D /* UICollectionView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UICollectionView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
-		5DFECB91E30690566F9644D2D6E7FC5D /* SkeletonView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkeletonView-Info.plist"; sourceTree = "<group>"; };
-		5E1126348ABD4F59FC355FDE668530F3 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Sources/Base/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
-		5E1E054BE3FDBC9C81B566566462EA45 /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
-		63E0A5853ABAC765DA6630FC494FBD51 /* NVActivityIndicatorView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-prefix.pch"; sourceTree = "<group>"; };
-		680531984438DB2BA7F2A39CF21561E8 /* SkeletonCollectionDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionDataSource.swift; path = SkeletonViewCore/Sources/Internal/Collections/SkeletonCollectionDataSource.swift; sourceTree = "<group>"; };
-		6BC6E4AE5919E53966BB04AE9D615E0A /* GradientDirection+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GradientDirection+Animations.swift"; path = "SkeletonViewCore/Sources/Internal/SkeletonExtensions/GradientDirection+Animations.swift"; sourceTree = "<group>"; };
-		6D3746FED5B7252ACC1E410FB73006D5 /* UIView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
-		6E23ED8F64B023E34DC4DE75CCEEC45E /* SkeletonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonView.debug.xcconfig; sourceTree = "<group>"; };
+		61CA8B24135FFBAF95533FEE17DB190B /* GradientDirection+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GradientDirection+Animations.swift"; path = "SkeletonViewCore/Sources/Internal/SkeletonExtensions/GradientDirection+Animations.swift"; sourceTree = "<group>"; };
+		61CC709989326EF7C9A9D1796F2D9D51 /* TPKeyboardAvoiding-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-umbrella.h"; sourceTree = "<group>"; };
+		6218B15D0C22480D8A1DEEDA81B37486 /* NVActivityIndicatorView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVActivityIndicatorView-Info.plist"; sourceTree = "<group>"; };
+		62A6FD7794870E8F08FE7605E5A4EA22 /* NVActivityIndicatorAnimationBallBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallBeat.swift; sourceTree = "<group>"; };
+		669961157622F4471C8388525FD0999D /* SkeletonConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonConfig.swift; path = SkeletonViewCore/Sources/Internal/SkeletonConfigs/SkeletonConfig.swift; sourceTree = "<group>"; };
+		67FC7345604D7CEC379FB2F4DD997D32 /* UITableView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UITableView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
+		6972D243189D7D04332649BF9ACD0018 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
+		6A120DF290A3C1E8F643F057DBADAD32 /* SubviewsSkeletonables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubviewsSkeletonables.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/SubviewsSkeletonables.swift; sourceTree = "<group>"; };
+		6E1571E53E898F32478396D2A710E459 /* UILabel+SKExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+SKExtensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UILabel+SKExtensions.swift"; sourceTree = "<group>"; };
+		6E22BB3267720666F6304D1E19827456 /* SkeletonCollectionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionDelegate.swift; path = SkeletonViewCore/Sources/Internal/Collections/SkeletonCollectionDelegate.swift; sourceTree = "<group>"; };
 		6F2D29290AF109497783B3CCC5073CF7 /* Pods-HelpNear-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelpNear-dummy.m"; sourceTree = "<group>"; };
-		70D8A7EC195CF3557DA4231939D9865D /* NVActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
-		74475951ED943D15B147C9B45AC4BEA9 /* SkeletonTableViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTableViewProtocols.swift; path = SkeletonViewCore/Sources/API/Collections/TableViews/SkeletonTableViewProtocols.swift; sourceTree = "<group>"; };
-		7574D10813FD18F3D3C26754F354F77D /* SkeletonMultilineLayerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonMultilineLayerBuilder.swift; path = SkeletonViewCore/Sources/Internal/SkeletonLayerBuilders/SkeletonMultilineLayerBuilder.swift; sourceTree = "<group>"; };
-		76649400EC6344FECEE1C837B976F094 /* SkeletonConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonConfig.swift; path = SkeletonViewCore/Sources/Internal/SkeletonConfigs/SkeletonConfig.swift; sourceTree = "<group>"; };
-		768F7D38F68D9205D59EF7A8F5D95F33 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		6FCF725B6BF8911CB3C2BB454AFC3B69 /* SkeletonView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonView-prefix.pch"; sourceTree = "<group>"; };
+		705E68D354AFDCD51AC8524941331CAA /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/Int+Extensions.swift"; sourceTree = "<group>"; };
+		756C83E7D94F7EB534FF7DA31479C6B1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
+		75CF19D6B54B45ABE29828035DB9E8F4 /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
 		7ADACAAB82C9B0D92772F4A127FCE75D /* Pods-HelpNear-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelpNear-Info.plist"; sourceTree = "<group>"; };
-		7B3D85D34C55DE2B29542088A6BF8892 /* SkeletonTreeNode+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SkeletonTreeNode+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/SkeletonTreeNode+Extensions.swift"; sourceTree = "<group>"; };
-		7B9DE6A5D3B73103CA11203E50AE5A33 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotateMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotateMultiple.swift; sourceTree = "<group>"; };
-		7FEB21772A38AFC8078B83B3F870943E /* SkeletonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkeletonView-dummy.m"; sourceTree = "<group>"; };
-		81A93A1994CC4511A0DDB087B07F3067 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
-		888B7DB0E40FF6B7DAEF62FE0ADF5988 /* UIView+SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SkeletonView.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+SkeletonView.swift"; sourceTree = "<group>"; };
-		88D8B478D3C91F12F0A0E174ADED3093 /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		7B399011C8B6E38FFDF454A2A5D29455 /* NVActivityIndicatorView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NVActivityIndicatorView.modulemap; sourceTree = "<group>"; };
+		7FA70C120A70C1A1663C7A5B2910876D /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCircleStrokeSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCircleStrokeSpin.swift; sourceTree = "<group>"; };
+		81A4A009DF1080928AF1DD54F6BC5344 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOut.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOut.swift; sourceTree = "<group>"; };
+		8235A1DEBF07AE0A96264CE6689E46FD /* SkeletonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonType.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonType.swift; sourceTree = "<group>"; };
+		829FFACF915531340241060AE3D63961 /* CALayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/CALayer+Extensions.swift"; sourceTree = "<group>"; };
+		84DCD173330E209176741EF95B23F21A /* UIView+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Swizzling.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Swizzling.swift"; sourceTree = "<group>"; };
+		85C8ABA5314452AE31DAA5AE55BBBC1F /* TPKeyboardAvoiding */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPKeyboardAvoiding; path = TPKeyboardAvoiding.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EAE0CE6E17BB6639CEBB06ACE54F60 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+TPKeyboardAvoidingAdditions.m"; path = "TPKeyboardAvoiding/UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		86722E7827ED83F3B465CF61E7236649 /* NVActivityIndicatorAnimationBallScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScale.swift; sourceTree = "<group>"; };
+		872B4EEF5D5E4EB5ADF4BE907307ACB2 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
 		8BE0367E32BAA3FACAB6498D18340141 /* Pods-HelpNear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelpNear.release.xcconfig"; sourceTree = "<group>"; };
 		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8FB56C8E28F0E173A24ED2AAD77B859D /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociationPolicy.swift; path = SkeletonViewCore/Sources/Internal/Helpers/AssociationPolicy.swift; sourceTree = "<group>"; };
-		91FE0C498C7ACAE9B4B2111A4F309E55 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
-		93C959883A3BD7BE9C8F6CCF1CDAAAAE /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Sources/Base/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
-		961D0B133BB7B39B90AE4F7F86DFBC4B /* NVActivityIndicatorAnimationBallGridPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridPulse.swift; sourceTree = "<group>"; };
-		9B5D3F2761EA582055BD977BE156DF94 /* UIColor+Skeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Skeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIColor+Skeleton.swift"; sourceTree = "<group>"; };
-		9B7D91B20BE9873ACE4F427FDEEDF151 /* UILabel+IBInspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+IBInspectable.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UILabel+IBInspectable.swift"; sourceTree = "<group>"; };
+		8E318FF77D92E9711D1F80A595B0E191 /* RecoverableViewState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecoverableViewState.swift; path = SkeletonViewCore/Sources/Internal/Models/RecoverableViewState.swift; sourceTree = "<group>"; };
+		8F8DEA19CCF0DBA6E1B95508101B911E /* GradientDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDirection.swift; path = SkeletonViewCore/Sources/API/Models/GradientDirection.swift; sourceTree = "<group>"; };
+		936A594D7C040DA68C41AB7D17D3FC6A /* UIView+SKExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SKExtensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UIView+SKExtensions.swift"; sourceTree = "<group>"; };
+		94BDA90A357B7C507F33EB8CBECDB1DF /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
+		94BEE9305D0408FD9C48A7E8CC3619C3 /* Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzling.swift; path = SkeletonViewCore/Sources/Internal/Helpers/Swizzling.swift; sourceTree = "<group>"; };
+		9647A841E7C39A0ED33007838D35C298 /* NVActivityIndicatorAnimationAudioEqualizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationAudioEqualizer.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationAudioEqualizer.swift; sourceTree = "<group>"; };
+		96679D211D0B4D6310454318FAA63992 /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
+		9722039978D826FBF92EB5E95C248B57 /* SkeletonView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkeletonView-dummy.m"; sourceTree = "<group>"; };
+		9D67EB1E160BA94070492236C16C6CC4 /* SkeletonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonView-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EB77CCA64E137C1232CABB92A0383A4 /* NVActivityIndicatorAnimationOrbit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationOrbit.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationOrbit.swift; sourceTree = "<group>"; };
 		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A00B25FD859CE92A5860390D4244F7F4 /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
-		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView.framework; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7B179B60199C7493167C93A71F3AF3F /* NVActivityIndicatorAnimationCubeTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationCubeTransition.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationCubeTransition.swift; sourceTree = "<group>"; };
-		A8B504D399E295A7304986365D7D34DE /* GradientDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientDirection.swift; path = SkeletonViewCore/Sources/API/Models/GradientDirection.swift; sourceTree = "<group>"; };
-		A9A1222015AD1BEB4427987D8898CDD1 /* Pods_HelpNear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelpNear.framework; path = "Pods-HelpNear.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE27E0F4B36B3AEB700C3F1CA2E076D0 /* SkeletonAnimationBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonAnimationBuilder.swift; path = SkeletonViewCore/Sources/API/AnimationBuilder/SkeletonAnimationBuilder.swift; sourceTree = "<group>"; };
-		B17137F4257A209492CF7A66BF6A8832 /* SkeletonView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonView-prefix.pch"; sourceTree = "<group>"; };
-		B2DF239997C52AF442C37E0A3C34DEB2 /* SkeletonMultilinesLayerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonMultilinesLayerConfig.swift; path = SkeletonViewCore/Sources/Internal/SkeletonConfigs/SkeletonMultilinesLayerConfig.swift; sourceTree = "<group>"; };
-		B38FED1E42CE55A97CDB199570102E5E /* UITextView+SKExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+SKExtensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UITextView+SKExtensions.swift"; sourceTree = "<group>"; };
-		B468DD807E4706C5A34DD50C1EEE67DC /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
-		B8C7F029FDB6E2B46DCC154CC2E09808 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScalePulseOutRapid.swift; sourceTree = "<group>"; };
-		B9403E5C6B92CD022018596DE656FB3D /* SkeletonDebug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonDebug.swift; path = SkeletonViewCore/Sources/Internal/Debug/SkeletonDebug.swift; sourceTree = "<group>"; };
-		B9EE1E8E738A4CE2C3457E9D21549C2B /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
-		BB8BCA4C07DDDA8E70AECB25D8126D24 /* UILabel+SKExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+SKExtensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UILabel+SKExtensions.swift"; sourceTree = "<group>"; };
-		C1BC0B6C938AC30D4E73F7E40D1F52B9 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleMultiple.swift; sourceTree = "<group>"; };
-		C1C8DAEAC656A89B0260FB59DAFFEF43 /* SkeletonFlowHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonFlowHandler.swift; path = SkeletonViewCore/Sources/Internal/SkeletonFlowHandler.swift; sourceTree = "<group>"; };
-		C525FEBA82D2688A40989F156D0D5336 /* SkeletonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonAppearance.swift; path = SkeletonViewCore/Sources/API/Appearance/SkeletonAppearance.swift; sourceTree = "<group>"; };
-		C5DCC328CA5419D93A640058298674A1 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
-		C98099CC475621C98FD721F2029EF498 /* NVActivityIndicatorAnimationPacman.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationPacman.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationPacman.swift; sourceTree = "<group>"; };
-		C9EFC298F1E05158FBE564FCBCFFDE99 /* UIView+AssociatedObjects.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AssociatedObjects.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+AssociatedObjects.swift"; sourceTree = "<group>"; };
-		CBEBAA81EEA6407DE7CF44AB1DE0B368 /* SkeletonType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonType.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonType.swift; sourceTree = "<group>"; };
-		CC24BC8821F562BE5C59E7D0ADF7F26C /* NVActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
-		CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkeletonView.framework; path = SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE6CEE140D10FAC6850CE671723779D7 /* NVActivityIndicatorView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVActivityIndicatorView-umbrella.h"; sourceTree = "<group>"; };
-		D04C8B57981ECF88345F88A961AC468D /* CALayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/CALayer+Extensions.swift"; sourceTree = "<group>"; };
-		D1A799F71673ABACD04ECB815B2DE596 /* UITableView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UITableView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
-		D203C03A6B4D6753D92EB1EDE1AB4AFE /* SkeletonGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonGradient.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonGradient.swift; sourceTree = "<group>"; };
-		D26135D585436C785611F510DFFC4C4B /* SkeletonTextLineHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTextLineHeight.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonTextLineHeight.swift; sourceTree = "<group>"; };
-		D3F446DC9757C31D9172F979882111EE /* SubviewsSkeletonables.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubviewsSkeletonables.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/SubviewsSkeletonables.swift; sourceTree = "<group>"; };
-		D59500682DA1A06262794FFDF536FBDF /* CALayer+Animations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Animations.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/CALayer+Animations.swift"; sourceTree = "<group>"; };
-		DB61F5A2DA593B3DA5115186D244D8A3 /* SkeletonLayerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonLayerBuilder.swift; path = SkeletonViewCore/Sources/Internal/SkeletonLayerBuilders/SkeletonLayerBuilder.swift; sourceTree = "<group>"; };
-		DD31B6711295B0BCD96BA879E7F18E50 /* PrepareViewForSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrepareViewForSkeleton.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/PrepareViewForSkeleton.swift; sourceTree = "<group>"; };
+		A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NVActivityIndicatorView; path = NVActivityIndicatorView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A495A4A96D24290054781AB38D9777D0 /* UIView+SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+SkeletonView.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+SkeletonView.swift"; sourceTree = "<group>"; };
+		A51AA6F20065D457C9F9E73B990F556B /* TPKeyboardAvoiding-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TPKeyboardAvoiding-Info.plist"; sourceTree = "<group>"; };
+		A618E07A46771986FA0FE378B8AC72B0 /* TPKeyboardAvoiding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPKeyboardAvoiding.debug.xcconfig; sourceTree = "<group>"; };
+		A755B02AA3206B469AD3E340448DD650 /* SkeletonView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkeletonView.modulemap; sourceTree = "<group>"; };
+		A9A1222015AD1BEB4427987D8898CDD1 /* Pods-HelpNear */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HelpNear"; path = Pods_HelpNear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06770DAB1909CB19C7E965C07E726AB /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
+		B1229A2382F84037272364687B8C86FD /* SkeletonMultilineLayerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonMultilineLayerBuilder.swift; path = SkeletonViewCore/Sources/Internal/SkeletonLayerBuilders/SkeletonMultilineLayerBuilder.swift; sourceTree = "<group>"; };
+		B1475D463F8743DEAB0B76A73F09E93F /* NVActivityIndicatorAnimationBallPulseSync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseSync.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseSync.swift; sourceTree = "<group>"; };
+		B150B6E35821E50FF700F8996E711502 /* UITextView+SKExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+SKExtensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UITextView+SKExtensions.swift"; sourceTree = "<group>"; };
+		B51564B8B52BA9642E19EFA1EF888DF5 /* SkeletonTreeNode+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SkeletonTreeNode+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/SkeletonTreeNode+Extensions.swift"; sourceTree = "<group>"; };
+		B5B5149D78ED8E296F51BDACF5F9B0EC /* NVActivityIndicatorView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.debug.xcconfig; sourceTree = "<group>"; };
+		B62EEC89B8162343D22BD7F39247BDB0 /* Notification+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Notification+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/Notification+Extensions.swift"; sourceTree = "<group>"; };
+		B67AD9E69B05335F94747E2CDF23C932 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
+		BE7B9AF5A678E8D32E51F872163806D9 /* NVActivityIndicatorAnimationBallScaleRipple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRipple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRipple.swift; sourceTree = "<group>"; };
+		C03D813C5517008C70A954467D5F3FE7 /* SkeletonMultilinesLayerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonMultilinesLayerConfig.swift; path = SkeletonViewCore/Sources/Internal/SkeletonConfigs/SkeletonMultilinesLayerConfig.swift; sourceTree = "<group>"; };
+		C0A93BC4D9EF77440455849C9B34B3D2 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallSpinFadeLoader.swift; sourceTree = "<group>"; };
+		C1C411777E8FDCD7CF03D39ACD24A23C /* TPKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		C208EA698AE44A72D6917D213194111A /* UIColor+Skeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Skeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIColor+Skeleton.swift"; sourceTree = "<group>"; };
+		C51AF26FCD011491E1F2D1CADE655EB6 /* NVActivityIndicatorAnimationBallZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallZigZag.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallZigZag.swift; sourceTree = "<group>"; };
+		C69E45745A7CAE54EC5C0388FA20847A /* NVActivityIndicatorAnimationBallRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotate.swift; sourceTree = "<group>"; };
+		C9B67340F839829E3592CC7088DD5CD4 /* NVActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorView.swift; path = Sources/Base/NVActivityIndicatorView.swift; sourceTree = "<group>"; };
+		CA80A30F90D0B0AB5E85B6184BFF358A /* UIView+AppLifecycleNotifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+AppLifecycleNotifications.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+AppLifecycleNotifications.swift"; sourceTree = "<group>"; };
+		CB940E7EF449E8072BF1C6A618D3C0E6 /* SkeletonReusableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonReusableCell.swift; path = SkeletonViewCore/Sources/Internal/Collections/SkeletonReusableCell.swift; sourceTree = "<group>"; };
+		CBB34FBA89B14B938A45EF4CECD06248 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+Extensions.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkeletonView; path = SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2459907EF56F7136AFCE0A277EB1A7 /* PrepareViewForSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrepareViewForSkeleton.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/PrepareViewForSkeleton.swift; sourceTree = "<group>"; };
+		D00E1F1F17CDFC443DE0E98B1CA93654 /* NVActivityIndicatorAnimationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationDelegate.swift; path = Sources/Base/NVActivityIndicatorAnimationDelegate.swift; sourceTree = "<group>"; };
+		D0E0FF6EC13A483A17546DE18338E590 /* UICollectionView+CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+CollectionSkeleton.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UICollectionView+CollectionSkeleton.swift"; sourceTree = "<group>"; };
+		D21B2F5C10F3B5E3F296F3FB845DCE11 /* SkeletonTextLineHeight.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTextLineHeight.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonTextLineHeight.swift; sourceTree = "<group>"; };
+		D221DBDA1CFDE3C8089CC4A545BF5407 /* NVActivityIndicatorAnimationBallClipRotate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotate.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotate.swift; sourceTree = "<group>"; };
+		D501F244E670E62C3930991AF780D362 /* Recoverable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Recoverable.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/Recoverable.swift; sourceTree = "<group>"; };
+		D52FA85ECD8D4F014389347471AF2805 /* TPKeyboardAvoiding.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPKeyboardAvoiding.modulemap; sourceTree = "<group>"; };
+		D8004C4A295519CF0792537244807633 /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
+		D844CABFFE65199882DAE35D355C64C2 /* SkeletonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonView.debug.xcconfig; sourceTree = "<group>"; };
+		D885EE8F757ECC625ABD7BF64BAFAB4D /* ProcessInfo+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ProcessInfo+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/ProcessInfo+Extensions.swift"; sourceTree = "<group>"; };
+		D89AB60DAE52ADC8BE5243067690D913 /* SkeletonLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonLayer.swift; path = SkeletonViewCore/Sources/Internal/Models/SkeletonLayer.swift; sourceTree = "<group>"; };
+		D8D64B274653C97054D669D2D8D87A27 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Extensions.swift"; sourceTree = "<group>"; };
+		D9E1CE2847B76E80D76C4ACC26CE6C06 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationTriangleSkewSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationTriangleSkewSpin.swift; sourceTree = "<group>"; };
+		DAA6CC86E48E408C3A114F545484D34E /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingCollectionView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		DAB90AB4D752B42A0380AAC6A8A5C7AD /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPKeyboardAvoidingCollectionView.h; path = TPKeyboardAvoiding/TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		DD034D60E6D4ECBA18E6AA4B7C71FE2C /* NVActivityIndicatorAnimationLineScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScale.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScale.swift; sourceTree = "<group>"; };
 		DE30C236B9899DDE6E1FB9A91C5379CF /* Pods-HelpNear-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelpNear-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DF33FA302E2A94808651B63CBD622216 /* NVActivityIndicatorAnimationBallPulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulse.swift; sourceTree = "<group>"; };
-		E035555E0A846A2466BB4582C926AC8E /* NVActivityIndicatorAnimationBallDoubleBounce.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallDoubleBounce.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallDoubleBounce.swift; sourceTree = "<group>"; };
-		E297CD15F659670C9BC505DFE266D196 /* SkeletonReusableCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonReusableCell.swift; path = SkeletonViewCore/Sources/Internal/Collections/SkeletonReusableCell.swift; sourceTree = "<group>"; };
-		E2B8D67148F1C80522AC3104DCFDBDA3 /* SkeletonCollectionViewProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonCollectionViewProtocols.swift; path = SkeletonViewCore/Sources/API/Collections/CollectionViews/SkeletonCollectionViewProtocols.swift; sourceTree = "<group>"; };
-		E3D732EFE0056E34B51BE6E39B2ADCCC /* NVActivityIndicatorView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVActivityIndicatorView-dummy.m"; sourceTree = "<group>"; };
-		E3DAF1318CB93E043FA71C0FC783AF7C /* UILabel+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILabel+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UILabel+Extensions.swift"; sourceTree = "<group>"; };
-		E578DC6AE470D6C660A4D1DAF5B77E9F /* NVActivityIndicatorAnimationSquareSpin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationSquareSpin.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationSquareSpin.swift; sourceTree = "<group>"; };
-		E65EF62C3D36A9DFED80A8EC3215141A /* NVActivityIndicatorShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorShape.swift; path = Sources/Base/NVActivityIndicatorShape.swift; sourceTree = "<group>"; };
-		E71A1B674CB4DE15D78D81F704D77AB1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineSpinFadeLoader.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineSpinFadeLoader.swift; sourceTree = "<group>"; };
-		E72567235BEF3357CD8DEA5B43389966 /* NVActivityIndicatorAnimationLineScaleParty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationLineScaleParty.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationLineScaleParty.swift; sourceTree = "<group>"; };
-		E765FF40762523C3EECF76435F327C8B /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/FoundationExtensions/Int+Extensions.swift"; sourceTree = "<group>"; };
-		E8101B5C846ADFADB07989FFFE81C470 /* Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Swizzling.swift; path = SkeletonViewCore/Sources/Internal/Helpers/Swizzling.swift; sourceTree = "<group>"; };
-		E951608ABC512D658BE2E7FB8233A6BA /* NVActivityIndicatorAnimationBallRotateChase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallRotateChase.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallRotateChase.swift; sourceTree = "<group>"; };
-		ED1412FDB5C7D6082151EEB79CE2EC10 /* UITextView+IBInspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextView+IBInspectable.swift"; path = "SkeletonViewCore/Sources/API/UIKitExtensions/UITextView+IBInspectable.swift"; sourceTree = "<group>"; };
-		EF80F0DCCDD3A541DC09582D1E1EE8C3 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Extensions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UITableView+Extensions.swift"; sourceTree = "<group>"; };
-		F2D312DF9DE99949EC9128CCD79096B1 /* SkeletonView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkeletonView-umbrella.h"; sourceTree = "<group>"; };
-		F64F4C53522D783D94C6266A221805C4 /* NVActivityIndicatorAnimationBallPulseRise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallPulseRise.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallPulseRise.swift; sourceTree = "<group>"; };
-		F6EE289AA5D0593D855DBE72C1AB5DAA /* UIView+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Swizzling.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Swizzling.swift"; sourceTree = "<group>"; };
-		F9A88675883389FFAC4983F08B8E9BE4 /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		DEB923BD83C152473F237D2F7DAFA561 /* SkeletonTransitionStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTransitionStyle.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonTransitionStyle.swift; sourceTree = "<group>"; };
+		DF8B87D03A97FCE4846942B048ACF673 /* SkeletonLayerBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonLayerBuilder.swift; path = SkeletonViewCore/Sources/Internal/SkeletonLayerBuilders/SkeletonLayerBuilder.swift; sourceTree = "<group>"; };
+		E2ED64EA1748BE30D66AF7B983F1895E /* SkeletonTextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonTextNode.swift; path = SkeletonViewCore/Sources/Internal/SkeletonExtensions/SkeletonTextNode.swift; sourceTree = "<group>"; };
+		E496CBFC223DA8E628F26DE78B96A65A /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallScaleRippleMultiple.swift; sourceTree = "<group>"; };
+		E54EB3C51C8792D5B689C69F511B28DF /* NVActivityIndicatorAnimationBallTrianglePath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallTrianglePath.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallTrianglePath.swift; sourceTree = "<group>"; };
+		E59EE430A049E8934F88B1F50483D521 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPKeyboardAvoidingScrollView.m; path = TPKeyboardAvoiding/TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		E66E47850A3AC4829ACE2BA1BD5C13C2 /* NVActivityIndicatorView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NVActivityIndicatorView.release.xcconfig; sourceTree = "<group>"; };
+		E7288E09948B05D4D5811AF85BCD5160 /* SkeletonView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonView.swift; path = SkeletonViewCore/Sources/API/SkeletonView.swift; sourceTree = "<group>"; };
+		E7829662B4DCF3684DAA12C6E5640E4A /* NVActivityIndicatorAnimationBlank.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBlank.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBlank.swift; sourceTree = "<group>"; };
+		E784227A1395145701A0556777C5BCEC /* CollectionSkeleton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionSkeleton.swift; path = SkeletonViewCore/Sources/Internal/Collections/CollectionSkeleton.swift; sourceTree = "<group>"; };
+		E817DB13A8460F76C6CB22FDB638FC0A /* SkeletonGradient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkeletonGradient.swift; path = SkeletonViewCore/Sources/API/Models/SkeletonGradient.swift; sourceTree = "<group>"; };
+		EA5A971479F7CF58CB87C334911977A9 /* UIView+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Transitions.swift"; path = "SkeletonViewCore/Sources/Internal/UIKitExtensions/UIView+Transitions.swift"; sourceTree = "<group>"; };
+		EC5E9EC6A9CA62EE1C255667461B912D /* TPKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		F0E6CA3F1C11264AC1740909CD7538CC /* SkeletonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkeletonView.release.xcconfig; sourceTree = "<group>"; };
+		F795FBFD94D1D57742F7778CB4FF1F6F /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallClipRotatePulse.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallClipRotatePulse.swift; sourceTree = "<group>"; };
+		F7A96D5BCE61BBF06172FACCE8077C65 /* NVActivityIndicatorAnimationBallGridBeat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NVActivityIndicatorAnimationBallGridBeat.swift; path = Sources/Base/Animations/NVActivityIndicatorAnimationBallGridBeat.swift; sourceTree = "<group>"; };
 		FF0E5BF492C00CBFD96B784895039442 /* Pods-HelpNear-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelpNear-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FFBC9914C2AF6995922D8393F344773 /* Frameworks */ = {
+		6235AF1F9074FE9660AFE36039556AC2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				335F8DBAA1573FFD151CC6457C4BEA0E /* Foundation.framework in Frameworks */,
+				7711C2003CC60692279AEDC2BCF16375 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		71DAF6F92AAAD94899E0FD2F0C51DCAD /* Frameworks */ = {
+		67F6D2167FAC35D97C35AB3B19BE8B33 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC2136765111A6B42B8F2B534319792 /* Foundation.framework in Frameworks */,
-				A27C08A7D28756FF4F7F52C9E4E03FC5 /* QuartzCore.framework in Frameworks */,
-				2F99F6A552F39A0791C59F67304C3649 /* UIKit.framework in Frameworks */,
+				88F97C8269EDCF8324890C8CDD7E160F /* Foundation.framework in Frameworks */,
+				EC486D5A5025BF0F876EED3347055871 /* QuartzCore.framework in Frameworks */,
+				D9E6368D5B5FAD10EAD6EDC6B8585E72 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEE3E9BB33289E119789FFEB9B3E0B1C /* Frameworks */ = {
+		9EE6D70B6AC7B04496F8CF4DEB716D0F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41DB9D17C791603241ED3BEFFA9A8860 /* Foundation.framework in Frameworks */,
+				BADA389CB08477C54ACF694B31549F10 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DD5E0CCB633148AF1EB1F643E1B231 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C030C7F9F6022EBA47A7683A9925E303 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,44 +346,170 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		22BB4C18A7939F440CA4BBD28CACC809 /* Support Files */ = {
+		08EF26AF1C6CE4EB9B4642DE1500F423 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3397971A9228F2232E0AFEA14C28E8A4 /* NVActivityIndicatorView.modulemap */,
-				E3D732EFE0056E34B51BE6E39B2ADCCC /* NVActivityIndicatorView-dummy.m */,
-				4575A95BD94A8ED99CD53D2DFAAB5C21 /* NVActivityIndicatorView-Info.plist */,
-				63E0A5853ABAC765DA6630FC494FBD51 /* NVActivityIndicatorView-prefix.pch */,
-				CE6CEE140D10FAC6850CE671723779D7 /* NVActivityIndicatorView-umbrella.h */,
-				70D8A7EC195CF3557DA4231939D9865D /* NVActivityIndicatorView.debug.xcconfig */,
-				CC24BC8821F562BE5C59E7D0ADF7F26C /* NVActivityIndicatorView.release.xcconfig */,
+				410E7FD91EF4D94F47667B362727E899 /* NVActivityIndicatorView */,
+				5B94EA1A6ED896DF167CBD5C29807C75 /* SkeletonView */,
+				4F75F0BB28DFFD36625FC692EBDB9F75 /* TPKeyboardAvoiding */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/NVActivityIndicatorView";
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		66234D46252FA77F4549AC331A91C060 /* NVActivityIndicatorView */ = {
+		0C7858759252BE5E71416545AAACA8C6 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				B37740C21862593BB5F223D8D0469C44 /* Base */,
-				22BB4C18A7939F440CA4BBD28CACC809 /* Support Files */,
+				9647A841E7C39A0ED33007838D35C298 /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
+				62A6FD7794870E8F08FE7605E5A4EA22 /* NVActivityIndicatorAnimationBallBeat.swift */,
+				D221DBDA1CFDE3C8089CC4A545BF5407 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
+				756C83E7D94F7EB534FF7DA31479C6B1 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
+				F795FBFD94D1D57742F7778CB4FF1F6F /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
+				1DC3A123E85D5FFDCF1860483F57C871 /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
+				F7A96D5BCE61BBF06172FACCE8077C65 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
+				75CF19D6B54B45ABE29828035DB9E8F4 /* NVActivityIndicatorAnimationBallGridPulse.swift */,
+				6972D243189D7D04332649BF9ACD0018 /* NVActivityIndicatorAnimationBallPulse.swift */,
+				B67AD9E69B05335F94747E2CDF23C932 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
+				B1475D463F8743DEAB0B76A73F09E93F /* NVActivityIndicatorAnimationBallPulseSync.swift */,
+				C69E45745A7CAE54EC5C0388FA20847A /* NVActivityIndicatorAnimationBallRotate.swift */,
+				D8004C4A295519CF0792537244807633 /* NVActivityIndicatorAnimationBallRotateChase.swift */,
+				86722E7827ED83F3B465CF61E7236649 /* NVActivityIndicatorAnimationBallScale.swift */,
+				872B4EEF5D5E4EB5ADF4BE907307ACB2 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
+				BE7B9AF5A678E8D32E51F872163806D9 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
+				E496CBFC223DA8E628F26DE78B96A65A /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
+				C0A93BC4D9EF77440455849C9B34B3D2 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
+				E54EB3C51C8792D5B689C69F511B28DF /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
+				C51AF26FCD011491E1F2D1CADE655EB6 /* NVActivityIndicatorAnimationBallZigZag.swift */,
+				1F2431C7674CE4C43C3FE6A2DA3BBFDF /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
+				E7829662B4DCF3684DAA12C6E5640E4A /* NVActivityIndicatorAnimationBlank.swift */,
+				7FA70C120A70C1A1663C7A5B2910876D /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
+				96679D211D0B4D6310454318FAA63992 /* NVActivityIndicatorAnimationCubeTransition.swift */,
+				D00E1F1F17CDFC443DE0E98B1CA93654 /* NVActivityIndicatorAnimationDelegate.swift */,
+				DD034D60E6D4ECBA18E6AA4B7C71FE2C /* NVActivityIndicatorAnimationLineScale.swift */,
+				41BB585D6DB9D54C798B30EF9402859B /* NVActivityIndicatorAnimationLineScaleParty.swift */,
+				81A4A009DF1080928AF1DD54F6BC5344 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
+				0A368A856BFD9F6100BDEF5979C16D65 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
+				4D2A79ADC2732DA3C4A0238190373995 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
+				9EB77CCA64E137C1232CABB92A0383A4 /* NVActivityIndicatorAnimationOrbit.swift */,
+				29F633154502D5A1C78D5BCFB0BA1C8A /* NVActivityIndicatorAnimationPacman.swift */,
+				232F90D2B4ADB5A560F042DC0D076507 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
+				3EA2668DC60CE22275FADB7337EC2F0C /* NVActivityIndicatorAnimationSquareSpin.swift */,
+				D9E1CE2847B76E80D76C4ACC26CE6C06 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
+				04916ADBB73BA1D1B08E006A763F0F14 /* NVActivityIndicatorShape.swift */,
+				C9B67340F839829E3592CC7088DD5CD4 /* NVActivityIndicatorView.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		1D01C57D981DCD4357496CC5BF3E5D8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A755B02AA3206B469AD3E340448DD650 /* SkeletonView.modulemap */,
+				9722039978D826FBF92EB5E95C248B57 /* SkeletonView-dummy.m */,
+				53F7AB8E74DD96600E221F2A42C900C8 /* SkeletonView-Info.plist */,
+				6FCF725B6BF8911CB3C2BB454AFC3B69 /* SkeletonView-prefix.pch */,
+				9D67EB1E160BA94070492236C16C6CC4 /* SkeletonView-umbrella.h */,
+				D844CABFFE65199882DAE35D355C64C2 /* SkeletonView.debug.xcconfig */,
+				F0E6CA3F1C11264AC1740909CD7538CC /* SkeletonView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkeletonView";
+			sourceTree = "<group>";
+		};
+		410E7FD91EF4D94F47667B362727E899 /* NVActivityIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				0C7858759252BE5E71416545AAACA8C6 /* Base */,
+				C2702843555DC82726A672CF8F5D17DF /* Support Files */,
 			);
 			name = NVActivityIndicatorView;
 			path = NVActivityIndicatorView;
 			sourceTree = "<group>";
 		};
-		A8A1EEB2E4FF66C1FD64B2DD33ECF4AD /* Support Files */ = {
+		4F75F0BB28DFFD36625FC692EBDB9F75 /* TPKeyboardAvoiding */ = {
 			isa = PBXGroup;
 			children = (
-				23F0570BDDE716EF4E97BFD45BAEC267 /* SkeletonView.modulemap */,
-				7FEB21772A38AFC8078B83B3F870943E /* SkeletonView-dummy.m */,
-				5DFECB91E30690566F9644D2D6E7FC5D /* SkeletonView-Info.plist */,
-				B17137F4257A209492CF7A66BF6A8832 /* SkeletonView-prefix.pch */,
-				F2D312DF9DE99949EC9128CCD79096B1 /* SkeletonView-umbrella.h */,
-				6E23ED8F64B023E34DC4DE75CCEEC45E /* SkeletonView.debug.xcconfig */,
-				4E8337B5BE2E15FA373DAC0B1C042FE9 /* SkeletonView.release.xcconfig */,
+				DAB90AB4D752B42A0380AAC6A8A5C7AD /* TPKeyboardAvoidingCollectionView.h */,
+				DAA6CC86E48E408C3A114F545484D34E /* TPKeyboardAvoidingCollectionView.m */,
+				40F0680BDF42F6CF8D7A9B34BB5F3952 /* TPKeyboardAvoidingScrollView.h */,
+				E59EE430A049E8934F88B1F50483D521 /* TPKeyboardAvoidingScrollView.m */,
+				284AF40AB90FD4C78E51EA8C56EAEEAC /* TPKeyboardAvoidingTableView.h */,
+				02B694DDA16ECAAE8A83AE7546DCF3F9 /* TPKeyboardAvoidingTableView.m */,
+				3D1F2BEAB8C646C417E1CD7E3CECD7CC /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				85EAE0CE6E17BB6639CEBB06ACE54F60 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+				E10FCB9D414ABE85A65C7CA4522671BA /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/SkeletonView";
+			name = TPKeyboardAvoiding;
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		5B94EA1A6ED896DF167CBD5C29807C75 /* SkeletonView */ = {
+			isa = PBXGroup;
+			children = (
+				51FFD1B2175B57DFB5E8530077356615 /* AssociationPolicy.swift */,
+				40DD4A7BA76B0B36EA24D9958DAC30C6 /* CALayer+Animations.swift */,
+				829FFACF915531340241060AE3D63961 /* CALayer+Extensions.swift */,
+				E784227A1395145701A0556777C5BCEC /* CollectionSkeleton.swift */,
+				58CB7CE25D34E1C6B8B419B771BCE26E /* Deprecated.swift */,
+				94BDA90A357B7C507F33EB8CBECDB1DF /* DispatchQueue+Extensions.swift */,
+				8F8DEA19CCF0DBA6E1B95508101B911E /* GradientDirection.swift */,
+				61CA8B24135FFBAF95533FEE17DB190B /* GradientDirection+Animations.swift */,
+				705E68D354AFDCD51AC8524941331CAA /* Int+Extensions.swift */,
+				B62EEC89B8162343D22BD7F39247BDB0 /* Notification+Extensions.swift */,
+				4CC337AF56D2D64797DB539E0094B3CB /* Notification+SkeletonFlow.swift */,
+				CE2459907EF56F7136AFCE0A277EB1A7 /* PrepareViewForSkeleton.swift */,
+				D885EE8F757ECC625ABD7BF64BAFAB4D /* ProcessInfo+Extensions.swift */,
+				D501F244E670E62C3930991AF780D362 /* Recoverable.swift */,
+				8E318FF77D92E9711D1F80A595B0E191 /* RecoverableViewState.swift */,
+				140D09A1A4550761FBF46500FBA31AB4 /* Recursive.swift */,
+				3806B1EACBD46FCAB8277EB7554CED51 /* SkeletonAnimationBuilder.swift */,
+				1A819348EE0D72D0B087CC65BE329C43 /* SkeletonAppearance.swift */,
+				2F9EC329662827CB2FB9F565D5EE9930 /* SkeletonCollectionDataSource.swift */,
+				6E22BB3267720666F6304D1E19827456 /* SkeletonCollectionDelegate.swift */,
+				58BF01F1A9CB67A5E1F6ACA390EA6221 /* SkeletonCollectionViewProtocols.swift */,
+				669961157622F4471C8388525FD0999D /* SkeletonConfig.swift */,
+				090C25F87ABE4B430BBEF38D27E611A5 /* SkeletonDebug.swift */,
+				1CC9BB94D042455A04CD3CB77B26B4D0 /* SkeletonExtended.swift */,
+				1BAAF2D58F867337E390DCF2AFDEAAD7 /* SkeletonFlowHandler.swift */,
+				E817DB13A8460F76C6CB22FDB638FC0A /* SkeletonGradient.swift */,
+				D89AB60DAE52ADC8BE5243067690D913 /* SkeletonLayer.swift */,
+				DF8B87D03A97FCE4846942B048ACF673 /* SkeletonLayerBuilder.swift */,
+				B1229A2382F84037272364687B8C86FD /* SkeletonMultilineLayerBuilder.swift */,
+				C03D813C5517008C70A954467D5F3FE7 /* SkeletonMultilinesLayerConfig.swift */,
+				CB940E7EF449E8072BF1C6A618D3C0E6 /* SkeletonReusableCell.swift */,
+				1DA347A840DA37F57772656B8FB3A036 /* SkeletonTableViewProtocols.swift */,
+				D21B2F5C10F3B5E3F296F3FB845DCE11 /* SkeletonTextLineHeight.swift */,
+				E2ED64EA1748BE30D66AF7B983F1895E /* SkeletonTextNode.swift */,
+				25C8FE2FB732165E3A77AB1E1235FD24 /* SkeletonTextNumberOfLines.swift */,
+				DEB923BD83C152473F237D2F7DAFA561 /* SkeletonTransitionStyle.swift */,
+				254D4169487DCE283C15C0290BDE7A30 /* SkeletonTreeNode.swift */,
+				B51564B8B52BA9642E19EFA1EF888DF5 /* SkeletonTreeNode+Extensions.swift */,
+				8235A1DEBF07AE0A96264CE6689E46FD /* SkeletonType.swift */,
+				E7288E09948B05D4D5811AF85BCD5160 /* SkeletonView.swift */,
+				6A120DF290A3C1E8F643F057DBADAD32 /* SubviewsSkeletonables.swift */,
+				94BEE9305D0408FD9C48A7E8CC3619C3 /* Swizzling.swift */,
+				D0E0FF6EC13A483A17546DE18338E590 /* UICollectionView+CollectionSkeleton.swift */,
+				CBB34FBA89B14B938A45EF4CECD06248 /* UICollectionView+Extensions.swift */,
+				C208EA698AE44A72D6917D213194111A /* UIColor+Skeleton.swift */,
+				1BF72EE229470B93B8A0AD17C5DA0D2E /* UILabel+Extensions.swift */,
+				1D0527DB98A6EA63887A3ED27B9B3E14 /* UILabel+IBInspectable.swift */,
+				6E1571E53E898F32478396D2A710E459 /* UILabel+SKExtensions.swift */,
+				67FC7345604D7CEC379FB2F4DD997D32 /* UITableView+CollectionSkeleton.swift */,
+				07218343A87398B1CDE7667AD2B8409E /* UITableView+Extensions.swift */,
+				07DF5D10900EEE75CB22272EC3D50817 /* UITextView+IBInspectable.swift */,
+				B150B6E35821E50FF700F8996E711502 /* UITextView+SKExtensions.swift */,
+				CA80A30F90D0B0AB5E85B6184BFF358A /* UIView+AppLifecycleNotifications.swift */,
+				5A331ED600A6AFAC9F58A8B498AB5534 /* UIView+AssociatedObjects.swift */,
+				0F6C7CBE8E48DA0A50646DCB5D8EAC0D /* UIView+CollectionSkeleton.swift */,
+				D8D64B274653C97054D669D2D8D87A27 /* UIView+Extensions.swift */,
+				42DCC470FDA2A35CF35F95988B7DAA74 /* UIView+IBInspectable.swift */,
+				A495A4A96D24290054781AB38D9777D0 /* UIView+SkeletonView.swift */,
+				936A594D7C040DA68C41AB7D17D3FC6A /* UIView+SKExtensions.swift */,
+				84DCD173330E209176741EF95B23F21A /* UIView+Swizzling.swift */,
+				EA5A971479F7CF58CB87C334911977A9 /* UIView+Transitions.swift */,
+				1D01C57D981DCD4357496CC5BF3E5D8C /* Support Files */,
+			);
+			name = SkeletonView;
+			path = SkeletonView;
 			sourceTree = "<group>";
 		};
 		B2770D3BD62A6EFF43CEC58810CBD074 /* Targets Support Files */ = {
@@ -352,137 +520,19 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B37740C21862593BB5F223D8D0469C44 /* Base */ = {
+		C2702843555DC82726A672CF8F5D17DF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				0591A95F29D8AF2E1F6784B343BD636F /* NVActivityIndicatorAnimationAudioEqualizer.swift */,
-				0B8B2462A270C5DA8603631EFA97BA61 /* NVActivityIndicatorAnimationBallBeat.swift */,
-				42684685B5E34D9575D3C89E7D0D7EF9 /* NVActivityIndicatorAnimationBallClipRotate.swift */,
-				7B9DE6A5D3B73103CA11203E50AE5A33 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift */,
-				B9EE1E8E738A4CE2C3457E9D21549C2B /* NVActivityIndicatorAnimationBallClipRotatePulse.swift */,
-				E035555E0A846A2466BB4582C926AC8E /* NVActivityIndicatorAnimationBallDoubleBounce.swift */,
-				C5DCC328CA5419D93A640058298674A1 /* NVActivityIndicatorAnimationBallGridBeat.swift */,
-				961D0B133BB7B39B90AE4F7F86DFBC4B /* NVActivityIndicatorAnimationBallGridPulse.swift */,
-				DF33FA302E2A94808651B63CBD622216 /* NVActivityIndicatorAnimationBallPulse.swift */,
-				F64F4C53522D783D94C6266A221805C4 /* NVActivityIndicatorAnimationBallPulseRise.swift */,
-				88D8B478D3C91F12F0A0E174ADED3093 /* NVActivityIndicatorAnimationBallPulseSync.swift */,
-				0BE801EA3F71B8723D12F55936045D08 /* NVActivityIndicatorAnimationBallRotate.swift */,
-				E951608ABC512D658BE2E7FB8233A6BA /* NVActivityIndicatorAnimationBallRotateChase.swift */,
-				768F7D38F68D9205D59EF7A8F5D95F33 /* NVActivityIndicatorAnimationBallScale.swift */,
-				C1BC0B6C938AC30D4E73F7E40D1F52B9 /* NVActivityIndicatorAnimationBallScaleMultiple.swift */,
-				099AF89DBE59FE4B1A6D7BAD219A3068 /* NVActivityIndicatorAnimationBallScaleRipple.swift */,
-				1F5C086DAA631752C12C093AC3DDA1A3 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift */,
-				3A4798EEBC58108252AE34688EF78043 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift */,
-				F9A88675883389FFAC4983F08B8E9BE4 /* NVActivityIndicatorAnimationBallTrianglePath.swift */,
-				1EB3F1602EFE2717DE8D015387619D63 /* NVActivityIndicatorAnimationBallZigZag.swift */,
-				556793CD07C8F09126CE7F12A55AA7E0 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift */,
-				5E1E054BE3FDBC9C81B566566462EA45 /* NVActivityIndicatorAnimationBlank.swift */,
-				58DAEE389FDF934074DE89281A963828 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift */,
-				A7B179B60199C7493167C93A71F3AF3F /* NVActivityIndicatorAnimationCubeTransition.swift */,
-				93C959883A3BD7BE9C8F6CCF1CDAAAAE /* NVActivityIndicatorAnimationDelegate.swift */,
-				A00B25FD859CE92A5860390D4244F7F4 /* NVActivityIndicatorAnimationLineScale.swift */,
-				E72567235BEF3357CD8DEA5B43389966 /* NVActivityIndicatorAnimationLineScaleParty.swift */,
-				81A93A1994CC4511A0DDB087B07F3067 /* NVActivityIndicatorAnimationLineScalePulseOut.swift */,
-				B8C7F029FDB6E2B46DCC154CC2E09808 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift */,
-				E71A1B674CB4DE15D78D81F704D77AB1 /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift */,
-				91FE0C498C7ACAE9B4B2111A4F309E55 /* NVActivityIndicatorAnimationOrbit.swift */,
-				C98099CC475621C98FD721F2029EF498 /* NVActivityIndicatorAnimationPacman.swift */,
-				4620363437F2F66996286415BFC20142 /* NVActivityIndicatorAnimationSemiCircleSpin.swift */,
-				E578DC6AE470D6C660A4D1DAF5B77E9F /* NVActivityIndicatorAnimationSquareSpin.swift */,
-				1B754AAAA5612300D2A5812860F47CD3 /* NVActivityIndicatorAnimationTriangleSkewSpin.swift */,
-				E65EF62C3D36A9DFED80A8EC3215141A /* NVActivityIndicatorShape.swift */,
-				5E1126348ABD4F59FC355FDE668530F3 /* NVActivityIndicatorView.swift */,
+				7B399011C8B6E38FFDF454A2A5D29455 /* NVActivityIndicatorView.modulemap */,
+				B06770DAB1909CB19C7E965C07E726AB /* NVActivityIndicatorView-dummy.m */,
+				6218B15D0C22480D8A1DEEDA81B37486 /* NVActivityIndicatorView-Info.plist */,
+				50101C238827F1345E6B46CED5B7A716 /* NVActivityIndicatorView-prefix.pch */,
+				1E069A8FE10F8C8650E4D67D897399EF /* NVActivityIndicatorView-umbrella.h */,
+				B5B5149D78ED8E296F51BDACF5F9B0EC /* NVActivityIndicatorView.debug.xcconfig */,
+				E66E47850A3AC4829ACE2BA1BD5C13C2 /* NVActivityIndicatorView.release.xcconfig */,
 			);
-			name = Base;
-			sourceTree = "<group>";
-		};
-		B4F43D30676C3B1A8EE98B4805F1311F /* SkeletonView */ = {
-			isa = PBXGroup;
-			children = (
-				8FB56C8E28F0E173A24ED2AAD77B859D /* AssociationPolicy.swift */,
-				D59500682DA1A06262794FFDF536FBDF /* CALayer+Animations.swift */,
-				D04C8B57981ECF88345F88A961AC468D /* CALayer+Extensions.swift */,
-				4EF73228E8B330B1B93195A84A5AF715 /* CollectionSkeleton.swift */,
-				496CB8B3868D0CF25FE3ED6598A0BEAA /* Deprecated.swift */,
-				238FF7A837F663DB28F19DC9B9966E8C /* DispatchQueue+Extensions.swift */,
-				A8B504D399E295A7304986365D7D34DE /* GradientDirection.swift */,
-				6BC6E4AE5919E53966BB04AE9D615E0A /* GradientDirection+Animations.swift */,
-				E765FF40762523C3EECF76435F327C8B /* Int+Extensions.swift */,
-				04576C0109AF74D0BAA633D512B0E007 /* Notification+Extensions.swift */,
-				0FBBC562DB2FFFF30DBF15CFC6B1C2EF /* Notification+SkeletonFlow.swift */,
-				DD31B6711295B0BCD96BA879E7F18E50 /* PrepareViewForSkeleton.swift */,
-				1CB33374A7BBB4631A69934F1C61DE6F /* ProcessInfo+Extensions.swift */,
-				49E6E2AC6C774EA583255426883B19D6 /* Recoverable.swift */,
-				256AC37DEBF5EE81E901256E6CF731AA /* RecoverableViewState.swift */,
-				4752446A5DDD71FED87004DC54E03590 /* Recursive.swift */,
-				AE27E0F4B36B3AEB700C3F1CA2E076D0 /* SkeletonAnimationBuilder.swift */,
-				C525FEBA82D2688A40989F156D0D5336 /* SkeletonAppearance.swift */,
-				680531984438DB2BA7F2A39CF21561E8 /* SkeletonCollectionDataSource.swift */,
-				5BCAA340DBE0CDE2748E5E1E2E408C77 /* SkeletonCollectionDelegate.swift */,
-				E2B8D67148F1C80522AC3104DCFDBDA3 /* SkeletonCollectionViewProtocols.swift */,
-				76649400EC6344FECEE1C837B976F094 /* SkeletonConfig.swift */,
-				B9403E5C6B92CD022018596DE656FB3D /* SkeletonDebug.swift */,
-				2495965D9E87D7F429F37B18A97E3EDA /* SkeletonExtended.swift */,
-				C1C8DAEAC656A89B0260FB59DAFFEF43 /* SkeletonFlowHandler.swift */,
-				D203C03A6B4D6753D92EB1EDE1AB4AFE /* SkeletonGradient.swift */,
-				04F9382A5FFD6350DCE3FB3FD15CEC82 /* SkeletonLayer.swift */,
-				DB61F5A2DA593B3DA5115186D244D8A3 /* SkeletonLayerBuilder.swift */,
-				7574D10813FD18F3D3C26754F354F77D /* SkeletonMultilineLayerBuilder.swift */,
-				B2DF239997C52AF442C37E0A3C34DEB2 /* SkeletonMultilinesLayerConfig.swift */,
-				E297CD15F659670C9BC505DFE266D196 /* SkeletonReusableCell.swift */,
-				74475951ED943D15B147C9B45AC4BEA9 /* SkeletonTableViewProtocols.swift */,
-				D26135D585436C785611F510DFFC4C4B /* SkeletonTextLineHeight.swift */,
-				563669717039C594ACB73B2C8B8BCB84 /* SkeletonTextNode.swift */,
-				1A32572EE67A176BA76F070AB787DFFD /* SkeletonTextNumberOfLines.swift */,
-				036F18BF7DEFC120DE8BB3F3F7A87574 /* SkeletonTransitionStyle.swift */,
-				4B4BDB35279DC17FFEC97C3DAB839AB9 /* SkeletonTreeNode.swift */,
-				7B3D85D34C55DE2B29542088A6BF8892 /* SkeletonTreeNode+Extensions.swift */,
-				CBEBAA81EEA6407DE7CF44AB1DE0B368 /* SkeletonType.swift */,
-				5C943F281F5C3298C9848CDE4FAB4FB1 /* SkeletonView.swift */,
-				D3F446DC9757C31D9172F979882111EE /* SubviewsSkeletonables.swift */,
-				E8101B5C846ADFADB07989FFFE81C470 /* Swizzling.swift */,
-				5D49E90996EE9F0EFF9C67CEF6DA599D /* UICollectionView+CollectionSkeleton.swift */,
-				33DA79E672DF82BA20A114DE34B8C6E3 /* UICollectionView+Extensions.swift */,
-				9B5D3F2761EA582055BD977BE156DF94 /* UIColor+Skeleton.swift */,
-				E3DAF1318CB93E043FA71C0FC783AF7C /* UILabel+Extensions.swift */,
-				9B7D91B20BE9873ACE4F427FDEEDF151 /* UILabel+IBInspectable.swift */,
-				BB8BCA4C07DDDA8E70AECB25D8126D24 /* UILabel+SKExtensions.swift */,
-				D1A799F71673ABACD04ECB815B2DE596 /* UITableView+CollectionSkeleton.swift */,
-				EF80F0DCCDD3A541DC09582D1E1EE8C3 /* UITableView+Extensions.swift */,
-				ED1412FDB5C7D6082151EEB79CE2EC10 /* UITextView+IBInspectable.swift */,
-				B38FED1E42CE55A97CDB199570102E5E /* UITextView+SKExtensions.swift */,
-				35A56C2E8C771EA61FF07DEA1CF6A10F /* UIView+AppLifecycleNotifications.swift */,
-				C9EFC298F1E05158FBE564FCBCFFDE99 /* UIView+AssociatedObjects.swift */,
-				6D3746FED5B7252ACC1E410FB73006D5 /* UIView+CollectionSkeleton.swift */,
-				B468DD807E4706C5A34DD50C1EEE67DC /* UIView+Extensions.swift */,
-				1DA59C7B764233955C8B71094CAC6F0E /* UIView+IBInspectable.swift */,
-				888B7DB0E40FF6B7DAEF62FE0ADF5988 /* UIView+SkeletonView.swift */,
-				4F024F719A0F0ED787D97D05FFE7F087 /* UIView+SKExtensions.swift */,
-				F6EE289AA5D0593D855DBE72C1AB5DAA /* UIView+Swizzling.swift */,
-				10FC690DCBB55E84518DBFACAAD94717 /* UIView+Transitions.swift */,
-				A8A1EEB2E4FF66C1FD64B2DD33ECF4AD /* Support Files */,
-			);
-			name = SkeletonView;
-			path = SkeletonView;
-			sourceTree = "<group>";
-		};
-		BDC69D9132AF36809F633D324D14463E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				66234D46252FA77F4549AC331A91C060 /* NVActivityIndicatorView */,
-				B4F43D30676C3B1A8EE98B4805F1311F /* SkeletonView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C0D65A02876CB9758D54462D7509DAE9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */,
-				A9A1222015AD1BEB4427987D8898CDD1 /* Pods_HelpNear.framework */,
-				CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView.framework */,
-			);
-			name = Products;
+			name = "Support Files";
+			path = "../Target Support Files/NVActivityIndicatorView";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -490,10 +540,36 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				BDC69D9132AF36809F633D324D14463E /* Pods */,
-				C0D65A02876CB9758D54462D7509DAE9 /* Products */,
+				08EF26AF1C6CE4EB9B4642DE1500F423 /* Pods */,
+				D095B236CE48C7C5F6B2B8C84C0DE11D /* Products */,
 				B2770D3BD62A6EFF43CEC58810CBD074 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D095B236CE48C7C5F6B2B8C84C0DE11D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */,
+				A9A1222015AD1BEB4427987D8898CDD1 /* Pods-HelpNear */,
+				CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView */,
+				85C8ABA5314452AE31DAA5AE55BBBC1F /* TPKeyboardAvoiding */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10FCB9D414ABE85A65C7CA4522671BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D52FA85ECD8D4F014389347471AF2805 /* TPKeyboardAvoiding.modulemap */,
+				C1C411777E8FDCD7CF03D39ACD24A23C /* TPKeyboardAvoiding-dummy.m */,
+				A51AA6F20065D457C9F9E73B990F556B /* TPKeyboardAvoiding-Info.plist */,
+				EC5E9EC6A9CA62EE1C255667461B912D /* TPKeyboardAvoiding-prefix.pch */,
+				61CC709989326EF7C9A9D1796F2D9D51 /* TPKeyboardAvoiding-umbrella.h */,
+				A618E07A46771986FA0FE378B8AC72B0 /* TPKeyboardAvoiding.debug.xcconfig */,
+				415632BF40559A80D4DC350BA21F7A57 /* TPKeyboardAvoiding.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TPKeyboardAvoiding";
 			sourceTree = "<group>";
 		};
 		EDC8855844E239EF1A69F25D90230D29 /* Pods-HelpNear */ = {
@@ -526,61 +602,92 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47E2149B23A682418948B3018FB07758 /* Headers */ = {
+		9C41AF1AB71EE1BB013A75160005BA8C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED478EBEEBB03F43D4B0FA54B0532551 /* SkeletonView-umbrella.h in Headers */,
+				0DF0A5F45C9A1CEF0AB0A18DF870419C /* SkeletonView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0AA313B3635DDFE45228E5DB9D72CD1 /* Headers */ = {
+		9F08844C5E314A19D71995F32AC5F4BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35E05B3DDE11B0EC42452E2D956F8632 /* NVActivityIndicatorView-umbrella.h in Headers */,
+				F4768891A56F1D5A9CB80C37A0E2F338 /* NVActivityIndicatorView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F170F3D5880D2B5E39456038733FCD06 /* Headers */ = {
+		D6EC4BA38DDEDBDBEAE3595F857A83E2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				879FB9BC7A2018BD5B72C5E9C4535A83 /* Pods-HelpNear-umbrella.h in Headers */,
+				AF16D77FB8E39CDFE953C9909088B454 /* Pods-HelpNear-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B0884B15C8E7750337AE36D06D8F88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C84242766CE84B335A8013BF6309E9F /* TPKeyboardAvoiding-umbrella.h in Headers */,
+				5A90907F41E888BBD44ABC288FB574BD /* TPKeyboardAvoidingCollectionView.h in Headers */,
+				D3E1E96226B5AB2757CC39A89D034C1A /* TPKeyboardAvoidingScrollView.h in Headers */,
+				302B8889C02F822E82B2A6A7031406EF /* TPKeyboardAvoidingTableView.h in Headers */,
+				8B9B0B4FB7D2D0CAFC87C6474113B443 /* UIScrollView+TPKeyboardAvoidingAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		419E6D47CBB648DCA38F3CC2B9C13C57 /* Pods-HelpNear */ = {
+		1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96AFE4ED80872CDE0FAA18ADC34532D8 /* Build configuration list for PBXNativeTarget "Pods-HelpNear" */;
+			buildConfigurationList = D455E053C60F09EF04DF52DC8A57EF3E /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */;
 			buildPhases = (
-				F170F3D5880D2B5E39456038733FCD06 /* Headers */,
-				F30885B579F0A0C7D465E8B0BD69302B /* Sources */,
-				3FFBC9914C2AF6995922D8393F344773 /* Frameworks */,
-				F817760506C3D14A63D3DBA3F58A021F /* Resources */,
+				D9B0884B15C8E7750337AE36D06D8F88 /* Headers */,
+				1FC1E95EE5EF020B171BB3663D834F62 /* Sources */,
+				A3DD5E0CCB633148AF1EB1F643E1B231 /* Frameworks */,
+				C1F7531B4F21CDF1828AE2F898447AB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				11A7F336B7F2F13F013A9020B3753221 /* PBXTargetDependency */,
-				981E738FD6B6214340745D3066789D07 /* PBXTargetDependency */,
+			);
+			name = TPKeyboardAvoiding;
+			productName = TPKeyboardAvoiding;
+			productReference = 85C8ABA5314452AE31DAA5AE55BBBC1F /* TPKeyboardAvoiding */;
+			productType = "com.apple.product-type.framework";
+		};
+		419E6D47CBB648DCA38F3CC2B9C13C57 /* Pods-HelpNear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0481D32D58F28485A0D4724554C4E333 /* Build configuration list for PBXNativeTarget "Pods-HelpNear" */;
+			buildPhases = (
+				D6EC4BA38DDEDBDBEAE3595F857A83E2 /* Headers */,
+				0F4BC437E011F36081B445BBB55CFB49 /* Sources */,
+				6235AF1F9074FE9660AFE36039556AC2 /* Frameworks */,
+				76C54A14EE7EB5DEC373D2FC2F9C7FC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36F26C355A0804B1C3212BACF525AA07 /* PBXTargetDependency */,
+				A28BA552C49D2C45D663A52AE601DE1B /* PBXTargetDependency */,
+				DC673A191DABC3FA7E311C2AB3D3FB8A /* PBXTargetDependency */,
 			);
 			name = "Pods-HelpNear";
-			productName = "Pods-HelpNear";
-			productReference = A9A1222015AD1BEB4427987D8898CDD1 /* Pods_HelpNear.framework */;
+			productName = Pods_HelpNear;
+			productReference = A9A1222015AD1BEB4427987D8898CDD1 /* Pods-HelpNear */;
 			productType = "com.apple.product-type.framework";
 		};
 		8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 172560E08C81E226F7F2C15DFCF9C07F /* Build configuration list for PBXNativeTarget "SkeletonView" */;
+			buildConfigurationList = 99E2951F31175B4761EC7B1EC1C84A65 /* Build configuration list for PBXNativeTarget "SkeletonView" */;
 			buildPhases = (
-				47E2149B23A682418948B3018FB07758 /* Headers */,
-				862BF0D4884A0917CC3DD4060ACEB50C /* Sources */,
-				CEE3E9BB33289E119789FFEB9B3E0B1C /* Frameworks */,
-				3D62F976F8FAAF19B664025A77A978BC /* Resources */,
+				9C41AF1AB71EE1BB013A75160005BA8C /* Headers */,
+				C58A2BF6D26B4BE6FF16D51BF3BDA293 /* Sources */,
+				9EE6D70B6AC7B04496F8CF4DEB716D0F /* Frameworks */,
+				D103C5966325F131027FA13725BF60AA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -588,17 +695,17 @@
 			);
 			name = SkeletonView;
 			productName = SkeletonView;
-			productReference = CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView.framework */;
+			productReference = CDC8C1E54D1F3A8B5CAC89FFFF6A3F80 /* SkeletonView */;
 			productType = "com.apple.product-type.framework";
 		};
 		AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C2F29596E14561A060E8A2810958844 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
+			buildConfigurationList = F218111D503AE3381DD4D55E705C3915 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */;
 			buildPhases = (
-				D0AA313B3635DDFE45228E5DB9D72CD1 /* Headers */,
-				4C0387043E358F7D107701AB2283882B /* Sources */,
-				71DAF6F92AAAD94899E0FD2F0C51DCAD /* Frameworks */,
-				9415F32C9895ED30BC1F35FBBCC99B47 /* Resources */,
+				9F08844C5E314A19D71995F32AC5F4BA /* Headers */,
+				5AC3E9ABB260062905A58AC93303197D /* Sources */,
+				67F6D2167FAC35D97C35AB3B19BE8B33 /* Frameworks */,
+				FE3E407767FDC0075FA45A8576A49C7E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -606,7 +713,7 @@
 			);
 			name = NVActivityIndicatorView;
 			productName = NVActivityIndicatorView;
-			productReference = A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView.framework */;
+			productReference = A1B9F27862201CD82B398E0B35B14128 /* NVActivityIndicatorView */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -616,44 +723,52 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1310;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C0D65A02876CB9758D54462D7509DAE9 /* Products */;
+			productRefGroup = D095B236CE48C7C5F6B2B8C84C0DE11D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */,
 				419E6D47CBB648DCA38F3CC2B9C13C57 /* Pods-HelpNear */,
 				8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */,
+				1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3D62F976F8FAAF19B664025A77A978BC /* Resources */ = {
+		76C54A14EE7EB5DEC373D2FC2F9C7FC7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9415F32C9895ED30BC1F35FBBCC99B47 /* Resources */ = {
+		C1F7531B4F21CDF1828AE2F898447AB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F817760506C3D14A63D3DBA3F58A021F /* Resources */ = {
+		D103C5966325F131027FA13725BF60AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE3E407767FDC0075FA45A8576A49C7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -663,149 +778,204 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4C0387043E358F7D107701AB2283882B /* Sources */ = {
+		0F4BC437E011F36081B445BBB55CFB49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D073639EFB1D5504F6AFBDAA4676BA18 /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
-				B134C0718B093D382DFA0A018EF1E28F /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
-				9F4487601DE06B744662316A639E7090 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
-				BF0B84E58E3DEEB09EF1767AF5F62467 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
-				B0B09FEE937FB48C19FF419E42AC2A99 /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
-				AE10ADA994336195F3DF62DC0BBDFFF6 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */,
-				2F0A0F0D1EF11FF26081AB85B924BAF9 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
-				BECF0A35A0012D1292BD73577E987B79 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
-				5143B2CFD406F5A2CDCF928590213ACC /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
-				DF54D32B832B65C6BA766DA277C31071 /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
-				AE97C4E3169C923A3BA958DE546E502B /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
-				4D342EA223226DB27B6A1A049F35ACE2 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
-				39F6F08BA69383C4F45C9E2DB5247AB9 /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
-				EE4C44DB9A3E067C7660FAA862EE11B1 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
-				F616D133446433EDF3CC65D4D61E91AD /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
-				6F833200EFC8C5B6FDC287573A7A6E80 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
-				47D5EA35A5F04B05BF8CE8926B4561CE /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
-				963602F41BAC27D5DC81FEBD6986BA39 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
-				1792253FB4C2C25168FA2152DD8DF0C2 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
-				2A44D897511EF2E554A26B4CE0ADF791 /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
-				D908C3602CA4905AD9F1AC0FF447CE9F /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
-				3519EA46150EFDC342809478BB460764 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
-				9750808FCEAC99C25DE17DA51F113A49 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
-				D86E23A9CC96F9ED57FB2A5D36643554 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
-				69076D8F9549252BE319EAE1551344F2 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
-				663C075508F804454D38C145A77F8313 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
-				8EF1CB45ED6FC85ECC3D163CFFC599C4 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
-				B6FA683B14B58E9D859BF1C9DEF8A27C /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
-				0856B93E699B588BA71FE0CE044095E4 /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
-				E7BC269660A431F5EC0ADCC5E14577AB /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
-				46CE037FE4D8E73482B4F9062F041040 /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
-				22F67B17DFA4F0A721137347695646AF /* NVActivityIndicatorAnimationPacman.swift in Sources */,
-				E607C60452E2A0A34DD84848E2E0267E /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
-				F47E4E5707EB746E39CBA999CDF4DAA0 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
-				9BA412D0119CAD1C5A535880E81BB29B /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
-				7C863C610C547CE943935738F9EB2DA9 /* NVActivityIndicatorShape.swift in Sources */,
-				CB4F715622B5FDC9AC73CE162FC8AFE4 /* NVActivityIndicatorView-dummy.m in Sources */,
-				5BA2C9718F094CF84BCF2736E355ED1F /* NVActivityIndicatorView.swift in Sources */,
+				4188B3DBD744402D56002697ACF30872 /* Pods-HelpNear-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		862BF0D4884A0917CC3DD4060ACEB50C /* Sources */ = {
+		1FC1E95EE5EF020B171BB3663D834F62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DAF8E9B302714F88E6B252CC55D30BD /* AssociationPolicy.swift in Sources */,
-				2CAE76E310AC072420AB2434A756F98A /* CALayer+Animations.swift in Sources */,
-				0B3212EE2A9302144922BEDE80113399 /* CALayer+Extensions.swift in Sources */,
-				A8BFF28991CF63E41B8F5D0B277DDE74 /* CollectionSkeleton.swift in Sources */,
-				F3520B896A66DD374BD859330C7C397B /* Deprecated.swift in Sources */,
-				0A8A9B035671C761A1EFABA2BD482848 /* DispatchQueue+Extensions.swift in Sources */,
-				189B75A88FACF80B45DECB648CE13A34 /* GradientDirection+Animations.swift in Sources */,
-				5DE87D16C9252759813B6452A116D1DF /* GradientDirection.swift in Sources */,
-				D8F7B8CA5957797A20ACE4C5F5C0EBF1 /* Int+Extensions.swift in Sources */,
-				83F93601C48572C543770BC0DC7CA3CA /* Notification+Extensions.swift in Sources */,
-				2157AFB795285EDF4DE5293A4D3E301A /* Notification+SkeletonFlow.swift in Sources */,
-				9210A736152C0E575C97C03B8C2C8F74 /* PrepareViewForSkeleton.swift in Sources */,
-				0F0B68F613BABB2E1C4F85309C708D4E /* ProcessInfo+Extensions.swift in Sources */,
-				DD53957417DA6ACEFFE7E81E5767A228 /* Recoverable.swift in Sources */,
-				D9C46E4186CA6A57240251857180AF1C /* RecoverableViewState.swift in Sources */,
-				680966F4FCE67E7DD219A1F163D19086 /* Recursive.swift in Sources */,
-				A58219730E88481B50E72DC4A927953C /* SkeletonAnimationBuilder.swift in Sources */,
-				66516929FD25A24DFA8AE9E561B6F3A5 /* SkeletonAppearance.swift in Sources */,
-				18EC1C69C73B3F1BEF5A98252F364193 /* SkeletonCollectionDataSource.swift in Sources */,
-				A4654D6FB3EF9C098150E9B8BD2B0FFF /* SkeletonCollectionDelegate.swift in Sources */,
-				E1013748CFB17436D1D73F75BD08F4A7 /* SkeletonCollectionViewProtocols.swift in Sources */,
-				438A072B0F1C9C0606253ED757258C15 /* SkeletonConfig.swift in Sources */,
-				521CBE4B34357086084EF3A99A8BE271 /* SkeletonDebug.swift in Sources */,
-				0B79ED4D30BAD4C491217DBCD8D1F743 /* SkeletonExtended.swift in Sources */,
-				5DA719BDE530943E6BF36C25B4428BB1 /* SkeletonFlowHandler.swift in Sources */,
-				EEFF76DBC4A6E0307EB3F490FB1BB69A /* SkeletonGradient.swift in Sources */,
-				052936B45E84571327F33D1778036EB0 /* SkeletonLayer.swift in Sources */,
-				86909D27971FE556B6E2E23C38B1BEA9 /* SkeletonLayerBuilder.swift in Sources */,
-				600AC8EE7816C50D2D0C580E3C62DB43 /* SkeletonMultilineLayerBuilder.swift in Sources */,
-				F9A047EB0C609E5583A3D76C732AC8A7 /* SkeletonMultilinesLayerConfig.swift in Sources */,
-				DE1517325E6287E14F351E939B2F387F /* SkeletonReusableCell.swift in Sources */,
-				BE619A91A74180CF840E5ECD50FABBBD /* SkeletonTableViewProtocols.swift in Sources */,
-				F54285D6ACE58FF72005E594BD08499C /* SkeletonTextLineHeight.swift in Sources */,
-				27FED4676461B8447304B2D11C9E84B3 /* SkeletonTextNode.swift in Sources */,
-				113E6D013678EAC0BD87C564E2621DDD /* SkeletonTextNumberOfLines.swift in Sources */,
-				9690596ADC7655E3D859B24AEEE42B3B /* SkeletonTransitionStyle.swift in Sources */,
-				04F808784098AE6BEC28786CFA984C1B /* SkeletonTreeNode+Extensions.swift in Sources */,
-				F027624CCD39E322E97836860CE337F8 /* SkeletonTreeNode.swift in Sources */,
-				A28359ACEC6C24677E804BD9B2A9B0D9 /* SkeletonType.swift in Sources */,
-				F248D07A69643E63E5633D4C02A44D06 /* SkeletonView-dummy.m in Sources */,
-				27FB87A31F736E6778A423AAC9F8952E /* SkeletonView.swift in Sources */,
-				3F73918DBBD6D0B63E9E1C6B209C3642 /* SubviewsSkeletonables.swift in Sources */,
-				07C80B1617258BBEFC7CACCEB107083B /* Swizzling.swift in Sources */,
-				847D7467C2E5766639D361CED4E88899 /* UICollectionView+CollectionSkeleton.swift in Sources */,
-				09DD87550899E891B6A39BA11421C8AA /* UICollectionView+Extensions.swift in Sources */,
-				4A039710D26A36FBA805C33B6FCE4B48 /* UIColor+Skeleton.swift in Sources */,
-				C7D483B7F5F32A36F7F26A9B3C35FDA4 /* UILabel+Extensions.swift in Sources */,
-				5666D8FB89EAF42F3E4EEE6B17DE1281 /* UILabel+IBInspectable.swift in Sources */,
-				5E63B59DBD055062712AE66647FF9229 /* UILabel+SKExtensions.swift in Sources */,
-				1A8C7EF52092341E993EC0077D87DBCE /* UITableView+CollectionSkeleton.swift in Sources */,
-				EAA6D8D753D752B49504811AD2F04EFC /* UITableView+Extensions.swift in Sources */,
-				C2B36CB8ABB34652C80F1ACC2A287C78 /* UITextView+IBInspectable.swift in Sources */,
-				6B6EE7B1EA05AA679CF7EEF5C503C7D5 /* UITextView+SKExtensions.swift in Sources */,
-				8F8CA8CB271C2AA814184B73784A0C08 /* UIView+AppLifecycleNotifications.swift in Sources */,
-				ADBCAD56C02169FA53CCF1292C8C0C59 /* UIView+AssociatedObjects.swift in Sources */,
-				B95097E3657CD2671C7F413C9604FE00 /* UIView+CollectionSkeleton.swift in Sources */,
-				C975B45302FA32113069EA8C65CD4B38 /* UIView+Extensions.swift in Sources */,
-				27C72A55D1D2DFB980B198D39D7BAAA3 /* UIView+IBInspectable.swift in Sources */,
-				EA9F74EDFE82820784F44E7AB6DA662F /* UIView+SkeletonView.swift in Sources */,
-				5A8D558DB5A5B10542F7787554ACF1D7 /* UIView+SKExtensions.swift in Sources */,
-				7F5A8D91F56A714DB0E9781FF66AD951 /* UIView+Swizzling.swift in Sources */,
-				F8B17393B14E9E6F5E6D218B274F6472 /* UIView+Transitions.swift in Sources */,
+				394441352B7564466C7CCCAED5AD3127 /* TPKeyboardAvoiding-dummy.m in Sources */,
+				976EFC4ECB59EA178B0611574D242DC8 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				3DF45FB8BD0B72046E6B70D9B7AE2496 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				DC323D77B2D66C7C89DB5CD2B64CD027 /* TPKeyboardAvoidingTableView.m in Sources */,
+				A5064C54F63B53D96BB3F31EEBDF5D07 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F30885B579F0A0C7D465E8B0BD69302B /* Sources */ = {
+		5AC3E9ABB260062905A58AC93303197D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0589922A10B1F35AF3B00950887CDF1 /* Pods-HelpNear-dummy.m in Sources */,
+				034F5AB1044B6C15D91080A1F8A3F34B /* NVActivityIndicatorAnimationAudioEqualizer.swift in Sources */,
+				4AB9068FCABD31E9A2262423C1FF3C61 /* NVActivityIndicatorAnimationBallBeat.swift in Sources */,
+				0C40715B2E27DAA8CBB069A6D5363243 /* NVActivityIndicatorAnimationBallClipRotate.swift in Sources */,
+				F5BAC0176FD41C6C4E633268D2241114 /* NVActivityIndicatorAnimationBallClipRotateMultiple.swift in Sources */,
+				D708B3CDC0314F7CEE769B81A14B62EF /* NVActivityIndicatorAnimationBallClipRotatePulse.swift in Sources */,
+				3551F84624CA8B2116469F66EA0E8BC9 /* NVActivityIndicatorAnimationBallDoubleBounce.swift in Sources */,
+				CD51E311A1975E8417AFF64195A30C79 /* NVActivityIndicatorAnimationBallGridBeat.swift in Sources */,
+				2FE9CFEACAFB82543FAC2462FA9D66A4 /* NVActivityIndicatorAnimationBallGridPulse.swift in Sources */,
+				01E830DFCB6D478AB3BC1CD43ED70BFE /* NVActivityIndicatorAnimationBallPulse.swift in Sources */,
+				9CC3364BFBF19FE10CD6D8722DA64FBD /* NVActivityIndicatorAnimationBallPulseRise.swift in Sources */,
+				2B8FF548DCFF5AD35B8E45939256E423 /* NVActivityIndicatorAnimationBallPulseSync.swift in Sources */,
+				382ABEC63A6185AB4B1F8636E1B4FAE6 /* NVActivityIndicatorAnimationBallRotate.swift in Sources */,
+				E0DF7E6076D1C3AD1D6357F860815AEF /* NVActivityIndicatorAnimationBallRotateChase.swift in Sources */,
+				99F9732AA924ACB4EEE7F9C8995340A3 /* NVActivityIndicatorAnimationBallScale.swift in Sources */,
+				22530BC1C9073232A130C7D3E05C78A4 /* NVActivityIndicatorAnimationBallScaleMultiple.swift in Sources */,
+				05C406B4C6C580EB22EB3DFA079439B3 /* NVActivityIndicatorAnimationBallScaleRipple.swift in Sources */,
+				40A2E2DDE76C3AA1AABA924FA9621DB0 /* NVActivityIndicatorAnimationBallScaleRippleMultiple.swift in Sources */,
+				11A8E62762D11170E1A8BF5AB0227888 /* NVActivityIndicatorAnimationBallSpinFadeLoader.swift in Sources */,
+				A4AD3FF96A8E9A29BF188D85340FB808 /* NVActivityIndicatorAnimationBallTrianglePath.swift in Sources */,
+				C4CC0C3C42BD781FC77686E25F94FE8E /* NVActivityIndicatorAnimationBallZigZag.swift in Sources */,
+				AF9ECF8CF25FB78A8EF2D9B1D4F48073 /* NVActivityIndicatorAnimationBallZigZagDeflect.swift in Sources */,
+				2705061702BC2563809296BA300DC549 /* NVActivityIndicatorAnimationBlank.swift in Sources */,
+				65A074F41ECB8BEAF94052828A200802 /* NVActivityIndicatorAnimationCircleStrokeSpin.swift in Sources */,
+				B3FF8D0D5733647EE69AED63492C5EF4 /* NVActivityIndicatorAnimationCubeTransition.swift in Sources */,
+				6403E3481C83F922AF02EA9E497E8C93 /* NVActivityIndicatorAnimationDelegate.swift in Sources */,
+				AF25DA133D02FE2BE4DCA72BB3FCB483 /* NVActivityIndicatorAnimationLineScale.swift in Sources */,
+				799C44CABAA6AFEC59CDEA68DD1A9557 /* NVActivityIndicatorAnimationLineScaleParty.swift in Sources */,
+				D565DA1C3FEF59B4A571D5714BB424EC /* NVActivityIndicatorAnimationLineScalePulseOut.swift in Sources */,
+				93CC358348D39367653952B679F00ABF /* NVActivityIndicatorAnimationLineScalePulseOutRapid.swift in Sources */,
+				AA9578B98EE22DA3FE1DF4CF81A2B11A /* NVActivityIndicatorAnimationLineSpinFadeLoader.swift in Sources */,
+				EDB2547B0D220772CF1A31249FBAFFBB /* NVActivityIndicatorAnimationOrbit.swift in Sources */,
+				BA99DA2A34CEE0EB21DBC63D117658F2 /* NVActivityIndicatorAnimationPacman.swift in Sources */,
+				6F5944A3FFB4759CE155408CEBC689A4 /* NVActivityIndicatorAnimationSemiCircleSpin.swift in Sources */,
+				E4429268BFDB3E0A7EDE808EF0FEA0C1 /* NVActivityIndicatorAnimationSquareSpin.swift in Sources */,
+				A51C4D1B32F07C893D5F1C445633D71A /* NVActivityIndicatorAnimationTriangleSkewSpin.swift in Sources */,
+				308734F92EB54837CD9B8A41D62C26CD /* NVActivityIndicatorShape.swift in Sources */,
+				8AA9ED0518D2840ECA78152726ECF3F0 /* NVActivityIndicatorView.swift in Sources */,
+				93A7B1B80F996A74021BBE4BFFAA40ED /* NVActivityIndicatorView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58A2BF6D26B4BE6FF16D51BF3BDA293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1829EF9AC1A7C0EE68BFFE2D6DEB8D /* AssociationPolicy.swift in Sources */,
+				EBE33106D2F992A6371EF38E67FCB45C /* CALayer+Animations.swift in Sources */,
+				182DB8FC7B75CEAFFC80B8DCF2DDAE2A /* CALayer+Extensions.swift in Sources */,
+				89C36D86454EF394CC8D9AAEDAF4E908 /* CollectionSkeleton.swift in Sources */,
+				24C3AE66D67FE633CC0864FD7A805880 /* Deprecated.swift in Sources */,
+				DE68D2A88D305EBF758713D3C4F66F96 /* DispatchQueue+Extensions.swift in Sources */,
+				39165C2314870B5E84EF4D7900D8C068 /* GradientDirection.swift in Sources */,
+				85E2C79FB06E72B588D40E999266F712 /* GradientDirection+Animations.swift in Sources */,
+				8AFEC3FDFB1AA2EEE863E30034C5D247 /* Int+Extensions.swift in Sources */,
+				3FAECBFCB37AAFB5BDDA10AB0B81B1E9 /* Notification+Extensions.swift in Sources */,
+				0D5539D20DA378F111851D431717BE6F /* Notification+SkeletonFlow.swift in Sources */,
+				5186FA9FA0244EBEB68A20D465624863 /* PrepareViewForSkeleton.swift in Sources */,
+				F012180366FC9F017E5237B64607D75B /* ProcessInfo+Extensions.swift in Sources */,
+				4A4330036BF48FADC8689371C657F1D7 /* Recoverable.swift in Sources */,
+				255B8039A5422D5487B7E090A69D6686 /* RecoverableViewState.swift in Sources */,
+				487DCA22638C799DA246A224DC2B66DF /* Recursive.swift in Sources */,
+				D703952D56064AE264D736910DC80D7B /* SkeletonAnimationBuilder.swift in Sources */,
+				28C475EE48BC8C9C1AA9DE48A2F4D01C /* SkeletonAppearance.swift in Sources */,
+				9EDB6E03CFF61D59CD4F02849D3300AF /* SkeletonCollectionDataSource.swift in Sources */,
+				EAD128E781A9681A0FBDDBEEADD22B89 /* SkeletonCollectionDelegate.swift in Sources */,
+				F58A6AC2EEE98442E0A282EDAE7D5099 /* SkeletonCollectionViewProtocols.swift in Sources */,
+				B3B3B2A2CA9E063CF7C8FBBC35B48FE2 /* SkeletonConfig.swift in Sources */,
+				F7B1C1329581FCC09F54B77788F94A85 /* SkeletonDebug.swift in Sources */,
+				6D5A43E0CEC1546339105DB3465B5264 /* SkeletonExtended.swift in Sources */,
+				BD3663D9F8B999A949ADBBB3BFA8F2CD /* SkeletonFlowHandler.swift in Sources */,
+				AE54A6FAD49B5524E11AC0BD7BB5BEC2 /* SkeletonGradient.swift in Sources */,
+				4DEA179D81118F2F2FD967142986897D /* SkeletonLayer.swift in Sources */,
+				79B45DC5D9CDB522C5316E79A97E64A2 /* SkeletonLayerBuilder.swift in Sources */,
+				C9B57C6951420E3C0F6420B6C13284E9 /* SkeletonMultilineLayerBuilder.swift in Sources */,
+				44D186EDEAE3B83A52108DC4B8CBDD8E /* SkeletonMultilinesLayerConfig.swift in Sources */,
+				EFE255576A3DF0CDE10858E3B2D7EFE3 /* SkeletonReusableCell.swift in Sources */,
+				2F76E04866F9F4E4D9B17F90E94A969C /* SkeletonTableViewProtocols.swift in Sources */,
+				725323D4A321DBF980E97603D961CDE1 /* SkeletonTextLineHeight.swift in Sources */,
+				052FBB9363B1BC1FDB349E3F3CEE69C6 /* SkeletonTextNode.swift in Sources */,
+				28011A04F91E9E351EB87E0D4355E7CE /* SkeletonTextNumberOfLines.swift in Sources */,
+				4B810DCCDEC4D31F78EA6AD2AF3F9EEF /* SkeletonTransitionStyle.swift in Sources */,
+				9E873CCC232F678B41009471A95D181D /* SkeletonTreeNode.swift in Sources */,
+				F851C212FE2C9EFE8CA109D27E5CA7B0 /* SkeletonTreeNode+Extensions.swift in Sources */,
+				E80F6AD40556AA586E6CD4F2AD5DDBD3 /* SkeletonType.swift in Sources */,
+				0E7E2449066EB2DFE86D1E98F169FB40 /* SkeletonView.swift in Sources */,
+				B91996622DF193F86DF5349242B65507 /* SkeletonView-dummy.m in Sources */,
+				685A0A7F0130E280E9684E485D03A62E /* SubviewsSkeletonables.swift in Sources */,
+				D9120F6113E93C120DDA31F0CFA8E394 /* Swizzling.swift in Sources */,
+				7DCDF7BEE7C5BF26E51EA0E659513D5F /* UICollectionView+CollectionSkeleton.swift in Sources */,
+				7BDCD44C8886591445A7DFEF6915B0BA /* UICollectionView+Extensions.swift in Sources */,
+				3DC80AFB3A1C2F7D6B86B4CCA77DEEA0 /* UIColor+Skeleton.swift in Sources */,
+				C74C07031ACD244428C0B4AB8B91986D /* UILabel+Extensions.swift in Sources */,
+				4573B8B1B1787D61DBAB8686F58000AA /* UILabel+IBInspectable.swift in Sources */,
+				71E0314B48058EB95C1DD025D013EF98 /* UILabel+SKExtensions.swift in Sources */,
+				1A99582B47723D7282959E2FEF44CCA3 /* UITableView+CollectionSkeleton.swift in Sources */,
+				5BC7985CFEF8890CCF0653CC9E69024A /* UITableView+Extensions.swift in Sources */,
+				1D735C25C4B9D9687CBD5B7A82C5BB9B /* UITextView+IBInspectable.swift in Sources */,
+				2A91AFF759771F30762A499683402981 /* UITextView+SKExtensions.swift in Sources */,
+				C3A7962ECF086AF37895D11C63EAD40D /* UIView+AppLifecycleNotifications.swift in Sources */,
+				7AAC9A8FA6E3BEFDCAD561EBECA4104D /* UIView+AssociatedObjects.swift in Sources */,
+				4B5B7F4937945D28D8CAE2BD46622873 /* UIView+CollectionSkeleton.swift in Sources */,
+				D0129BE19086C6A77A52DF92151A0CA2 /* UIView+Extensions.swift in Sources */,
+				37B83B2C1AA6CCF24D088098B46AA7E1 /* UIView+IBInspectable.swift in Sources */,
+				D38C419E4D46A900BEB4124D0CAFA6E7 /* UIView+SkeletonView.swift in Sources */,
+				EFAC89938AB4509807BF9CFBF16FA0CE /* UIView+SKExtensions.swift in Sources */,
+				578D4EE7467AA9C2451989153BBCC911 /* UIView+Swizzling.swift in Sources */,
+				0AD12B0895E23C85CFB097DA52ECE2F7 /* UIView+Transitions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		11A7F336B7F2F13F013A9020B3753221 /* PBXTargetDependency */ = {
+		36F26C355A0804B1C3212BACF525AA07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = NVActivityIndicatorView;
 			target = AF8A82876C43F4DFD625D1823E680EAC /* NVActivityIndicatorView */;
-			targetProxy = BA7F137A42112D82BF85555ED4DD2F6F /* PBXContainerItemProxy */;
+			targetProxy = EFE7ACF271BE3458F285CAFE11C06FD6 /* PBXContainerItemProxy */;
 		};
-		981E738FD6B6214340745D3066789D07 /* PBXTargetDependency */ = {
+		A28BA552C49D2C45D663A52AE601DE1B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SkeletonView;
 			target = 8CEEFD1CB630CA790F0396E2E24A4C8C /* SkeletonView */;
-			targetProxy = 6E4BEF355704B60644473B222C39B3B6 /* PBXContainerItemProxy */;
+			targetProxy = 578A68091679ECE1756B0812A34B4D1F /* PBXContainerItemProxy */;
+		};
+		DC673A191DABC3FA7E311C2AB3D3FB8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPKeyboardAvoiding;
+			target = 1343042EDCB23E2CA267E65C520F9395 /* TPKeyboardAvoiding */;
+			targetProxy = DC6144515C8B6C0AF4B3A283DEA64608 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7338006C2D34EC84ECA4372579D2C75D /* Debug */ = {
+		0D67BA054AB14748A4E6F6020273CEB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70D8A7EC195CF3557DA4231939D9865D /* NVActivityIndicatorView.debug.xcconfig */;
+			baseConfigurationReference = 5C935ED65076643D9539859E917A9E55 /* Pods-HelpNear.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HelpNear/Pods-HelpNear-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelpNear/Pods-HelpNear.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		205B062120CED0B97673F83570071FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5B5149D78ED8E296F51BDACF5F9B0EC /* NVActivityIndicatorView.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -837,9 +1007,9 @@
 			};
 			name = Debug;
 		};
-		77BC4EC263178AEC67D0785AC281CD80 /* Release */ = {
+		27566B7C043BA97648E750D8887FF6F0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E8337B5BE2E15FA373DAC0B1C042FE9 /* SkeletonView.release.xcconfig */;
+			baseConfigurationReference = F0E6CA3F1C11264AC1740909CD7538CC /* SkeletonView.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -852,7 +1022,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/SkeletonView/SkeletonView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/SkeletonView/SkeletonView-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -861,6 +1031,75 @@
 				MODULEMAP_FILE = "Target Support Files/SkeletonView/SkeletonView.modulemap";
 				PRODUCT_MODULE_NAME = SkeletonView;
 				PRODUCT_NAME = SkeletonView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		373470549263997DCFC8B8091E008546 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D844CABFFE65199882DAE35D355C64C2 /* SkeletonView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkeletonView/SkeletonView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkeletonView/SkeletonView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkeletonView/SkeletonView.modulemap";
+				PRODUCT_MODULE_NAME = SkeletonView;
+				PRODUCT_NAME = SkeletonView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F7D6B8CFA41427658575AEC930F37B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E66E47850A3AC4829ACE2BA1BD5C13C2 /* NVActivityIndicatorView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
+				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
+				PRODUCT_NAME = NVActivityIndicatorView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -938,40 +1177,6 @@
 			};
 			name = Debug;
 		};
-		91639051E423951B8E4E38E7A110C594 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6E23ED8F64B023E34DC4DE75CCEEC45E /* SkeletonView.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SkeletonView/SkeletonView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SkeletonView/SkeletonView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/SkeletonView/SkeletonView.modulemap";
-				PRODUCT_MODULE_NAME = SkeletonView;
-				PRODUCT_NAME = SkeletonView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1034,9 +1239,9 @@
 			};
 			name = Release;
 		};
-		AD332A476A30499D1445D3EC2B3D33CD /* Release */ = {
+		B8B3462114344B1FA586C4CE00993B0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC24BC8821F562BE5C59E7D0ADF7F26C /* NVActivityIndicatorView.release.xcconfig */;
+			baseConfigurationReference = 415632BF40559A80D4DC350BA21F7A57 /* TPKeyboardAvoiding.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1046,8 +1251,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1055,9 +1260,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/NVActivityIndicatorView/NVActivityIndicatorView.modulemap";
-				PRODUCT_MODULE_NAME = NVActivityIndicatorView;
-				PRODUCT_NAME = NVActivityIndicatorView;
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = TPKeyboardAvoiding;
+				PRODUCT_NAME = TPKeyboardAvoiding;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1069,7 +1274,41 @@
 			};
 			name = Release;
 		};
-		D86422DECB32D61C61AC68FD98B8FC0D /* Release */ = {
+		C66FA4F992B4466DD83BCA626A3CAFA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A618E07A46771986FA0FE378B8AC72B0 /* TPKeyboardAvoiding.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPKeyboardAvoiding/TPKeyboardAvoiding.modulemap";
+				PRODUCT_MODULE_NAME = TPKeyboardAvoiding;
+				PRODUCT_NAME = TPKeyboardAvoiding;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EE5F2345513C5BB2C07A6703E915DC1F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BE0367E32BAA3FACAB6498D18340141 /* Pods-HelpNear.release.xcconfig */;
 			buildSettings = {
@@ -1107,51 +1346,14 @@
 			};
 			name = Release;
 		};
-		DC12F5A4E52344F137FDF312C3497BE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C935ED65076643D9539859E917A9E55 /* Pods-HelpNear.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HelpNear/Pods-HelpNear-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HelpNear/Pods-HelpNear.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		172560E08C81E226F7F2C15DFCF9C07F /* Build configuration list for PBXNativeTarget "SkeletonView" */ = {
+		0481D32D58F28485A0D4724554C4E333 /* Build configuration list for PBXNativeTarget "Pods-HelpNear" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91639051E423951B8E4E38E7A110C594 /* Debug */,
-				77BC4EC263178AEC67D0785AC281CD80 /* Release */,
+				0D67BA054AB14748A4E6F6020273CEB1 /* Debug */,
+				EE5F2345513C5BB2C07A6703E915DC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1165,20 +1367,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C2F29596E14561A060E8A2810958844 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+		99E2951F31175B4761EC7B1EC1C84A65 /* Build configuration list for PBXNativeTarget "SkeletonView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7338006C2D34EC84ECA4372579D2C75D /* Debug */,
-				AD332A476A30499D1445D3EC2B3D33CD /* Release */,
+				373470549263997DCFC8B8091E008546 /* Debug */,
+				27566B7C043BA97648E750D8887FF6F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96AFE4ED80872CDE0FAA18ADC34532D8 /* Build configuration list for PBXNativeTarget "Pods-HelpNear" */ = {
+		D455E053C60F09EF04DF52DC8A57EF3E /* Build configuration list for PBXNativeTarget "TPKeyboardAvoiding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC12F5A4E52344F137FDF312C3497BE5 /* Debug */,
-				D86422DECB32D61C61AC68FD98B8FC0D /* Release */,
+				C66FA4F992B4466DD83BCA626A3CAFA7 /* Debug */,
+				B8B3462114344B1FA586C4CE00993B0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F218111D503AE3381DD4D55E705C3915 /* Build configuration list for PBXNativeTarget "NVActivityIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				205B062120CED0B97673F83570071FF3 /* Debug */,
+				7F7D6B8CFA41427658575AEC930F37B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
