@@ -63,8 +63,10 @@ class ProjectCoordinator{
   }
     
     func createUserProfileScreen() -> UIViewController{
-        
-        UserProfileScreen().wrapInNavigationController()
+
+      let vc = UserProfileScreen(nibName: "UserProfileScreen", bundle: nil)//EventCollectionScreen()
+      return vc
+
         //ProjectCoordinator.shared.createHostingViewController(with: someView).wrapInNavigationController()
     }
     

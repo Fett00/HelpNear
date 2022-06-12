@@ -16,6 +16,8 @@
 		3A7BFFA42855B6E6009ADD45 /* OnBoardingViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA22855B6E6009ADD45 /* OnBoardingViewController6.swift */; };
 		3A7BFFA52855B6E6009ADD45 /* OnBoardingViewController6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA32855B6E6009ADD45 /* OnBoardingViewController6.xib */; };
 		3A7BFFA72855C04E009ADD45 /* Bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA62855C04E009ADD45 /* Bahnschrift.ttf */; };
+		3AAB2A5E285668090040171E /* UserProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB2A5C285668090040171E /* UserProfileScreen.swift */; };
+		3AAB2A5F285668090040171E /* UserProfileScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAB2A5D285668090040171E /* UserProfileScreen.xib */; };
 		3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */; };
 		3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */; };
 		3AF8F5A02854E53B0036D277 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8F59E2854E53B0036D277 /* OnBoardingViewController.swift */; };
@@ -68,7 +70,6 @@
 		5AB37B582839844400CD54EA /* EventMapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B572839844400CD54EA /* EventMapScreen.swift */; };
 		5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B59283984BC00CD54EA /* Enums.swift */; };
 		5AB37B5F2839887C00CD54EA /* LocationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B5E2839887C00CD54EA /* LocationWorker.swift */; };
-		5ACA95492835496200FB125C /* UserProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA95482835496200FB125C /* UserProfileScreen.swift */; };
 		5ACA954C2835547000FB125C /* MapSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA954B2835547000FB125C /* MapSingleView.swift */; };
 		5EA4D41473303534CD64CC94 /* Pods_HelpNear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10699B62BA81115C5BEC2428 /* Pods_HelpNear.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,8 @@
 		3A7BFFA22855B6E6009ADD45 /* OnBoardingViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController6.swift; sourceTree = "<group>"; };
 		3A7BFFA32855B6E6009ADD45 /* OnBoardingViewController6.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController6.xib; sourceTree = "<group>"; };
 		3A7BFFA62855C04E009ADD45 /* Bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bahnschrift.ttf; sourceTree = "<group>"; };
+		3AAB2A5C285668090040171E /* UserProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileScreen.swift; sourceTree = "<group>"; };
+		3AAB2A5D285668090040171E /* UserProfileScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserProfileScreen.xib; sourceTree = "<group>"; };
 		3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController1.swift; sourceTree = "<group>"; };
 		3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController1.xib; sourceTree = "<group>"; };
 		3AF8F59E2854E53B0036D277 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
@@ -138,7 +141,6 @@
 		5AB37B572839844400CD54EA /* EventMapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapScreen.swift; sourceTree = "<group>"; };
 		5AB37B59283984BC00CD54EA /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		5AB37B5E2839887C00CD54EA /* LocationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWorker.swift; sourceTree = "<group>"; };
-		5ACA95482835496200FB125C /* UserProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileScreen.swift; sourceTree = "<group>"; };
 		5ACA954B2835547000FB125C /* MapSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSingleView.swift; sourceTree = "<group>"; };
 		CCB986EA9FAD6E8F0609DAC5 /* Pods-HelpNear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNear.release.xcconfig"; path = "Target Support Files/Pods-HelpNear/Pods-HelpNear.release.xcconfig"; sourceTree = "<group>"; };
 		F399C5713899BA23CF882C32 /* Pods-HelpNear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNear.debug.xcconfig"; path = "Target Support Files/Pods-HelpNear/Pods-HelpNear.debug.xcconfig"; sourceTree = "<group>"; };
@@ -441,7 +443,8 @@
 		5AB37B5D2839883E00CD54EA /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
-				5ACA95482835496200FB125C /* UserProfileScreen.swift */,
+				3AAB2A5C285668090040171E /* UserProfileScreen.swift */,
+				3AAB2A5D285668090040171E /* UserProfileScreen.xib */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 				3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */,
 				3A7BFF9928559857009ADD45 /* OnBoardingViewController3.xib in Resources */,
 				3A7BFFA12855B3FB009ADD45 /* OnBoardingViewController5.xib in Resources */,
+				3AAB2A5F285668090040171E /* UserProfileScreen.xib in Resources */,
 				5A7238B6283453D00052CEBE /* Assets.xcassets in Resources */,
 				5A3B245028561E8600B90E0A /* EventCollectionCell.xib in Resources */,
 				3A7BFFA72855C04E009ADD45 /* Bahnschrift.ttf in Resources */,
@@ -630,7 +634,6 @@
 				5A7E5AFE2854A54B004B5FBB /* POINetworkModel.swift in Sources */,
 				5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */,
 				5A3B243328554B0D00B90E0A /* TabBarController.swift in Sources */,
-				5ACA95492835496200FB125C /* UserProfileScreen.swift in Sources */,
 				5A7238D5283456170052CEBE /* JSONWorker.swift in Sources */,
 				5AB37B56283982CE00CD54EA /* EventCollectionScreen.swift in Sources */,
 				5AB37B582839844400CD54EA /* EventMapScreen.swift in Sources */,
@@ -644,6 +647,7 @@
 				5A3B24312855474200B90E0A /* SettingsScreen.swift in Sources */,
 				5A3B243828554B6000B90E0A /* UIImage+Ext.swift in Sources */,
 				5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */,
+				3AAB2A5E285668090040171E /* UserProfileScreen.swift in Sources */,
 				3AF8F5A02854E53B0036D277 /* OnBoardingViewController.swift in Sources */,
 				5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */,
 				5A3B243F2855821100B90E0A /* RankingCollectionCell.swift in Sources */,
