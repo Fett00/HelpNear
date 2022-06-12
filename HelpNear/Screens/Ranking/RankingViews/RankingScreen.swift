@@ -12,15 +12,15 @@ final class RankingScreen: UIViewController{
     
     var viewModel: RankingViewModelProtocol!
     
-    private lazy var rankedTableView: UITableView = {
+    private lazy var rankedCollectionView: UICollectionView = {
        
-        let tableView = UITableView()
-        tableView.delegate = self
-        tableView.dataSource = self
-        tableView.register(RankingTableCell.self)
-        //tableView.rowHeight = UITableView.automaticDimension
+        let layout = UICollectionViewFlowLayout()
+        let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        collectionView.register(RankingCollectionCell.self)
         
-        return tableView
+        return collectionView
     }()
     
     override func viewDidLoad() {
@@ -33,40 +33,56 @@ final class RankingScreen: UIViewController{
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+        layoutCollection()
+        
         self.viewModel.requestRankedUsers {
             
             DispatchQueue.main.async {
                 
-                self.rankedTableView.reloadData()
+                self.rankedCollectionView.reloadData()
             }
         }
+    }
+    
+    private func layoutCollection(){
+        
+        guard let flowLayout = rankedCollectionView.collectionViewLayout as? UICollectionViewFlowLayout else { return }
+        
+        let insets = UIEdgeInsets(top: 20, left: 20, bottom: 0, right: 20)
+        let spacing = 20.0
+        let collectionWidth = self.rankedCollectionView.frame.width
+        let itemSize = (collectionWidth - insets.left - insets.right)
+        flowLayout.minimumInteritemSpacing = 0
+        flowLayout.minimumLineSpacing = spacing
+        rankedCollectionView.contentInset = insets
+        flowLayout.itemSize = CGSize(width: itemSize, height: 70)
     }
     
     private func confView(){
         
         self.view.backgroundColor = .systemBackground
+
     }
     
     private func confSubviews(){
         
-        self.view.addSubview(rankedTableView)
+        self.view.addSubview(rankedCollectionView)
         
         let safe = self.view.safeAreaLayoutGuide
         
-        rankedTableView.constraints(top: safe.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
+        rankedCollectionView.constraints(top: safe.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
     }
 }
 
-extension RankingScreen: UITableViewDataSource{
+extension RankingScreen: UICollectionViewDataSource{
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         self.viewModel.data.count
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: RankingTableCell.reuseID, for: indexPath) as? RankingTableCell else { return UITableViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: RankingCollectionCell.reuseID, for: indexPath) as? RankingCollectionCell else { return UICollectionViewCell() }
         
         cell.render(with: self.viewModel.data[indexPath.row])
         
@@ -74,6 +90,6 @@ extension RankingScreen: UITableViewDataSource{
     }
 }
 
-extension RankingScreen: UITableViewDelegate{
+extension RankingScreen: UICollectionViewDelegate{
     
 }
