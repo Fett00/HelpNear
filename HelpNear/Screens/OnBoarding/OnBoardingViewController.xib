@@ -48,7 +48,7 @@
                     </subviews>
                 </stackView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koj-Wb-diP" userLabel="Войти">
-                    <rect key="frame" x="57" y="671" width="300" height="37"/>
+                    <rect key="frame" x="57" y="668.5" width="300" height="42"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="74a-8P-hrf"/>
                     </constraints>
@@ -61,7 +61,7 @@
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAg-I8-pWP" userLabel="Войти">
-                    <rect key="frame" x="57" y="740.5" width="300" height="37"/>
+                    <rect key="frame" x="57" y="738" width="300" height="42"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="300" id="s6R-c8-njN"/>
                     </constraints>
@@ -71,6 +71,9 @@
                     <state key="normal" title="Зарегистрироваться">
                         <color key="titleColor" red="0.74810880420000003" green="0.51382398610000002" blue="0.97259360549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </state>
+                    <connections>
+                        <action selector="registerPressed:" destination="-1" eventType="touchUpInside" id="AId-1y-3gd"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

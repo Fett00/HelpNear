@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardingViewController6" customModule="HelpNear" customModuleProvider="target">
+            <connections>
+                <outlet property="infoLabel" destination="180-wQ-hRj" id="5vb-lP-Jg0"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Guide3" translatesAutoresizingMaskIntoConstraints="NO" id="OWJ-Vx-Xqh">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="180-wQ-hRj">
+                    <rect key="frame" x="20" y="124" width="374" height="524"/>
+                    <string key="text">Волонтёр тоже нуждается в помощи!  Вы всегда можете сменить свою роль в настройках профиля, это позволит вам самим создавать задачи и выбирать отозвавшихся волонтёров!</string>
+                    <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="35"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ava-Az-t1E">
+                    <rect key="frame" x="15" y="791" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="Che-Wc-wGk"/>
+                        <constraint firstAttribute="width" secondItem="Ava-Az-t1E" secondAttribute="height" multiplier="1:1" id="cQj-HS-Cbu"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" "/>
+                    <connections>
+                        <action selector="backButtonPressed:" destination="-1" eventType="touchUpInside" id="fCr-vZ-Dji"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJg-48-JWL">
+                    <rect key="frame" x="329" y="791" width="70" height="70"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="fJg-48-JWL" secondAttribute="height" multiplier="1:1" id="GZm-hf-x0q"/>
+                        <constraint firstAttribute="width" constant="70" id="Qes-KD-bG3"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title=" "/>
+                    <connections>
+                        <action selector="nextButtonPressed:" destination="-1" eventType="touchUpInside" id="jfv-36-Ir5"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Ava-Az-t1E" firstAttribute="bottom" secondItem="OWJ-Vx-Xqh" secondAttribute="bottom" constant="-35" id="0bI-4n-zdO"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="leading" secondItem="180-wQ-hRj" secondAttribute="leading" constant="-20" id="3N8-lb-MIv"/>
+                <constraint firstAttribute="bottom" secondItem="OWJ-Vx-Xqh" secondAttribute="bottom" id="7g1-zg-NJH"/>
+                <constraint firstAttribute="trailing" secondItem="OWJ-Vx-Xqh" secondAttribute="trailing" id="DdX-mm-wBD"/>
+                <constraint firstItem="OWJ-Vx-Xqh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Ks3-wa-eEk"/>
+                <constraint firstItem="OWJ-Vx-Xqh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aeB-co-dqO"/>
+                <constraint firstItem="fJg-48-JWL" firstAttribute="bottom" secondItem="OWJ-Vx-Xqh" secondAttribute="bottom" constant="-35" id="fny-Kh-fS6"/>
+                <constraint firstItem="fJg-48-JWL" firstAttribute="trailing" secondItem="OWJ-Vx-Xqh" secondAttribute="trailing" constant="-15" id="iL1-uS-31h"/>
+                <constraint firstItem="Ava-Az-t1E" firstAttribute="leading" secondItem="OWJ-Vx-Xqh" secondAttribute="leading" constant="15" id="jZg-FV-BQo"/>
+                <constraint firstItem="180-wQ-hRj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="80" id="mep-Z3-aSH"/>
+                <constraint firstItem="180-wQ-hRj" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" constant="-20" id="nNA-LR-snk"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="42"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Guide3" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
