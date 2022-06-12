@@ -18,7 +18,7 @@ final class RankingScreen: UIViewController{
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(RankingTableCell.self)
-        
+        //tableView.rowHeight = UITableView.automaticDimension
         
         return tableView
     }()
@@ -30,6 +30,18 @@ final class RankingScreen: UIViewController{
         confSubviews()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        self.viewModel.requestRankedUsers {
+            
+            DispatchQueue.main.async {
+                
+                self.rankedTableView.reloadData()
+            }
+        }
+    }
+    
     private func confView(){
         
         self.view.backgroundColor = .systemBackground
@@ -37,6 +49,11 @@ final class RankingScreen: UIViewController{
     
     private func confSubviews(){
         
+        self.view.addSubview(rankedTableView)
+        
+        let safe = self.view.safeAreaLayoutGuide
+        
+        rankedTableView.constraints(top: safe.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
     }
 }
 

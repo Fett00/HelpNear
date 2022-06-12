@@ -14,6 +14,7 @@ class ProjectCoordinator{
     private let jsonWorker = JSONDecoderWorker()
     private let locationWorker = LocationWorker()
     private lazy var eventsDataWorker = EventsDataWorker(coreDataWorker: self.coreDataWorker, networkWorker: self.networkWorker, jsonWorker: self.jsonWorker)
+    private let userDataWorker = UsersDataWorker()
     
     //singleton
     private init(){}
@@ -87,7 +88,11 @@ class ProjectCoordinator{
     
     func createRankingScreen() -> UIViewController{
         
-        RankingScreen().wrapInNavigationController()
+        let vm = RankingViewModel(usersDataWorker: self.userDataWorker)
+        let vc = RankingScreen()
+        vc.viewModel = vm
+        
+        return vc.wrapInNavigationController()
     }
     
     func createSettingsScreen() -> UIViewController{
