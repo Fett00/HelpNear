@@ -8,4 +8,5 @@ target 'HelpNear' do
   # Pods for HelpNear
   pod 'SkeletonView'
   pod 'NVActivityIndicatorView'
+  pod 'TPKeyboardAvoiding'
 end

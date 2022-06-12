@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AF8F5982854D0690036D277 /* BAHNSCHRIFT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F5972854D0690036D277 /* BAHNSCHRIFT.TTF */; };
+		3A7BFF9828559857009ADD45 /* OnBoardingViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9628559857009ADD45 /* OnBoardingViewController3.swift */; };
+		3A7BFF9928559857009ADD45 /* OnBoardingViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9728559857009ADD45 /* OnBoardingViewController3.xib */; };
+		3AF8F5982854D0690036D277 /* Bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F5972854D0690036D277 /* Bahnschrift.ttf */; };
+		3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */; };
+		3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */; };
+		3AF8F5A02854E53B0036D277 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8F59E2854E53B0036D277 /* OnBoardingViewController.swift */; };
+		3AF8F5A12854E53B0036D277 /* OnBoardingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F59F2854E53B0036D277 /* OnBoardingViewController.xib */; };
 		5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162AE285485F7004CC389 /* EventCollectionModel.swift */; };
 		5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B728548C67004CC389 /* EventMapViewModel.swift */; };
 		5A1162BA28548C92004CC389 /* EventsDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1162B928548C92004CC389 /* EventsDataWorker.swift */; };
@@ -45,7 +51,13 @@
 
 /* Begin PBXFileReference section */
 		10699B62BA81115C5BEC2428 /* Pods_HelpNear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpNear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AF8F5972854D0690036D277 /* BAHNSCHRIFT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BAHNSCHRIFT.TTF; sourceTree = "<group>"; };
+		3A7BFF9628559857009ADD45 /* OnBoardingViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController3.swift; sourceTree = "<group>"; };
+		3A7BFF9728559857009ADD45 /* OnBoardingViewController3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController3.xib; sourceTree = "<group>"; };
+		3AF8F5972854D0690036D277 /* Bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bahnschrift.ttf; sourceTree = "<group>"; };
+		3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController1.swift; sourceTree = "<group>"; };
+		3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController1.xib; sourceTree = "<group>"; };
+		3AF8F59E2854E53B0036D277 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
+		3AF8F59F2854E53B0036D277 /* OnBoardingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController.xib; sourceTree = "<group>"; };
 		5A1162AE285485F7004CC389 /* EventCollectionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionModel.swift; sourceTree = "<group>"; };
 		5A1162B728548C67004CC389 /* EventMapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapViewModel.swift; sourceTree = "<group>"; };
 		5A1162B928548C92004CC389 /* EventsDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsDataWorker.swift; sourceTree = "<group>"; };
@@ -99,9 +111,22 @@
 		3AF8F5962854CFFC0036D277 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8F5972854D0690036D277 /* BAHNSCHRIFT.TTF */,
+				3AF8F5972854D0690036D277 /* Bahnschrift.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		3AF8F5992854DA220036D277 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */,
+				3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */,
+				3AF8F59E2854E53B0036D277 /* OnBoardingViewController.swift */,
+				3AF8F59F2854E53B0036D277 /* OnBoardingViewController.xib */,
+				3A7BFF9628559857009ADD45 /* OnBoardingViewController3.swift */,
+				3A7BFF9728559857009ADD45 /* OnBoardingViewController3.xib */,
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 		3CFB15879C353B25F7A5272F /* Pods */ = {
@@ -227,6 +252,7 @@
 		5A7238D7283456FF0052CEBE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				3AF8F5992854DA220036D277 /* OnBoarding */,
 				5A9CA6712843898700ECD890 /* Registration */,
 				5AB37B5B2839882700CD54EA /* EventCollection */,
 				5AB37B5C2839883000CD54EA /* EventMap */,
@@ -369,8 +395,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A7238B9283453D00052CEBE /* LaunchScreen.storyboard in Resources */,
+				3AF8F5A12854E53B0036D277 /* OnBoardingViewController.xib in Resources */,
+				3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */,
+				3A7BFF9928559857009ADD45 /* OnBoardingViewController3.xib in Resources */,
 				5A7238B6283453D00052CEBE /* Assets.xcassets in Resources */,
-				3AF8F5982854D0690036D277 /* BAHNSCHRIFT.TTF in Resources */,
+				3AF8F5982854D0690036D277 /* Bahnschrift.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +454,7 @@
 			files = (
 				5A1162BA28548C92004CC389 /* EventsDataWorker.swift in Sources */,
 				5A7238C2283454670052CEBE /* ProjectCoordinator.swift in Sources */,
+				3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */,
 				5A7238CD283455280052CEBE /* UITableViewCell+Ext.swift in Sources */,
 				5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */,
 				5A7D31862853E43D00DEA43E /* RequirementsScrolledList.swift in Sources */,
@@ -432,6 +462,7 @@
 				5A7238CE283455280052CEBE /* UICollectionViewCell+Ext.swift in Sources */,
 				5A791A2928512D3900CE81E0 /* EventCollectionCell.swift in Sources */,
 				5A7238CF283455280052CEBE /* UIViewController+Ext.swift in Sources */,
+				3A7BFF9828559857009ADD45 /* OnBoardingViewController3.swift in Sources */,
 				5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */,
 				5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */,
 				5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */,
@@ -449,6 +480,7 @@
 				5A7238CC283455280052CEBE /* UITableView+Ext.swift in Sources */,
 				5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */,
 				5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */,
+				3AF8F5A02854E53B0036D277 /* OnBoardingViewController.swift in Sources */,
 				5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */,
 				5A791A2128510D0100CE81E0 /* LocationModel.swift in Sources */,
 				5A791A2328510EF300CE81E0 /* POIModel.swift in Sources */,

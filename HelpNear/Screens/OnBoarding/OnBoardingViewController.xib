@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bahnschrift.ttf">
+            <string>Bahnschrift</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="OnBoardingViewController" customModule="HelpNear" customModuleProvider="target">
+            <connections>
+                <outlet property="enterButton" destination="Koj-Wb-diP" id="Ed5-ZE-2NL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Enter" translatesAutoresizingMaskIntoConstraints="NO" id="Xsf-kZ-8WA">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="2E3-IR-mbP">
+                    <rect key="frame" x="42" y="662.5" width="330" height="123.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundButton1" translatesAutoresizingMaskIntoConstraints="NO" id="FWC-pW-ucF">
+                            <rect key="frame" x="0.0" y="0.0" width="330" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="330" id="MbB-gU-J30"/>
+                                <constraint firstAttribute="width" secondItem="FWC-pW-ucF" secondAttribute="height" multiplier="243:40" id="V5k-lk-wSJ"/>
+                            </constraints>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundButton2" translatesAutoresizingMaskIntoConstraints="NO" id="rtH-aO-4pl">
+                            <rect key="frame" x="0.0" y="69" width="330" height="54.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="330" id="Gnr-dD-gWS"/>
+                                <constraint firstAttribute="width" secondItem="rtH-aO-4pl" secondAttribute="height" multiplier="243:40" id="Kax-Hg-os8"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                </stackView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Koj-Wb-diP" userLabel="Войти">
+                    <rect key="frame" x="57" y="671" width="300" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="74a-8P-hrf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="25"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Войти"/>
+                    <connections>
+                        <action selector="enterPressed:" destination="-1" eventType="touchUpInside" id="40M-6W-BAL"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tAg-I8-pWP" userLabel="Войти">
+                    <rect key="frame" x="57" y="740.5" width="300" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="s6R-c8-njN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Bahnschrift" family="Bahnschrift" pointSize="25"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Зарегистрироваться">
+                        <color key="titleColor" red="0.74810880420000003" green="0.51382398610000002" blue="0.97259360549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </state>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="2E3-IR-mbP" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Gx6-eV-s7S"/>
+                <constraint firstAttribute="trailing" secondItem="Xsf-kZ-8WA" secondAttribute="trailing" id="XNb-CO-9bP"/>
+                <constraint firstItem="Xsf-kZ-8WA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="abp-Xg-LYE"/>
+                <constraint firstItem="tAg-I8-pWP" firstAttribute="centerY" secondItem="rtH-aO-4pl" secondAttribute="centerY" id="an4-9n-a2f"/>
+                <constraint firstItem="tAg-I8-pWP" firstAttribute="centerX" secondItem="rtH-aO-4pl" secondAttribute="centerX" id="by6-UI-py5"/>
+                <constraint firstItem="Xsf-kZ-8WA" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="f27-Vc-GF8"/>
+                <constraint firstItem="Koj-Wb-diP" firstAttribute="centerY" secondItem="FWC-pW-ucF" secondAttribute="centerY" id="gDl-sg-cLd"/>
+                <constraint firstItem="2E3-IR-mbP" firstAttribute="bottom" secondItem="Xsf-kZ-8WA" secondAttribute="bottom" constant="-110" id="wPT-v7-lu0"/>
+                <constraint firstAttribute="bottom" secondItem="Xsf-kZ-8WA" secondAttribute="bottom" id="wWq-Zc-FIx"/>
+                <constraint firstItem="Koj-Wb-diP" firstAttribute="centerX" secondItem="FWC-pW-ucF" secondAttribute="centerX" id="x2m-r0-eJZ"/>
+            </constraints>
+            <point key="canvasLocation" x="131.8840579710145" y="72.991071428571431"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="BackgroundButton1" width="295" height="56"/>
+        <image name="BackgroundButton2" width="294" height="57"/>
+        <image name="Enter" width="375" height="812"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
