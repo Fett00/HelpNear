@@ -15,7 +15,7 @@
 		3A7BFFA12855B3FB009ADD45 /* OnBoardingViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9F2855B3FB009ADD45 /* OnBoardingViewController5.xib */; };
 		3A7BFFA42855B6E6009ADD45 /* OnBoardingViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA22855B6E6009ADD45 /* OnBoardingViewController6.swift */; };
 		3A7BFFA52855B6E6009ADD45 /* OnBoardingViewController6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA32855B6E6009ADD45 /* OnBoardingViewController6.xib */; };
-		3AF8F5982854D0690036D277 /* Bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F5972854D0690036D277 /* Bahnschrift.ttf */; };
+		3A7BFFA72855C04E009ADD45 /* Bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA62855C04E009ADD45 /* Bahnschrift.ttf */; };
 		3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */; };
 		3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */; };
 		3AF8F5A02854E53B0036D277 /* OnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8F59E2854E53B0036D277 /* OnBoardingViewController.swift */; };
@@ -77,7 +77,7 @@
 		3A7BFF9F2855B3FB009ADD45 /* OnBoardingViewController5.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController5.xib; sourceTree = "<group>"; };
 		3A7BFFA22855B6E6009ADD45 /* OnBoardingViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController6.swift; sourceTree = "<group>"; };
 		3A7BFFA32855B6E6009ADD45 /* OnBoardingViewController6.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController6.xib; sourceTree = "<group>"; };
-		3AF8F5972854D0690036D277 /* Bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bahnschrift.ttf; sourceTree = "<group>"; };
+		3A7BFFA62855C04E009ADD45 /* Bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bahnschrift.ttf; sourceTree = "<group>"; };
 		3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController1.swift; sourceTree = "<group>"; };
 		3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController1.xib; sourceTree = "<group>"; };
 		3AF8F59E2854E53B0036D277 /* OnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController.swift; sourceTree = "<group>"; };
@@ -147,7 +147,7 @@
 		3AF8F5962854CFFC0036D277 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				3AF8F5972854D0690036D277 /* Bahnschrift.ttf */,
+				3A7BFFA62855C04E009ADD45 /* Bahnschrift.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -521,7 +521,7 @@
 				3A7BFF9928559857009ADD45 /* OnBoardingViewController3.xib in Resources */,
 				3A7BFFA12855B3FB009ADD45 /* OnBoardingViewController5.xib in Resources */,
 				5A7238B6283453D00052CEBE /* Assets.xcassets in Resources */,
-				3AF8F5982854D0690036D277 /* Bahnschrift.ttf in Resources */,
+				3A7BFFA72855C04E009ADD45 /* Bahnschrift.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
