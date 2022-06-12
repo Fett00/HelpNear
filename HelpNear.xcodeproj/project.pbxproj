@@ -23,6 +23,10 @@
 		5A3B243328554B0D00B90E0A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B243228554B0D00B90E0A /* TabBarController.swift */; };
 		5A3B243528554B3E00B90E0A /* RoundShadowVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B243428554B3E00B90E0A /* RoundShadowVIew.swift */; };
 		5A3B243828554B6000B90E0A /* UIImage+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B243728554B6000B90E0A /* UIImage+Ext.swift */; };
+		5A3B243A285580A400B90E0A /* RankingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B2439285580A400B90E0A /* RankingModel.swift */; };
+		5A3B243D2855813100B90E0A /* RankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B243C2855813100B90E0A /* RankingViewModel.swift */; };
+		5A3B243F2855821100B90E0A /* RankingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B243E2855821100B90E0A /* RankingTableCell.swift */; };
+		5A3B2441285584A900B90E0A /* UsersDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B2440285584A900B90E0A /* UsersDataWorker.swift */; };
 		5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238A9283453CE0052CEBE /* AppDelegate.swift */; };
 		5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238AB283453CE0052CEBE /* SceneDelegate.swift */; };
 		5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238B2283453CE0052CEBE /* HelpNear.xcdatamodeld */; };
@@ -75,6 +79,10 @@
 		5A3B243228554B0D00B90E0A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		5A3B243428554B3E00B90E0A /* RoundShadowVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundShadowVIew.swift; sourceTree = "<group>"; };
 		5A3B243728554B6000B90E0A /* UIImage+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Ext.swift"; sourceTree = "<group>"; };
+		5A3B2439285580A400B90E0A /* RankingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingModel.swift; sourceTree = "<group>"; };
+		5A3B243C2855813100B90E0A /* RankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewModel.swift; sourceTree = "<group>"; };
+		5A3B243E2855821100B90E0A /* RankingTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingTableCell.swift; sourceTree = "<group>"; };
+		5A3B2440285584A900B90E0A /* UsersDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDataWorker.swift; sourceTree = "<group>"; };
 		5A7238A6283453CE0052CEBE /* HelpNear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpNear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7238A9283453CE0052CEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7238AB283453CE0052CEBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -228,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				5A3B242E2855472900B90E0A /* RankingScreen.swift */,
+				5A3B243E2855821100B90E0A /* RankingTableCell.swift */,
 			);
 			path = RankingViews;
 			sourceTree = "<group>";
@@ -235,6 +244,7 @@
 		5A3B2429285546B500B90E0A /* RankingViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				5A3B243C2855813100B90E0A /* RankingViewModel.swift */,
 			);
 			path = RankingViewModels;
 			sourceTree = "<group>";
@@ -242,6 +252,7 @@
 		5A3B242A285546D100B90E0A /* RankingModel */ = {
 			isa = PBXGroup;
 			children = (
+				5A3B2439285580A400B90E0A /* RankingModel.swift */,
 			);
 			path = RankingModel;
 			sourceTree = "<group>";
@@ -308,6 +319,7 @@
 			isa = PBXGroup;
 			children = (
 				5A1162B928548C92004CC389 /* EventsDataWorker.swift */,
+				5A3B2440285584A900B90E0A /* UsersDataWorker.swift */,
 				5A7238D3283456170052CEBE /* CoreDataWorker.swift */,
 				5A7238D2283456170052CEBE /* JSONWorker.swift */,
 				5A7238D1283456170052CEBE /* NetworkWorker.swift */,
@@ -555,6 +567,8 @@
 				5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */,
 				5A3B242F2855472900B90E0A /* RankingScreen.swift in Sources */,
 				5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */,
+				5A3B243A285580A400B90E0A /* RankingModel.swift in Sources */,
+				5A3B2441285584A900B90E0A /* UsersDataWorker.swift in Sources */,
 				5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */,
 				5A7E5B002854BCCD004B5FBB /* ModelsConverter.swift in Sources */,
 				5A7238CA283455280052CEBE /* UIView+Ext.swift in Sources */,
@@ -578,9 +592,11 @@
 				5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */,
 				3AF8F5A02854E53B0036D277 /* OnBoardingViewController.swift in Sources */,
 				5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */,
+				5A3B243F2855821100B90E0A /* RankingTableCell.swift in Sources */,
 				5A791A2128510D0100CE81E0 /* LocationModel.swift in Sources */,
 				5A791A2328510EF300CE81E0 /* POIModel.swift in Sources */,
 				5ACA954C2835547000FB125C /* MapSingleView.swift in Sources */,
+				5A3B243D2855813100B90E0A /* RankingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
