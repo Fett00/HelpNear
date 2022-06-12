@@ -31,24 +31,33 @@ class ProjectCoordinator{
   func createMainScreen() -> UIViewController {
     let collectionVC = ProjectCoordinator.shared.createEventCollectionScreen()
 
-    collectionVC.tabBarItem = UITabBarItem(title: "Список", image: Images.collection, tag: 0)
+    collectionVC.tabBarItem = UITabBarItem(title: "", image: Images.collection, tag: 0)
 
+    let rankingVC = ProjectCoordinator.shared.createRankingScreen()
+    rankingVC.tabBarItem = UITabBarItem(title: "", image: Images.crown, tag: 1)
 
     let mapVC = ProjectCoordinator.shared.createMapScreen()
 
-    mapVC.tabBarItem = UITabBarItem(title: "Карта", image: Images.map, tag: 1)
-
+    mapVC.tabBarItem = UITabBarItem(title: "", image: Images.map, tag: 2)
 
     let userProfileVC = ProjectCoordinator.shared.createUserProfileScreen()
 
-    userProfileVC.tabBarItem = UITabBarItem(title: "Профиль", image: Images.person, tag: 2)
+    userProfileVC.tabBarItem = UITabBarItem(title: "", image: Images.personCircle, tag: 4)
+
+    let settingsVC = ProjectCoordinator.shared.createSettingsScreen()
+    settingsVC.tabBarItem = UITabBarItem(title: "", image: Images.gearshape, tag: 5)
 
 
-    let tabBarVC = UITabBarController()
+    let tabBarVC = MainTabBarController()
 
-    tabBarVC.viewControllers = [collectionVC, mapVC, userProfileVC]
+    tabBarVC.tabBar.layer.cornerRadius = 30
+    tabBarVC.tabBar.layer.maskedCorners //= [.layerMinXMaxYCorner, .layerMinXMinYCorner ]
 
-    tabBarVC.selectedIndex = 1
+    tabBarVC.viewControllers = [collectionVC, rankingVC, mapVC, userProfileVC, settingsVC]
+
+    tabBarVC.selectedIndex = 2
+
+    tabBarVC.addMiddleButton(middleIndex: 2)
 
     return tabBarVC
   }
