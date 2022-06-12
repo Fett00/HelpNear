@@ -71,6 +71,8 @@
 		5AB37B5A283984BC00CD54EA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B59283984BC00CD54EA /* Enums.swift */; };
 		5AB37B5F2839887C00CD54EA /* LocationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB37B5E2839887C00CD54EA /* LocationWorker.swift */; };
 		5ACA954C2835547000FB125C /* MapSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA954B2835547000FB125C /* MapSingleView.swift */; };
+		5AE592042856824E003C448F /* PresentEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE592032856824E003C448F /* PresentEvent.xib */; };
+		5AE5920628568259003C448F /* PresentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5920528568259003C448F /* PresentEvent.swift */; };
 		5EA4D41473303534CD64CC94 /* Pods_HelpNear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10699B62BA81115C5BEC2428 /* Pods_HelpNear.framework */; };
 /* End PBXBuildFile section */
 
@@ -142,6 +144,8 @@
 		5AB37B59283984BC00CD54EA /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		5AB37B5E2839887C00CD54EA /* LocationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationWorker.swift; sourceTree = "<group>"; };
 		5ACA954B2835547000FB125C /* MapSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSingleView.swift; sourceTree = "<group>"; };
+		5AE592032856824E003C448F /* PresentEvent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentEvent.xib; sourceTree = "<group>"; };
+		5AE5920528568259003C448F /* PresentEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentEvent.swift; sourceTree = "<group>"; };
 		CCB986EA9FAD6E8F0609DAC5 /* Pods-HelpNear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNear.release.xcconfig"; path = "Target Support Files/Pods-HelpNear/Pods-HelpNear.release.xcconfig"; sourceTree = "<group>"; };
 		F399C5713899BA23CF882C32 /* Pods-HelpNear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNear.debug.xcconfig"; path = "Target Support Files/Pods-HelpNear/Pods-HelpNear.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -397,6 +401,7 @@
 				5AB37B5D2839883E00CD54EA /* UserProfile */,
 				5A3B24262855468B00B90E0A /* Ranking */,
 				5A3B24272855469C00B90E0A /* Settings */,
+				5AE592022856822F003C448F /* PresentEvent */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -473,6 +478,15 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
+		5AE592022856822F003C448F /* PresentEvent */ = {
+			isa = PBXGroup;
+			children = (
+				5AE592032856824E003C448F /* PresentEvent.xib */,
+				5AE5920528568259003C448F /* PresentEvent.swift */,
+			);
+			path = PresentEvent;
+			sourceTree = "<group>";
+		};
 		86FBBBE4821356FC68B93EE8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -546,6 +560,7 @@
 				5A7238B9283453D00052CEBE /* LaunchScreen.storyboard in Resources */,
 				3AF8F5A12854E53B0036D277 /* OnBoardingViewController.xib in Resources */,
 				5A3B244E2855F3B600B90E0A /* EventFilters.xib in Resources */,
+				5AE592042856824E003C448F /* PresentEvent.xib in Resources */,
 				3A7BFF9D2855A1F8009ADD45 /* OnBoardingViewController4.xib in Resources */,
 				3A7BFFA52855B6E6009ADD45 /* OnBoardingViewController6.xib in Resources */,
 				3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */,
@@ -611,6 +626,7 @@
 				5A7238C2283454670052CEBE /* ProjectCoordinator.swift in Sources */,
 				3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */,
 				5A7238CD283455280052CEBE /* UITableViewCell+Ext.swift in Sources */,
+				5AE5920628568259003C448F /* PresentEvent.swift in Sources */,
 				5A3B24492855EDD300B90E0A /* EventCollectionFilterModel.swift in Sources */,
 				3A7BFF9C2855A1F8009ADD45 /* OnBoardingViewController4.swift in Sources */,
 				5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */,

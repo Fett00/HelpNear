@@ -4,10 +4,10 @@
 
 import Foundation
 import CoreLocation
+import MapKit
 
 protocol LocationWorkerProtocol{
     
-    func requestPermissionIfDisabled()
     func currentLocationStream(notificator: @escaping (_ location: CLLocation?)->())
     func getCurrentLocationSingleTime(handler: @escaping (_ location: CLLocation?) -> ())
     func startUpdatingLocation()
@@ -17,7 +17,20 @@ protocol LocationWorkerProtocol{
 //Работа с данными геопозиции
 final class LocationWorker: NSObject, LocationWorkerProtocol{
     
-    private var location: CLLocation?
+    private let map = MapSingleView.default
+    
+    private var location: CLLocation? {
+        
+        didSet{
+            
+            if oldValue == nil {
+                
+                let region = MKCoordinateRegion(center: self.location!.coordinate, span: MKCoordinateSpan(latitudeDelta: 0.01, longitudeDelta: 0.01) )
+                
+                self.map.setRegion(region, animated: false)
+            }
+        }
+    }
     
     private lazy var locationManager: CLLocationManager = {
        
@@ -27,9 +40,13 @@ final class LocationWorker: NSObject, LocationWorkerProtocol{
         return manager
     }()
     
-    func requestPermissionIfDisabled() {
+    override init(){
+        
+        super.init()
         
         self.locationManager.requestAlwaysAuthorization()
+        self.locationManager.startUpdatingLocation()
+        
     }
     
     func startUpdatingLocation(){

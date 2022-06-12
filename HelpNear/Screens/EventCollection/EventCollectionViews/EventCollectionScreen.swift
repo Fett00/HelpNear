@@ -87,6 +87,8 @@ final class EventCollectionScreen: UIViewController {
         collection.dataSource = self
         //collection.register(EventCollectionCell.self, forCellWithReuseIdentifier: EventCollectionCell.reuseID)
         collection.register(UINib(nibName: "EventCollectionCell", bundle: nil), forCellWithReuseIdentifier: "1234q")
+        
+        self.navigationController?.isNavigationBarHidden = true
 
         activityIndicator.constraints(centerX: collection.centerXAnchor, centerY: collection.centerYAnchor, xPadding: 0, yPadding: 0)
     }
@@ -109,12 +111,19 @@ extension EventCollectionScreen: UICollectionViewDataSource{
         
         guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "1234q", for: indexPath) as? EventCollectionCell else { return UICollectionViewCell() }
         
-        cell.render(with: self.viewModel.data[indexPath.row])
+        cell.render(with: self.viewModel.data[indexPath.row], index: indexPath.row)
         
         return cell
     }
     
-    
+    @objc func presentFullEvent(_ sender: UIButton){
+        
+        let index = sender.tag
+        
+        let model = self.viewModel.data[index]
+        
+        self.present(PresentEvent(nibName: "PresentEvent", bundle: nil, model: model), animated: true, completion: nil)
+    }
 }
 
 extension EventCollectionScreen: UICollectionViewDelegate{

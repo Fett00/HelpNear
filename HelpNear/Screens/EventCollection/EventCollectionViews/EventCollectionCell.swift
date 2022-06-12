@@ -10,6 +10,8 @@ import UIKit
 
 class EventCollectionCell: UICollectionViewCell {
     
+    private var model: EventCollectionModel?
+    
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var owner: UILabel!
     @IBOutlet weak var format: UILabel!
@@ -55,20 +57,26 @@ class EventCollectionCell: UICollectionViewCell {
         separatior.layer.borderWidth = 2
         separatior.layer.borderColor = Colors.gray.cgColor
         button.setTitle("", for: .normal)
-        let imageConf = UIImage.SymbolConfiguration(pointSize: 30, weight: .thin , scale: .large)
+        let imageConf = UIImage.SymbolConfiguration(pointSize: 20, weight: .thin)
+        
         button.contentMode = .center
+        button.clipsToBounds = true
+        //button.imageEdgeInsets = .init(top: 10, left: 10, bottom: 10, right: 10)
+        //button.setBackgroundImage(, for: )
         button.setPreferredSymbolConfiguration(imageConf, forImageIn: .normal)
         button.setImage(Images.triangleLeft, for: .normal)
         button.imageView?.tintColor = Colors.accentColor
+        button.addTarget(nil, action: "presentFullEvent:", for: .touchUpInside)
     }
     
-    func render(with model: EventCollectionModel){
+    func render(with model: EventCollectionModel, index: Int){
+        
+        self.model = model
+        self.button.tag = index
         
         self.title.text = model.title
         self.owner.text = "Направление:  \(model.description)"
         self.format.text = "Формат: очно"
         self.fasting.text = "Срочность: срочно"
-    }
-    @IBAction func goToFullDescription(_ sender: UIButton) {
     }
 }

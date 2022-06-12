@@ -62,6 +62,6 @@ class EventMapViewModel: EventMapViewModelProtocol{
     
     func requestGeopositionPermission(){
         
-        self.locationWorker.requestPermissionIfDisabled()
+        //self.locationWorker.requestPermissionIfDisabled()
     }
 }

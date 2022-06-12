@@ -5,6 +5,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -147,6 +148,12 @@
                         <action selector="fastSegmentChangedValue:" destination="-1" eventType="valueChanged" id="eFd-2e-4qv"/>
                     </connections>
                 </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Параметры поиска" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c54-OO-wgD">
+                    <rect key="frame" x="70" y="94" width="274" height="24"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <color key="textColor" name="AccentColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Sch-xl-VgQ"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -155,6 +162,7 @@
                 <constraint firstItem="pB6-lV-MXG" firstAttribute="top" secondItem="Zxc-WV-XIq" secondAttribute="bottom" constant="31" id="1iM-2v-AyN"/>
                 <constraint firstItem="OHj-L7-ebi" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="20" id="5PG-8r-dQW"/>
                 <constraint firstItem="Sch-xl-VgQ" firstAttribute="trailing" secondItem="Zcu-3l-XE2" secondAttribute="trailing" constant="10" id="B49-zv-jrW"/>
+                <constraint firstItem="c54-OO-wgD" firstAttribute="top" secondItem="Sch-xl-VgQ" secondAttribute="top" constant="50" id="B7K-3n-kP1"/>
                 <constraint firstItem="PtV-7q-ilZ" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="E3g-r0-hhg"/>
                 <constraint firstItem="gdd-Qf-xTc" firstAttribute="top" secondItem="ECK-hd-Sdf" secondAttribute="top" id="HN1-Nx-rqa"/>
                 <constraint firstItem="Bj4-Kk-Ch7" firstAttribute="top" secondItem="Zcb-l2-Faf" secondAttribute="bottom" constant="36" id="LQx-3k-uLt"/>
@@ -165,6 +173,7 @@
                 <constraint firstItem="gdd-Qf-xTc" firstAttribute="trailing" secondItem="Sch-xl-VgQ" secondAttribute="trailing" constant="20" id="Pxp-FG-Sxu"/>
                 <constraint firstItem="1VQ-Dn-qcs" firstAttribute="top" secondItem="1nv-Sm-RGk" secondAttribute="bottom" constant="22" id="VJ1-ij-Rge"/>
                 <constraint firstItem="7vh-Fg-HlV" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="10" id="VM4-rs-Wto"/>
+                <constraint firstItem="Sch-xl-VgQ" firstAttribute="trailing" secondItem="c54-OO-wgD" secondAttribute="trailing" constant="70" id="Vt9-r9-7pm"/>
                 <constraint firstItem="Zcu-3l-XE2" firstAttribute="top" secondItem="1VQ-Dn-qcs" secondAttribute="bottom" constant="19" id="WlR-BV-2VN"/>
                 <constraint firstItem="Wmm-ub-ZRa" firstAttribute="top" secondItem="PtV-7q-ilZ" secondAttribute="bottom" constant="37" id="ZXD-k4-2TD"/>
                 <constraint firstItem="P8d-OI-Efb" firstAttribute="trailing" secondItem="Sch-xl-VgQ" secondAttribute="trailing" constant="-10" id="ebl-af-Ke2"/>
@@ -178,6 +187,7 @@
                 <constraint firstItem="1nv-Sm-RGk" firstAttribute="top" secondItem="Bj4-Kk-Ch7" secondAttribute="bottom" constant="8" symbolic="YES" id="lYM-E3-eVC"/>
                 <constraint firstAttribute="bottom" secondItem="gdd-Qf-xTc" secondAttribute="bottom" id="lge-by-qTm"/>
                 <constraint firstItem="Zcb-l2-Faf" firstAttribute="top" secondItem="Wmm-ub-ZRa" secondAttribute="bottom" constant="8" symbolic="YES" id="onK-Yf-xca"/>
+                <constraint firstItem="c54-OO-wgD" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="70" id="pzY-7Z-bSI"/>
                 <constraint firstItem="Zcb-l2-Faf" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="twg-NJ-Sff"/>
                 <constraint firstItem="P8d-OI-Efb" firstAttribute="top" secondItem="pB6-lV-MXG" secondAttribute="bottom" constant="8" symbolic="YES" id="uRR-uV-APJ"/>
                 <constraint firstItem="PtV-7q-ilZ" firstAttribute="top" secondItem="wAf-Cm-iui" secondAttribute="bottom" constant="8" symbolic="YES" id="v2u-4h-gxe"/>
@@ -190,6 +200,9 @@
     <resources>
         <image name="FilterBackground" width="375" height="812"/>
         <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <namedColor name="AccentColor">
+            <color red="0.75700002908706665" green="0.41600000858306885" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
