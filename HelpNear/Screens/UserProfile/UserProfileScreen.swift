@@ -8,19 +8,25 @@
 import UIKit
 
 class UserProfileScreen: UIViewController {
-  var state = false
+  var state = true
   @IBOutlet weak var usernameLabel: UILabel!
   @IBOutlet weak var profileInfo: UIImageView!
 
   @IBAction func pinPressed(_ sender: Any) {
-    if state {
-      pin.image = UIImage(named: "GetHelpPin")
-      profileInfo.image = UIImage(named: "GetHelp")
-    } else {
-      pin.image = UIImage(named: "VolunteerPin")
-      profileInfo.image = UIImage(named: "Volunteer")
-    }
-    state.toggle()
+    let alert = UIAlertController(title: "Подтверждение", message: "Сменить роль?", preferredStyle: UIAlertController.Style.alert)
+    alert.addAction(UIAlertAction(title: "Да", style: UIAlertAction.Style.default, handler: {[self] _ in 
+      if state {
+        pin.image = UIImage(named: "GetHelpPin")
+        profileInfo.image = UIImage(named: "GetHelp")
+      } else {
+        pin.image = UIImage(named: "VolunteerPin")
+        profileInfo.image = UIImage(named: "Volunteer")
+      }
+      state.toggle()
+    }))
+    alert.addAction(UIAlertAction(title: "Нет", style: UIAlertAction.Style.default, handler: nil))
+    self.present(alert, animated: true, completion: nil)
+
   }
   @IBOutlet weak var pin: UIImageView!
   override func viewDidLoad() {
