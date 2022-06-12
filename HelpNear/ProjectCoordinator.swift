@@ -80,10 +80,19 @@ class ProjectCoordinator{
     func createEventCollectionScreen() -> UIViewController{
         
         let vm = EventCollectionViewModel(dataWorker: self.eventsDataWorker)
-        let vc = EventCollectionScreen()
+        let vc = EventCollectionScreen(nibName: "EventCollectionScreen", bundle: nil)//EventCollectionScreen()
         vc.viewModel = vm
         
-        return vc.wrapInNavigationController()
+        return vc//.wrapInNavigationController()
+    }
+    
+    func createEventFiltersScreen(with collection: UICollectionView) -> UIViewController{
+        
+        let vm = EventCollectionViewModel(dataWorker: self.eventsDataWorker)
+        let vc = EventFilters(nibName: "EventFilters", bundle: nil, collection: collection)//EventCollectionScreen()
+        vc.viewModel = vm
+        
+        return vc//.wrapInNavigationController()
     }
     
     func createRegistrationScreen() -> UIViewController{

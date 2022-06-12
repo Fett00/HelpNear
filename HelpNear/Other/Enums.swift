@@ -17,6 +17,7 @@ enum Images{
     static let background = UIImage(named: "Background")!
     static let filterIcon = UIImage(named: "FilterIcon")!
     static let filterBack = UIImage(named: "FilterBackground")!
+    static let triangleLeft = UIImage(systemName: "arrowtriangle.forward.fill")
 }
 
 enum URLs{

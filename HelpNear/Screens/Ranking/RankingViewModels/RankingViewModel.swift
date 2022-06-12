@@ -38,7 +38,7 @@ final class RankingViewModel: RankingViewModelProtocol{
                     self.data.append(RankingModel(name: user.name, score: String(user.score)))
                 }
                 
-                self.data.sort { $0.score > $1.score }
+                self.data.sort { Int($0.score) ?? -1 > Int($1.score) ?? -1 }
                 handler()
             }
         }

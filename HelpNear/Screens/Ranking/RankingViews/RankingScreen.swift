@@ -55,7 +55,7 @@ final class RankingScreen: UIViewController{
         
         guard let flowLayout = rankedCollectionView.collectionViewLayout as? UICollectionViewFlowLayout else { return }
         
-        let insets = UIEdgeInsets(top: 20, left: 20, bottom: 0, right: 20)
+        let insets = UIEdgeInsets(top: 20, left: 20, bottom: 10, right: 20)
         let spacing = 20.0
         let collectionWidth = self.rankedCollectionView.frame.width
         let itemSize = (collectionWidth - insets.left - insets.right)

@@ -35,6 +35,11 @@
 		5A3B2441285584A900B90E0A /* UsersDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B2440285584A900B90E0A /* UsersDataWorker.swift */; };
 		5A3B24432855AFAB00B90E0A /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B24422855AFAB00B90E0A /* UserModel.swift */; };
 		5A3B24452855AFB700B90E0A /* UserNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B24442855AFB700B90E0A /* UserNetworkModel.swift */; };
+		5A3B24472855E40900B90E0A /* EventCollectionScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3B24462855E40900B90E0A /* EventCollectionScreen.xib */; };
+		5A3B24492855EDD300B90E0A /* EventCollectionFilterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B24482855EDD300B90E0A /* EventCollectionFilterModel.swift */; };
+		5A3B244C2855F33900B90E0A /* EventFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3B244B2855F33900B90E0A /* EventFilters.swift */; };
+		5A3B244E2855F3B600B90E0A /* EventFilters.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3B244D2855F3B600B90E0A /* EventFilters.xib */; };
+		5A3B245028561E8600B90E0A /* EventCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3B244F28561E8600B90E0A /* EventCollectionCell.xib */; };
 		5A7238AA283453CE0052CEBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238A9283453CE0052CEBE /* AppDelegate.swift */; };
 		5A7238AC283453CE0052CEBE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238AB283453CE0052CEBE /* SceneDelegate.swift */; };
 		5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238B2283453CE0052CEBE /* HelpNear.xcdatamodeld */; };
@@ -52,7 +57,6 @@
 		5A7238D6283456170052CEBE /* CoreDataWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7238D3283456170052CEBE /* CoreDataWorker.swift */; };
 		5A791A2128510D0100CE81E0 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2028510D0100CE81E0 /* LocationModel.swift */; };
 		5A791A2328510EF300CE81E0 /* POIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2228510EF300CE81E0 /* POIModel.swift */; };
-		5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2428512A4700CE81E0 /* EventCollectionHeader.swift */; };
 		5A791A2728512B1700CE81E0 /* LoadingBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2628512B1700CE81E0 /* LoadingBlurView.swift */; };
 		5A791A2928512D3900CE81E0 /* EventCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A791A2828512D3900CE81E0 /* EventCollectionCell.swift */; };
 		5A7D31862853E43D00DEA43E /* RequirementsScrolledList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7D31852853E43D00DEA43E /* RequirementsScrolledList.swift */; };
@@ -99,6 +103,11 @@
 		5A3B2440285584A900B90E0A /* UsersDataWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDataWorker.swift; sourceTree = "<group>"; };
 		5A3B24422855AFAB00B90E0A /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		5A3B24442855AFB700B90E0A /* UserNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNetworkModel.swift; sourceTree = "<group>"; };
+		5A3B24462855E40900B90E0A /* EventCollectionScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCollectionScreen.xib; sourceTree = "<group>"; };
+		5A3B24482855EDD300B90E0A /* EventCollectionFilterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionFilterModel.swift; sourceTree = "<group>"; };
+		5A3B244B2855F33900B90E0A /* EventFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFilters.swift; sourceTree = "<group>"; };
+		5A3B244D2855F3B600B90E0A /* EventFilters.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventFilters.xib; sourceTree = "<group>"; };
+		5A3B244F28561E8600B90E0A /* EventCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventCollectionCell.xib; sourceTree = "<group>"; };
 		5A7238A6283453CE0052CEBE /* HelpNear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpNear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A7238A9283453CE0052CEBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A7238AB283453CE0052CEBE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,7 +127,6 @@
 		5A7238D3283456170052CEBE /* CoreDataWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataWorker.swift; sourceTree = "<group>"; };
 		5A791A2028510D0100CE81E0 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 		5A791A2228510EF300CE81E0 /* POIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POIModel.swift; sourceTree = "<group>"; };
-		5A791A2428512A4700CE81E0 /* EventCollectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionHeader.swift; sourceTree = "<group>"; };
 		5A791A2628512B1700CE81E0 /* LoadingBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingBlurView.swift; sourceTree = "<group>"; };
 		5A791A2828512D3900CE81E0 /* EventCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCollectionCell.swift; sourceTree = "<group>"; };
 		5A7D31852853E43D00DEA43E /* RequirementsScrolledList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementsScrolledList.swift; sourceTree = "<group>"; };
@@ -188,8 +196,9 @@
 			isa = PBXGroup;
 			children = (
 				5AB37B55283982CE00CD54EA /* EventCollectionScreen.swift */,
-				5A791A2428512A4700CE81E0 /* EventCollectionHeader.swift */,
+				5A3B24462855E40900B90E0A /* EventCollectionScreen.xib */,
 				5A791A2828512D3900CE81E0 /* EventCollectionCell.swift */,
+				5A3B244F28561E8600B90E0A /* EventCollectionCell.xib */,
 			);
 			path = EventCollectionViews;
 			sourceTree = "<group>";
@@ -206,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				5A1162AE285485F7004CC389 /* EventCollectionModel.swift */,
+				5A3B24482855EDD300B90E0A /* EventCollectionFilterModel.swift */,
 			);
 			path = EventCollectionModels;
 			sourceTree = "<group>";
@@ -301,6 +311,15 @@
 			path = SettingsModels;
 			sourceTree = "<group>";
 		};
+		5A3B244A2855F31B00B90E0A /* EventFilters */ = {
+			isa = PBXGroup;
+			children = (
+				5A3B244B2855F33900B90E0A /* EventFilters.swift */,
+				5A3B244D2855F3B600B90E0A /* EventFilters.xib */,
+			);
+			path = EventFilters;
+			sourceTree = "<group>";
+		};
 		5A72389D283453CE0052CEBE = {
 			isa = PBXGroup;
 			children = (
@@ -371,6 +390,7 @@
 				3AF8F5992854DA220036D277 /* OnBoarding */,
 				5A9CA6712843898700ECD890 /* Registration */,
 				5AB37B5B2839882700CD54EA /* EventCollection */,
+				5A3B244A2855F31B00B90E0A /* EventFilters */,
 				5AB37B5C2839883000CD54EA /* EventMap */,
 				5AB37B5D2839883E00CD54EA /* UserProfile */,
 				5A3B24262855468B00B90E0A /* Ranking */,
@@ -518,15 +538,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3B24472855E40900B90E0A /* EventCollectionScreen.xib in Resources */,
 				5A3B242528550FA400B90E0A /* gpxgenerator_path.gpx in Resources */,
 				5A7238B9283453D00052CEBE /* LaunchScreen.storyboard in Resources */,
 				3AF8F5A12854E53B0036D277 /* OnBoardingViewController.xib in Resources */,
+				5A3B244E2855F3B600B90E0A /* EventFilters.xib in Resources */,
 				3A7BFF9D2855A1F8009ADD45 /* OnBoardingViewController4.xib in Resources */,
 				3A7BFFA52855B6E6009ADD45 /* OnBoardingViewController6.xib in Resources */,
 				3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */,
 				3A7BFF9928559857009ADD45 /* OnBoardingViewController3.xib in Resources */,
 				3A7BFFA12855B3FB009ADD45 /* OnBoardingViewController5.xib in Resources */,
 				5A7238B6283453D00052CEBE /* Assets.xcassets in Resources */,
+				5A3B245028561E8600B90E0A /* EventCollectionCell.xib in Resources */,
 				3A7BFFA72855C04E009ADD45 /* Bahnschrift.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,6 +607,7 @@
 				5A7238C2283454670052CEBE /* ProjectCoordinator.swift in Sources */,
 				3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */,
 				5A7238CD283455280052CEBE /* UITableViewCell+Ext.swift in Sources */,
+				5A3B24492855EDD300B90E0A /* EventCollectionFilterModel.swift in Sources */,
 				3A7BFF9C2855A1F8009ADD45 /* OnBoardingViewController4.swift in Sources */,
 				5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */,
 				3A7BFFA42855B6E6009ADD45 /* OnBoardingViewController6.swift in Sources */,
@@ -594,7 +618,6 @@
 				5A791A2928512D3900CE81E0 /* EventCollectionCell.swift in Sources */,
 				5A7238CF283455280052CEBE /* UIViewController+Ext.swift in Sources */,
 				3A7BFF9828559857009ADD45 /* OnBoardingViewController3.swift in Sources */,
-				5A791A2528512A4700CE81E0 /* EventCollectionHeader.swift in Sources */,
 				5A3B242F2855472900B90E0A /* RankingScreen.swift in Sources */,
 				5A7238B4283453CE0052CEBE /* HelpNear.xcdatamodeld in Sources */,
 				5A3B243A285580A400B90E0A /* RankingModel.swift in Sources */,
@@ -602,6 +625,7 @@
 				5A1162B828548C67004CC389 /* EventMapViewModel.swift in Sources */,
 				5A7E5B002854BCCD004B5FBB /* ModelsConverter.swift in Sources */,
 				5A7238CA283455280052CEBE /* UIView+Ext.swift in Sources */,
+				5A3B244C2855F33900B90E0A /* EventFilters.swift in Sources */,
 				5A7238CB283455280052CEBE /* UICollectionView+Ext.swift in Sources */,
 				5A7E5AFE2854A54B004B5FBB /* POINetworkModel.swift in Sources */,
 				5A1162AF285485F7004CC389 /* EventCollectionModel.swift in Sources */,

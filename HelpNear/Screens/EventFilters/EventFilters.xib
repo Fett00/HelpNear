@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EventFilters" customModule="HelpNear" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="ECK-hd-Sdf" id="2cA-vp-HhN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ECK-hd-Sdf" customClass="Add">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FilterBackground" translatesAutoresizingMaskIntoConstraints="NO" id="gdd-Qf-xTc">
+                    <rect key="frame" x="-20" y="0.0" width="454" height="896"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vh-Fg-HlV">
+                    <rect key="frame" x="10" y="46.5" width="40" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="4qj-yr-ZxE"/>
+                        <constraint firstAttribute="width" constant="40" id="n5M-NV-I0X"/>
+                    </constraints>
+                    <state key="normal">
+                        <imageReference key="backgroundImage" image="arrow.backward" catalog="system" symbolScale="medium" renderingMode="hierarchical-single">
+                            <hierarchicalColors>
+                                <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </state>
+                    <connections>
+                        <action selector="dismiss:" destination="-1" eventType="touchUpInside" id="4Gs-Sa-Rgh"/>
+                    </connections>
+                </button>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="PtV-7q-ilZ">
+                    <rect key="frame" x="30" y="181" width="209" height="32"/>
+                    <segments>
+                        <segment title="Онлайн"/>
+                        <segment title="Офлайн"/>
+                        <segment title="Все"/>
+                    </segments>
+                    <connections>
+                        <action selector="formatSegmentChangedValue:" destination="-1" eventType="valueChanged" id="dLP-Uf-AHa"/>
+                    </connections>
+                </segmentedControl>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="1nv-Sm-RGk">
+                    <rect key="frame" x="30" y="374" width="112" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="112" id="jor-Ni-bvI"/>
+                    </constraints>
+                    <connections>
+                        <action selector="endDatePickerChangedValue:" destination="-1" eventType="valueChanged" id="5sM-MQ-k9Y"/>
+                    </connections>
+                </datePicker>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" datePickerMode="date" style="compact" translatesAutoresizingMaskIntoConstraints="NO" id="Zcb-l2-Faf">
+                    <rect key="frame" x="30" y="278" width="110" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="8jq-0D-y9n"/>
+                    </constraints>
+                    <date key="minimumDate" timeIntervalSinceReferenceDate="599518800">
+                        <!--2019-12-31 21:00:00 +0000-->
+                    </date>
+                    <date key="maximumDate" timeIntervalSinceReferenceDate="725662800">
+                        <!--2023-12-30 21:00:00 +0000-->
+                    </date>
+                    <connections>
+                        <action selector="startDatePickerChangedValue:" destination="-1" eventType="valueChanged" id="SvQ-db-wfy"/>
+                    </connections>
+                </datePicker>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сложность:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1VQ-Dn-qcs">
+                    <rect key="frame" x="20" y="427" width="93" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата окончания(не позднее):" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bj4-Kk-Ch7">
+                    <rect key="frame" x="20" y="345" width="234" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Дата начала(не позднее):" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wmm-ub-ZRa">
+                    <rect key="frame" x="20" y="249" width="206" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Формат:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAf-Cm-iui">
+                    <rect key="frame" x="20" y="152" width="68" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="Zcu-3l-XE2">
+                    <rect key="frame" x="30" y="467" width="374" height="32"/>
+                    <segments>
+                        <segment title="Требует спец. навык"/>
+                        <segment title="Не требует спец. навык"/>
+                        <segment title="Все"/>
+                    </segments>
+                    <connections>
+                        <action selector="difficultSegmentChangedValue:" destination="-1" eventType="valueChanged" id="faW-KU-Ro1"/>
+                    </connections>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оплата:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHj-L7-ebi">
+                    <rect key="frame" x="20" y="530" width="63" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="2" translatesAutoresizingMaskIntoConstraints="NO" id="Zxc-WV-XIq">
+                    <rect key="frame" x="30" y="559" width="278" height="32"/>
+                    <segments>
+                        <segment title="С оплатой"/>
+                        <segment title="Без оплаты"/>
+                        <segment title="Все"/>
+                    </segments>
+                    <connections>
+                        <action selector="salarySegmentChangedValue:" destination="-1" eventType="valueChanged" id="oDn-VQ-OUl"/>
+                    </connections>
+                </segmentedControl>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Срочнось:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pB6-lV-MXG">
+                    <rect key="frame" x="20" y="621" width="83" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" apportionsSegmentWidthsByContent="YES" segmentControlStyle="plain" selectedSegmentIndex="3" translatesAutoresizingMaskIntoConstraints="NO" id="P8d-OI-Efb">
+                    <rect key="frame" x="30" y="650" width="374" height="32"/>
+                    <segments>
+                        <segment title="Срочно"/>
+                        <segment title="В течение недели"/>
+                        <segment title="В течение месяца"/>
+                        <segment title="Все"/>
+                    </segments>
+                    <connections>
+                        <action selector="fastSegmentChangedValue:" destination="-1" eventType="valueChanged" id="eFd-2e-4qv"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Sch-xl-VgQ"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="gdd-Qf-xTc" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="-20" id="1Ra-9b-CWR"/>
+                <constraint firstItem="pB6-lV-MXG" firstAttribute="top" secondItem="Zxc-WV-XIq" secondAttribute="bottom" constant="31" id="1iM-2v-AyN"/>
+                <constraint firstItem="OHj-L7-ebi" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="20" id="5PG-8r-dQW"/>
+                <constraint firstItem="Sch-xl-VgQ" firstAttribute="trailing" secondItem="Zcu-3l-XE2" secondAttribute="trailing" constant="10" id="B49-zv-jrW"/>
+                <constraint firstItem="PtV-7q-ilZ" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="E3g-r0-hhg"/>
+                <constraint firstItem="gdd-Qf-xTc" firstAttribute="top" secondItem="ECK-hd-Sdf" secondAttribute="top" id="HN1-Nx-rqa"/>
+                <constraint firstItem="Bj4-Kk-Ch7" firstAttribute="top" secondItem="Zcb-l2-Faf" secondAttribute="bottom" constant="36" id="LQx-3k-uLt"/>
+                <constraint firstItem="Zxc-WV-XIq" firstAttribute="top" secondItem="OHj-L7-ebi" secondAttribute="bottom" constant="8" symbolic="YES" id="OA1-VQ-xjD"/>
+                <constraint firstItem="Bj4-Kk-Ch7" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="20" id="OCc-hH-TDS"/>
+                <constraint firstItem="Wmm-ub-ZRa" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="20" id="OzX-n1-ezy"/>
+                <constraint firstItem="wAf-Cm-iui" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="20" id="P6d-Oj-1DI"/>
+                <constraint firstItem="gdd-Qf-xTc" firstAttribute="trailing" secondItem="Sch-xl-VgQ" secondAttribute="trailing" constant="20" id="Pxp-FG-Sxu"/>
+                <constraint firstItem="1VQ-Dn-qcs" firstAttribute="top" secondItem="1nv-Sm-RGk" secondAttribute="bottom" constant="22" id="VJ1-ij-Rge"/>
+                <constraint firstItem="7vh-Fg-HlV" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="10" id="VM4-rs-Wto"/>
+                <constraint firstItem="Zcu-3l-XE2" firstAttribute="top" secondItem="1VQ-Dn-qcs" secondAttribute="bottom" constant="19" id="WlR-BV-2VN"/>
+                <constraint firstItem="Wmm-ub-ZRa" firstAttribute="top" secondItem="PtV-7q-ilZ" secondAttribute="bottom" constant="37" id="ZXD-k4-2TD"/>
+                <constraint firstItem="P8d-OI-Efb" firstAttribute="trailing" secondItem="Sch-xl-VgQ" secondAttribute="trailing" constant="-10" id="ebl-af-Ke2"/>
+                <constraint firstItem="OHj-L7-ebi" firstAttribute="top" secondItem="Zcu-3l-XE2" secondAttribute="bottom" constant="32" id="f8a-QL-j8f"/>
+                <constraint firstItem="wAf-Cm-iui" firstAttribute="top" secondItem="Sch-xl-VgQ" secondAttribute="top" constant="108" id="fAf-ie-X8i"/>
+                <constraint firstItem="7vh-Fg-HlV" firstAttribute="top" secondItem="Sch-xl-VgQ" secondAttribute="top" id="g1R-1l-pOU"/>
+                <constraint firstItem="pB6-lV-MXG" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="20" id="gXD-L3-gaG"/>
+                <constraint firstItem="1VQ-Dn-qcs" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="20" id="ieT-21-sLj"/>
+                <constraint firstItem="P8d-OI-Efb" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="j6o-ch-qol"/>
+                <constraint firstItem="1nv-Sm-RGk" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="kzB-SA-3WS"/>
+                <constraint firstItem="1nv-Sm-RGk" firstAttribute="top" secondItem="Bj4-Kk-Ch7" secondAttribute="bottom" constant="8" symbolic="YES" id="lYM-E3-eVC"/>
+                <constraint firstAttribute="bottom" secondItem="gdd-Qf-xTc" secondAttribute="bottom" id="lge-by-qTm"/>
+                <constraint firstItem="Zcb-l2-Faf" firstAttribute="top" secondItem="Wmm-ub-ZRa" secondAttribute="bottom" constant="8" symbolic="YES" id="onK-Yf-xca"/>
+                <constraint firstItem="Zcb-l2-Faf" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="twg-NJ-Sff"/>
+                <constraint firstItem="P8d-OI-Efb" firstAttribute="top" secondItem="pB6-lV-MXG" secondAttribute="bottom" constant="8" symbolic="YES" id="uRR-uV-APJ"/>
+                <constraint firstItem="PtV-7q-ilZ" firstAttribute="top" secondItem="wAf-Cm-iui" secondAttribute="bottom" constant="8" symbolic="YES" id="v2u-4h-gxe"/>
+                <constraint firstItem="Zxc-WV-XIq" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="vGV-fn-P2L"/>
+                <constraint firstItem="Zcu-3l-XE2" firstAttribute="leading" secondItem="Sch-xl-VgQ" secondAttribute="leading" constant="30" id="yvB-4h-6v5"/>
+            </constraints>
+            <point key="canvasLocation" x="208.69565217391306" y="55.580357142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FilterBackground" width="375" height="812"/>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

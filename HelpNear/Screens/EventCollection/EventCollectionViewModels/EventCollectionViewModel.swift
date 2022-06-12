@@ -11,12 +11,18 @@ protocol EventCollectionViewModelProtocol{
     
     func requestEvents(handler: @escaping ()->())
     
+    func getCurrentFilters() -> EventCollectionFilterModel
+    
+    func updateFilters(newFilter: EventCollectionFilterModel, handler: @escaping ()->())
+    
     var data: [EventCollectionModel] { get }
 }
 
 class EventCollectionViewModel: EventCollectionViewModelProtocol{
     
     private(set) var data: [EventCollectionModel] = []
+    
+    private var filter = EventCollectionFilterModel.init(format: .all, startDate: nil, endDate: nil, difficult: .all, salary: .all, howFast: .all)
     
     private let dataWorker: EventsDataWorkerProtocol!
     
@@ -33,8 +39,15 @@ class EventCollectionViewModel: EventCollectionViewModelProtocol{
                 
                 self.data = []
                 
-                for model in models {
+                var filtredModels: [POIModel] = []
+                
+                filtredModels = models.filter{
                     
+                    POIModel.acceptToFilter(self.filter, $0)
+                }
+                
+                for model in filtredModels {
+
                     var salary = ""
                     
                     if let rewardAmount = model.rewardAmount{
@@ -49,8 +62,23 @@ class EventCollectionViewModel: EventCollectionViewModelProtocol{
                                                          salary: salary)
                     self.data.append(viewModel)
                 }
+                
+                
             }
             handler()
         }
+    }
+    
+    func updateFilters(newFilter: EventCollectionFilterModel, handler: @escaping ()->()){
+        
+        DispatchQueue.global(qos: .userInteractive).async {
+            
+            self.filter = newFilter
+            handler()
+        }
+    }
+    
+    func getCurrentFilters() -> EventCollectionFilterModel{
+        return self.filter
     }
 }

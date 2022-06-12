@@ -9,6 +9,12 @@ final class EventCollectionScreen: UIViewController {
     
     var viewModel: EventCollectionViewModelProtocol!
     
+    //Строка Поиска
+    @IBOutlet weak var searchBar: UITextField!
+
+    //кнопка фильтрации
+    @IBOutlet weak var filterButton: UIButton!
+    
     //Индикатор загрузки
     private let activityIndicator: NVActivityIndicatorView = {
        
@@ -18,21 +24,7 @@ final class EventCollectionScreen: UIViewController {
     }()
     
     //Коллекция с заданиями
-    private let collection: UICollectionView = {
-       
-        let layout = UICollectionViewFlowLayout()
-        let collection = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        
-        return collection
-    }()
-    
-    //Строка с поиском
-    private let searchBar: EventCollectionHeader = {
-       
-        let header = EventCollectionHeader()
-        
-        return header
-    }()
+    @IBOutlet weak var collection: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,7 +35,6 @@ final class EventCollectionScreen: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         layoutCollection()
         
         activityIndicator.startAnimating()
@@ -67,15 +58,15 @@ final class EventCollectionScreen: UIViewController {
         
         guard let flowLayout = collection.collectionViewLayout as? UICollectionViewFlowLayout else { return }
         
-        let insets = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+        let insets = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
         let spacing = 20.0
         let cellAtRow = 1.0
         let collectionWidth = self.collection.frame.width
         let itemSize = (collectionWidth - insets.left - insets.right - spacing * (cellAtRow - 1))
         flowLayout.minimumInteritemSpacing = spacing
-        flowLayout.minimumLineSpacing = spacing * 2
+        flowLayout.minimumLineSpacing = spacing
         flowLayout.sectionInset = insets
-        flowLayout.itemSize = CGSize(width: itemSize, height: 250)
+        flowLayout.itemSize = CGSize(width: itemSize, height: 150)
         
         //flowLayout.itemSize = UICollectionViewFlowLayout.automaticSize
         //flowLayout.estimatedItemSize = CGSize(width: itemSize, height: 250)
@@ -90,17 +81,20 @@ final class EventCollectionScreen: UIViewController {
     //configurate subviews
     private func confSubviews(){
         
-        view.addSubview(searchBar, collection, activityIndicator)
+        self.view.addSubview(activityIndicator)
         
         collection.delegate = self
         collection.dataSource = self
-        collection.register(EventCollectionCell.self, forCellWithReuseIdentifier: EventCollectionCell.reuseID)
-        
-        let safeArea = view.safeAreaLayoutGuide
-        
-        searchBar.constraints(top: safeArea.topAnchor, bottom: nil, leading: safeArea.leadingAnchor, trailing: safeArea.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 50)
-        collection.constraints(top: searchBar.bottomAnchor, bottom: safeArea.bottomAnchor, leading: safeArea.leadingAnchor, trailing: safeArea.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
+        //collection.register(EventCollectionCell.self, forCellWithReuseIdentifier: EventCollectionCell.reuseID)
+        collection.register(UINib(nibName: "EventCollectionCell", bundle: nil), forCellWithReuseIdentifier: "1234q")
+
         activityIndicator.constraints(centerX: collection.centerXAnchor, centerY: collection.centerYAnchor, xPadding: 0, yPadding: 0)
+    }
+    
+    
+    @IBAction func goToFilters(_ sender: Any) {
+        
+        self.present(ProjectCoordinator.shared.createEventFiltersScreen(with: self.collection), animated: true, completion: nil)
     }
 }
 
@@ -113,7 +107,7 @@ extension EventCollectionScreen: UICollectionViewDataSource{
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: EventCollectionCell.reuseID, for: indexPath) as? EventCollectionCell else { return UICollectionViewCell() }
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "1234q", for: indexPath) as? EventCollectionCell else { return UICollectionViewCell() }
         
         cell.render(with: self.viewModel.data[indexPath.row])
         

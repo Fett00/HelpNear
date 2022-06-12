@@ -50,4 +50,24 @@ struct POIModel{
     let dateCreated: String
     
     //let status: String?
+    
+    static func acceptToFilter(_ filter: EventCollectionFilterModel, _ poi: POIModel) -> Bool{
+        
+        var status = false
+        
+        if poi.rewardAmount == nil && filter.salary == .without{
+            
+            status = true
+        }
+        else if poi.rewardAmount != nil && (filter.salary == .with){
+            
+            status = true
+        }
+        else if filter.salary == .all{
+            
+            status = true
+        }
+
+        return status
+    }
 }
