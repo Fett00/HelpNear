@@ -23,9 +23,8 @@ class ProjectCoordinator{
     
     func createAppEntryPoint() -> UIViewController {
 
-      //let viewController = OnBoardingViewController(nibName: "OnBoardingViewController", bundle: nil)
-      //return viewController.wrapInNavigationController()
-        createMainScreen()
+      let viewController = OnBoardingViewController(nibName: "OnBoardingViewController", bundle: nil)
+      return viewController.wrapInNavigationController()
     }
 
   func createMainScreen() -> UIViewController {
