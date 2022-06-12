@@ -9,4 +9,16 @@ import Foundation
 
 struct UserNetworkModel: Codable{
     
+    let id: String
+    let name: String
+    let age: Int
+//    let role: String?
+//    let location: String?
+//    let dateCreated: String?
+    let authIdentifier: String
+//    let organization_id: String?
+//    let type: String?
+//    let skills: String?
+//    let city: String?
+    let score: String
 }

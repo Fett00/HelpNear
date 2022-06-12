@@ -52,6 +52,19 @@ struct ModelsConverter{
     
     static func userFromNetworkToModel(from models: [UserNetworkModel]) -> [UserModel]{
         
-        []
+        var users: [UserModel] = []
+        
+        for model in models {
+            
+            let user = UserModel(id: model.id,
+                                 name: model.name,
+                                 age: Int(model.age) ?? -1,
+                                 authIdentifier: model.authIdentifier,
+                                 score: Int(model.score) ?? -1)
+            
+            users.append(user)
+        }
+        
+        return users
     }
 }

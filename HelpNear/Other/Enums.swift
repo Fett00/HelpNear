@@ -15,14 +15,14 @@ enum Images{
     static let personCircle = UIImage(systemName: "person.circle")!
     static let gearshape = UIImage(systemName: "gearshape")!
     static let background = UIImage(named: "Background")!
-//    static let trash3 = UIImage(systemName: "trash")!
-//    static let trash4 = UIImage(systemName: "trash")!
+    static let filterIcon = UIImage(named: "FilterIcon")!
+    static let filterBack = UIImage(named: "FilterBackground")!
 }
 
 enum URLs{
     
     static let eventsURL = "http://85.192.49.140:3077/api/get-all-tasks"
-    static let usersURL = "example.com"
+    static let usersURL = "http://85.192.49.140:3077/api/get-all-users"
 }
 
 enum Colors{

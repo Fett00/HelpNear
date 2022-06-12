@@ -31,18 +31,12 @@ final class RankingViewModel: RankingViewModelProtocol{
             
             self.usersDataWorker.requestUsers { users in 
                 
-                self.data = [
+                self.data = []
                 
-                    .init(name: "Егор", score: "1233"),
-                        .init(name: "Петр", score: "13"),
-                        .init(name: "Евгений", score: "99"),
-                        .init(name: "Иван", score: "17"),
-                        .init(name: "Светлана", score: "1233"),
-                        .init(name: "Садык :3", score: "9999"),
-                        .init(name: "Евгениус", score: "199"),
-                        .init(name: "Иван", score: "17"),
-                        .init(name: "Елена", score: "22")
-                ]
+                for user in users {
+                    
+                    self.data.append(RankingModel(name: user.name, score: String(user.score)))
+                }
                 
                 self.data.sort { $0.score > $1.score }
                 handler()
