@@ -14,7 +14,7 @@ class ProjectCoordinator{
     private let jsonWorker = JSONDecoderWorker()
     private let locationWorker = LocationWorker()
     private lazy var eventsDataWorker = EventsDataWorker(coreDataWorker: self.coreDataWorker, networkWorker: self.networkWorker, jsonWorker: self.jsonWorker)
-    private let userDataWorker = UsersDataWorker()
+    private lazy var userDataWorker = UsersDataWorker(networkWorker: self.networkWorker, jsonWorker: self.jsonWorker)
     
     //singleton
     private init(){}
@@ -23,10 +23,9 @@ class ProjectCoordinator{
     
     func createAppEntryPoint() -> UIViewController {
 
-      let viewController = OnBoardingViewController(nibName: "OnBoardingViewController", bundle: nil)
-      return viewController.wrapInNavigationController()
-        
-
+      //let viewController = OnBoardingViewController(nibName: "OnBoardingViewController", bundle: nil)
+      //return viewController.wrapInNavigationController()
+        createMainScreen()
     }
 
   func createMainScreen() -> UIViewController {

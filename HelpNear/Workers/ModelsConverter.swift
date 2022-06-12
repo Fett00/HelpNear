@@ -49,4 +49,9 @@ struct ModelsConverter{
         
         return result
     }
+    
+    static func userFromNetworkToModel(from models: [UserNetworkModel]) -> [UserModel]{
+        
+        []
+    }
 }

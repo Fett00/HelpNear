@@ -29,7 +29,7 @@ final class RankingViewModel: RankingViewModelProtocol{
         
         DispatchQueue.global(qos: .userInteractive).async {
             
-            self.usersDataWorker.requestUsers {
+            self.usersDataWorker.requestUsers { users in 
                 
                 self.data = [
                 

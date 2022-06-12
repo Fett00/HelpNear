@@ -59,7 +59,7 @@ final class EventMapScreen: UIViewController {
         view.addSubview(mapView, trackingButton)
         let safe = self.view.safeAreaLayoutGuide
         
-        mapView.constraints(top: self.view.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 0, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
+        mapView.constraints(top: self.view.topAnchor, bottom: safe.bottomAnchor, leading: safe.leadingAnchor, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: -40, paddingLeft: 0, paddingRight: 0, width: 0, height: 0)
         trackingButton.constraints(top: nil, bottom: safe.bottomAnchor, leading: nil, trailing: safe.trailingAnchor, paddingTop: 0, paddingBottom: 30, paddingLeft: 0, paddingRight: 30, width: 60, height: 60)
     }
 }

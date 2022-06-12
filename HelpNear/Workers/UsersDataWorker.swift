@@ -9,13 +9,35 @@ import Foundation
 
 protocol UsersDataWorkerProtocol{
     
-    func requestUsers(handler: @escaping ()->())
+    func requestUsers(handler: @escaping (_ users: [UserModel])->())
 }
 
 class UsersDataWorker: UsersDataWorkerProtocol{
     
-    func requestUsers(handler: @escaping ()->()){
+    private var users: [UserModel] = []
+    
+    private let networkWorker: NetworkWorkerProtocol
+    private let jsonWorker: JSONDecoderWorkerProtocol
+    
+    init(networkWorker: NetworkWorkerProtocol, jsonWorker: JSONDecoderWorkerProtocol){
         
-        handler()
+        self.networkWorker = networkWorker
+        self.jsonWorker = jsonWorker
+    }
+    
+    func requestUsers(handler: @escaping (_ users: [UserModel])->()){
+        
+        networkWorker.getData(from: URLs.usersURL) { result in
+            
+            switch result{
+                
+            case .failure(let error):
+                print(error)
+            case .success(let data):
+                guard let networkModels = self.jsonWorker.decode(type: [UserNetworkModel].self, data: data) else { return }
+                self.users = ModelsConverter.userFromNetworkToModel(from: networkModels)
+            }
+            handler(self.users)
+        }
     }
 }
