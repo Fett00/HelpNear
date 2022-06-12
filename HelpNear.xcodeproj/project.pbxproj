@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		3A7BFF9828559857009ADD45 /* OnBoardingViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9628559857009ADD45 /* OnBoardingViewController3.swift */; };
 		3A7BFF9928559857009ADD45 /* OnBoardingViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9728559857009ADD45 /* OnBoardingViewController3.xib */; };
+		3A7BFF9C2855A1F8009ADD45 /* OnBoardingViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9A2855A1F8009ADD45 /* OnBoardingViewController4.swift */; };
+		3A7BFF9D2855A1F8009ADD45 /* OnBoardingViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9B2855A1F8009ADD45 /* OnBoardingViewController4.xib */; };
+		3A7BFFA02855B3FB009ADD45 /* OnBoardingViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9E2855B3FB009ADD45 /* OnBoardingViewController5.swift */; };
+		3A7BFFA12855B3FB009ADD45 /* OnBoardingViewController5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFF9F2855B3FB009ADD45 /* OnBoardingViewController5.xib */; };
+		3A7BFFA42855B6E6009ADD45 /* OnBoardingViewController6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA22855B6E6009ADD45 /* OnBoardingViewController6.swift */; };
+		3A7BFFA52855B6E6009ADD45 /* OnBoardingViewController6.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A7BFFA32855B6E6009ADD45 /* OnBoardingViewController6.xib */; };
 		3AF8F5982854D0690036D277 /* Bahnschrift.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F5972854D0690036D277 /* Bahnschrift.ttf */; };
 		3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */; };
 		3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */; };
@@ -65,6 +71,12 @@
 		10699B62BA81115C5BEC2428 /* Pods_HelpNear.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelpNear.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7BFF9628559857009ADD45 /* OnBoardingViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController3.swift; sourceTree = "<group>"; };
 		3A7BFF9728559857009ADD45 /* OnBoardingViewController3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController3.xib; sourceTree = "<group>"; };
+		3A7BFF9A2855A1F8009ADD45 /* OnBoardingViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController4.swift; sourceTree = "<group>"; };
+		3A7BFF9B2855A1F8009ADD45 /* OnBoardingViewController4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController4.xib; sourceTree = "<group>"; };
+		3A7BFF9E2855B3FB009ADD45 /* OnBoardingViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController5.swift; sourceTree = "<group>"; };
+		3A7BFF9F2855B3FB009ADD45 /* OnBoardingViewController5.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController5.xib; sourceTree = "<group>"; };
+		3A7BFFA22855B6E6009ADD45 /* OnBoardingViewController6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController6.swift; sourceTree = "<group>"; };
+		3A7BFFA32855B6E6009ADD45 /* OnBoardingViewController6.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController6.xib; sourceTree = "<group>"; };
 		3AF8F5972854D0690036D277 /* Bahnschrift.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bahnschrift.ttf; sourceTree = "<group>"; };
 		3AF8F59A2854E33B0036D277 /* OnBoardingViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingViewController1.swift; sourceTree = "<group>"; };
 		3AF8F59B2854E33B0036D277 /* OnBoardingViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OnBoardingViewController1.xib; sourceTree = "<group>"; };
@@ -149,6 +161,12 @@
 				3AF8F59F2854E53B0036D277 /* OnBoardingViewController.xib */,
 				3A7BFF9628559857009ADD45 /* OnBoardingViewController3.swift */,
 				3A7BFF9728559857009ADD45 /* OnBoardingViewController3.xib */,
+				3A7BFF9A2855A1F8009ADD45 /* OnBoardingViewController4.swift */,
+				3A7BFF9B2855A1F8009ADD45 /* OnBoardingViewController4.xib */,
+				3A7BFF9E2855B3FB009ADD45 /* OnBoardingViewController5.swift */,
+				3A7BFF9F2855B3FB009ADD45 /* OnBoardingViewController5.xib */,
+				3A7BFFA22855B6E6009ADD45 /* OnBoardingViewController6.swift */,
+				3A7BFFA32855B6E6009ADD45 /* OnBoardingViewController6.xib */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -497,8 +515,11 @@
 				5A3B242528550FA400B90E0A /* gpxgenerator_path.gpx in Resources */,
 				5A7238B9283453D00052CEBE /* LaunchScreen.storyboard in Resources */,
 				3AF8F5A12854E53B0036D277 /* OnBoardingViewController.xib in Resources */,
+				3A7BFF9D2855A1F8009ADD45 /* OnBoardingViewController4.xib in Resources */,
+				3A7BFFA52855B6E6009ADD45 /* OnBoardingViewController6.xib in Resources */,
 				3AF8F59D2854E33B0036D277 /* OnBoardingViewController1.xib in Resources */,
 				3A7BFF9928559857009ADD45 /* OnBoardingViewController3.xib in Resources */,
+				3A7BFFA12855B3FB009ADD45 /* OnBoardingViewController5.xib in Resources */,
 				5A7238B6283453D00052CEBE /* Assets.xcassets in Resources */,
 				3AF8F5982854D0690036D277 /* Bahnschrift.ttf in Resources */,
 			);
@@ -557,8 +578,11 @@
 				5A7238C2283454670052CEBE /* ProjectCoordinator.swift in Sources */,
 				3AF8F59C2854E33B0036D277 /* OnBoardingViewController1.swift in Sources */,
 				5A7238CD283455280052CEBE /* UITableViewCell+Ext.swift in Sources */,
+				3A7BFF9C2855A1F8009ADD45 /* OnBoardingViewController4.swift in Sources */,
 				5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */,
+				3A7BFFA42855B6E6009ADD45 /* OnBoardingViewController6.swift in Sources */,
 				5A7D31862853E43D00DEA43E /* RequirementsScrolledList.swift in Sources */,
+				3A7BFFA02855B3FB009ADD45 /* OnBoardingViewController5.swift in Sources */,
 				5A7238D4283456170052CEBE /* NetworkWorker.swift in Sources */,
 				5A7238CE283455280052CEBE /* UICollectionViewCell+Ext.swift in Sources */,
 				5A791A2928512D3900CE81E0 /* EventCollectionCell.swift in Sources */,

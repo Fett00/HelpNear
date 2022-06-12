@@ -7,6 +7,10 @@ import UIKit
 
 class OnBoardingViewController: UIViewController {
 
+  @IBAction func registerPressed(_ sender: Any) {
+    let vc = OnBoardingViewController3(nibName: "OnBoardingViewController3", bundle: nil)
+    navigationController?.setViewControllers([vc], animated: true)
+  }
   @IBAction func enterPressed(_ sender: Any) {
     let vc = OnBoardingViewController1(nibName: "OnBoardingViewController1", bundle: nil)
     navigationController?.setViewControllers([vc], animated: true)
