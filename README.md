@@ -1,4 +1,4 @@
-# HelpNear
+# HelpNear Главное Приложение
 Moscow City Hackathon project
 
 Платформа для людей с чистым сердцем!
