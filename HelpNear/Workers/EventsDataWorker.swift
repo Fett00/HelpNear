@@ -10,6 +10,8 @@ import Foundation
 protocol EventsDataWorkerProtocol{
     
     func requestEvents(handler: @escaping ([POIModel])->())
+    
+    func requestEvent(with id: String, handler: @escaping (POIModel)->())
 }
 
 class EventsDataWorker: EventsDataWorkerProtocol{
@@ -40,6 +42,14 @@ class EventsDataWorker: EventsDataWorkerProtocol{
                 self.events = ModelsConverter.poiFromNetworkToModel(from: networkModels)
             }
             handler(self.events)
+        }
+    }
+    
+    func requestEvent(with id: String, handler: @escaping (POIModel)->()){
+        
+        if let event = events.filter({$0.id == id}).first{
+         
+            handler(event)
         }
     }
 }

@@ -73,6 +73,7 @@
 		5ACA954C2835547000FB125C /* MapSingleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA954B2835547000FB125C /* MapSingleView.swift */; };
 		5AE592042856824E003C448F /* PresentEvent.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE592032856824E003C448F /* PresentEvent.xib */; };
 		5AE5920628568259003C448F /* PresentEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE5920528568259003C448F /* PresentEvent.swift */; };
+		5AF3BFE32856A44E000A5ED3 /* EventMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3BFE22856A44E000A5ED3 /* EventMapAnnotation.swift */; };
 		5EA4D41473303534CD64CC94 /* Pods_HelpNear.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10699B62BA81115C5BEC2428 /* Pods_HelpNear.framework */; };
 /* End PBXBuildFile section */
 
@@ -146,6 +147,7 @@
 		5ACA954B2835547000FB125C /* MapSingleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSingleView.swift; sourceTree = "<group>"; };
 		5AE592032856824E003C448F /* PresentEvent.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PresentEvent.xib; sourceTree = "<group>"; };
 		5AE5920528568259003C448F /* PresentEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentEvent.swift; sourceTree = "<group>"; };
+		5AF3BFE22856A44E000A5ED3 /* EventMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMapAnnotation.swift; sourceTree = "<group>"; };
 		CCB986EA9FAD6E8F0609DAC5 /* Pods-HelpNear.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNear.release.xcconfig"; path = "Target Support Files/Pods-HelpNear/Pods-HelpNear.release.xcconfig"; sourceTree = "<group>"; };
 		F399C5713899BA23CF882C32 /* Pods-HelpNear.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelpNear.debug.xcconfig"; path = "Target Support Files/Pods-HelpNear/Pods-HelpNear.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -230,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				5AB37B572839844400CD54EA /* EventMapScreen.swift */,
+				5AF3BFE22856A44E000A5ED3 /* EventMapAnnotation.swift */,
 			);
 			path = EventMapViews;
 			sourceTree = "<group>";
@@ -632,6 +635,7 @@
 				5A9CA6732843899C00ECD890 /* RegistrationScreen.swift in Sources */,
 				3A7BFFA42855B6E6009ADD45 /* OnBoardingViewController6.swift in Sources */,
 				5A7D31862853E43D00DEA43E /* RequirementsScrolledList.swift in Sources */,
+				5AF3BFE32856A44E000A5ED3 /* EventMapAnnotation.swift in Sources */,
 				3A7BFFA02855B3FB009ADD45 /* OnBoardingViewController5.swift in Sources */,
 				5A7238D4283456170052CEBE /* NetworkWorker.swift in Sources */,
 				5A7238CE283455280052CEBE /* UICollectionViewCell+Ext.swift in Sources */,

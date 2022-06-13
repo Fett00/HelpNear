@@ -14,9 +14,11 @@ protocol EventMapViewModelProtocol{
     
     func updatingCurrentLocation(ever seconds: UInt, notificator: @escaping ()->())
     
+    func createEventForPresent(with id: String, handler: @escaping (EventCollectionModel) -> ())
+    
     func requestGeopositionPermission()
     
-    var data: [LocationModel] { get }
+    var data: [EventMapAnnotation] { get }
 }
 
 class EventMapViewModel: EventMapViewModelProtocol{
@@ -24,7 +26,7 @@ class EventMapViewModel: EventMapViewModelProtocol{
     private let dataWorker: EventsDataWorkerProtocol
     private let locationWorker: LocationWorkerProtocol
     
-    private(set) var data: [LocationModel] = []
+    private(set) var data: [EventMapAnnotation] = []
     
     init(dataWorker: EventsDataWorkerProtocol, locationWorker: LocationWorkerProtocol) {
         
@@ -44,11 +46,14 @@ class EventMapViewModel: EventMapViewModelProtocol{
                     
                     if let location = model.location {
                         
-                        
-                        let annotation = MKPointAnnotation()
+                        let annotation = EventMapAnnotation()
                         annotation.coordinate = location
+                        annotation.title = model.title
+                        annotation.subtitle = model.description
+                        annotation.id = model.id
                         
-                        self.data.append(LocationModel(annotation: annotation) )
+                        self.data.append(annotation)
+                        //self.data.append(LocationModel(title: model.title, annotation: annotation) )
                     }
                 }
                 handler()
@@ -63,5 +68,15 @@ class EventMapViewModel: EventMapViewModelProtocol{
     func requestGeopositionPermission(){
         
         //self.locationWorker.requestPermissionIfDisabled()
+    }
+    
+    func createEventForPresent(with id: String, handler: @escaping (EventCollectionModel) -> ()){
+        
+        dataWorker.requestEvent(with: id) { model in
+            
+            let event = EventCollectionModel(title: model.title, description: model.description, salary: "\(model.rewardAmount ?? -1)")
+            
+            handler(event)
+        }
     }
 }
